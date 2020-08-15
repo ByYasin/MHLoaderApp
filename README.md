@@ -1,3 +1,2 @@
 # MHLoaderApp
-* asdsadsd
-* asdasdad
+- asdasd
