@@ -95,7 +95,7 @@
             this.panel1.Controls.Add(this.rememberme);
             this.panel1.Controls.Add(this.loginsettingslabel);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.panel1.Location = new System.Drawing.Point(17, 44);
+            this.panel1.Location = new System.Drawing.Point(16, 44);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(260, 118);
             this.panel1.TabIndex = 12;
@@ -281,7 +281,7 @@
             this.panel2.Controls.Add(this.bunifuCustomLabel5);
             this.panel2.Controls.Add(this.bunifuCustomLabel6);
             this.panel2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.panel2.Location = new System.Drawing.Point(17, 172);
+            this.panel2.Location = new System.Drawing.Point(16, 172);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(551, 204);
             this.panel2.TabIndex = 13;
@@ -342,9 +342,10 @@
             "Teal"});
             this.themecomboBox.Location = new System.Drawing.Point(369, 40);
             this.themecomboBox.Name = "themecomboBox";
-            this.themecomboBox.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.themecomboBox.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.themecomboBox.OnHoverItemForeColor = System.Drawing.Color.White;
             this.themecomboBox.Size = new System.Drawing.Size(165, 26);
+            this.themecomboBox.Sorted = true;
             this.themecomboBox.TabIndex = 23;
             // 
             // browncolor
@@ -984,7 +985,7 @@
             this.panel3.Controls.Add(this.autoupdatecheck);
             this.panel3.Controls.Add(this.bunifuCustomLabel4);
             this.panel3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.panel3.Location = new System.Drawing.Point(308, 44);
+            this.panel3.Location = new System.Drawing.Point(307, 44);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(260, 118);
             this.panel3.TabIndex = 13;
@@ -1114,12 +1115,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.settingslabel);
             this.Name = "settings";
-            this.Size = new System.Drawing.Size(583, 390);
+            this.Size = new System.Drawing.Size(581, 388);
             this.Load += new System.EventHandler(this.settings_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

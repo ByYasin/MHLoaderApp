@@ -73,7 +73,7 @@ namespace MHLoaderApp
             }
         }
 
-        private void  Auto_Save_Data()
+        private void Auto_Save_Data()
         {
             if (autologin.Checked)
             {
@@ -96,7 +96,7 @@ namespace MHLoaderApp
             }
             else
             {
-                
+
             }
 
         }

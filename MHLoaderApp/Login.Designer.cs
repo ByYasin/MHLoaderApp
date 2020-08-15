@@ -215,9 +215,9 @@
             this.loginbackpanel.Controls.Add(this.usernametext);
             this.bunifuTransition1.SetDecoration(this.loginbackpanel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.loginbackpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.loginbackpanel.Location = new System.Drawing.Point(268, 32);
+            this.loginbackpanel.Location = new System.Drawing.Point(272, 32);
             this.loginbackpanel.Name = "loginbackpanel";
-            this.loginbackpanel.Size = new System.Drawing.Size(282, 295);
+            this.loginbackpanel.Size = new System.Drawing.Size(278, 295);
             this.loginbackpanel.TabIndex = 6;
             // 
             // loginbutton
@@ -259,13 +259,13 @@
             this.loginbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.enter_32;
             this.loginbutton.IdleIconRightImage = null;
             this.loginbutton.IndicateFocus = true;
-            this.loginbutton.Location = new System.Drawing.Point(87, 245);
+            this.loginbutton.Location = new System.Drawing.Point(85, 247);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.loginbutton.onHoverState.BorderRadius = 3;
             this.loginbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.loginbutton.onHoverState.BorderThickness = 1;
-            this.loginbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(142)))), ((int)(((byte)(195)))), ((int)(((byte)(237)))));
+            this.loginbutton.onHoverState.FillColor = System.Drawing.Color.Transparent;
             this.loginbutton.onHoverState.ForeColor = System.Drawing.Color.White;
             this.loginbutton.onHoverState.IconLeftImage = null;
             this.loginbutton.onHoverState.IconRightImage = null;
@@ -281,7 +281,7 @@
             this.loginbutton.OnPressedState.BorderRadius = 3;
             this.loginbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.loginbutton.OnPressedState.BorderThickness = 1;
-            this.loginbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(80)))), ((int)(((byte)(122)))));
+            this.loginbutton.OnPressedState.FillColor = System.Drawing.Color.Transparent;
             this.loginbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.loginbutton.OnPressedState.IconLeftImage = null;
             this.loginbutton.OnPressedState.IconRightImage = null;
@@ -389,9 +389,9 @@
             toggleState5.BorderThickness = 2;
             toggleState5.BorderThicknessInner = 1;
             this.rememberme.ToggleStateOff = toggleState5;
-            toggleState6.BackColor = System.Drawing.Color.DodgerBlue;
+            toggleState6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
             toggleState6.BackColorInner = System.Drawing.Color.White;
-            toggleState6.BorderColor = System.Drawing.Color.DodgerBlue;
+            toggleState6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
             toggleState6.BorderColorInner = System.Drawing.Color.White;
             toggleState6.BorderRadius = 17;
             toggleState6.BorderRadiusInner = 11;
@@ -408,7 +408,7 @@
             this.bunifuTransition1.SetDecoration(this.bunifuPictureBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.bunifuPictureBox1.Image = global::MHLoaderApp.Properties.Resources.login_logo_64x_64;
             this.bunifuPictureBox1.IsCircle = false;
-            this.bunifuPictureBox1.Location = new System.Drawing.Point(109, 5);
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(107, 5);
             this.bunifuPictureBox1.Name = "bunifuPictureBox1";
             this.bunifuPictureBox1.Size = new System.Drawing.Size(64, 64);
             this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -446,7 +446,7 @@
             this.passwordtext.IconRight = null;
             this.passwordtext.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.passwordtext.Lines = new string[0];
-            this.passwordtext.Location = new System.Drawing.Point(12, 129);
+            this.passwordtext.Location = new System.Drawing.Point(10, 129);
             this.passwordtext.MaxLength = 32767;
             this.passwordtext.MinimumSize = new System.Drawing.Size(1, 1);
             this.passwordtext.Modified = false;
@@ -523,7 +523,7 @@
             this.usernametext.IconRight = null;
             this.usernametext.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.usernametext.Lines = new string[0];
-            this.usernametext.Location = new System.Drawing.Point(12, 81);
+            this.usernametext.Location = new System.Drawing.Point(10, 81);
             this.usernametext.MaxLength = 32767;
             this.usernametext.MinimumSize = new System.Drawing.Size(1, 1);
             this.usernametext.Modified = false;
@@ -575,7 +575,7 @@
             this.bunifuTransition1.SetDecoration(this.bunifuSeparator1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(263, 32);
+            this.bunifuSeparator1.Location = new System.Drawing.Point(270, 32);
             this.bunifuSeparator1.Name = "bunifuSeparator1";
             this.bunifuSeparator1.Size = new System.Drawing.Size(10, 295);
             this.bunifuSeparator1.TabIndex = 12;
@@ -594,7 +594,7 @@
             this.logo.IsCircle = false;
             this.logo.Location = new System.Drawing.Point(0, 32);
             this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(268, 295);
+            this.logo.Size = new System.Drawing.Size(272, 295);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo.TabIndex = 4;
             this.logo.TabStop = false;

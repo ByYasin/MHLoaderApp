@@ -78,7 +78,6 @@ namespace MHLoaderApp.Modules.Loader_Pages
         public void SaveSettings()
         {
             Properties.Settings.Default.Save();
-            Properties.Settings.Default.Reload();
         }
 
 
