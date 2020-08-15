@@ -1,3 +1,3 @@
 # MHLoaderApp
-*Game cheat installer with modern design for game cheats.
+-Game cheat installer with modern design for game cheats.
 * asd
