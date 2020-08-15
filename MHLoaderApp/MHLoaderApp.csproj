@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0CE43407-BCF8-442C-88A4-89BA63AA3B45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MHLoaderApp</RootNamespace>
+    <AssemblyName>MHLoaderApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core, Version=1.11.5.2, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton, Version=1.11.5.2, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Downloads\[FTUApps.com] - Bunifu UI WinForms v1.11.5.21 + Dataviz Advanced v1.1.1.5 + Activator\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\..\..\Downloads\[FTUApps.com] - Bunifu UI WinForms v1.11.5.21 + Dataviz Advanced v1.1.1.5 + Activator\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\..\Downloads\[FTUApps.com] - Bunifu UI WinForms v1.11.5.21 + Dataviz Advanced v1.1.1.5 + Activator\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\..\..\..\Downloads\[FTUApps.com] - Bunifu UI WinForms v1.11.5.21 + Dataviz Advanced v1.1.1.5 + Activator\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox, Version=1.11.5.2, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\..\..\Downloads\[FTUApps.com] - Bunifu UI WinForms v1.11.5.21 + Dataviz Advanced v1.1.1.5 + Activator\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>..\..\..\..\Downloads\[FTUApps.com] - Bunifu UI WinForms v1.11.5.21 + Dataviz Advanced v1.1.1.5 + Activator\Bunifu UI WinForms 1.11.5.21\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch, Version=1.11.5.2, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Downloads\[FTUApps.com] - Bunifu UI WinForms v1.11.5.21 + Dataviz Advanced v1.1.1.5 + Activator\Bunifu UI WinForms 1.11.5.21\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>D:\Framework UI\Guna.UI-Framework-Lib-master\_Getintopc.com_Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>D:\Framework UI\Guna.UI-Framework-Lib-master\_Getintopc.com_Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\buyrenew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\buyrenew.Designer.cs">
+      <DependentUpon>buyrenew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\apexlegends.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\apexlegends.Designer.cs">
+      <DependentUpon>apexlegends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\blackdesert.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\blackdesert.Designer.cs">
+      <DependentUpon>blackdesert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\csgo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\csgo.Designer.cs">
+      <DependentUpon>csgo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\escapefromtarkov.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\escapefromtarkov.Designer.cs">
+      <DependentUpon>escapefromtarkov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\fortnite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\fortnite.Designer.cs">
+      <DependentUpon>fortnite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\lol.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\lol.Designer.cs">
+      <DependentUpon>lol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\pubg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\pubg.Designer.cs">
+      <DependentUpon>pubg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rainbow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rainbow.Designer.cs">
+      <DependentUpon>rainbow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rust.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rust.Designer.cs">
+      <DependentUpon>rust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\mylicence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\mylicence.Designer.cs">
+      <DependentUpon>mylicence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\notification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\notification.Designer.cs">
+      <DependentUpon>notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader\Loader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader\Loader.Designer.cs">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\buyrenew.resx">
+      <DependentUpon>buyrenew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\apexlegends.resx">
+      <DependentUpon>apexlegends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\blackdesert.resx">
+      <DependentUpon>blackdesert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\csgo.resx">
+      <DependentUpon>csgo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\escapefromtarkov.resx">
+      <DependentUpon>escapefromtarkov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\fortnite.resx">
+      <DependentUpon>fortnite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\lol.resx">
+      <DependentUpon>lol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\pubg.resx">
+      <DependentUpon>pubg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rainbow.resx">
+      <DependentUpon>rainbow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rust.resx">
+      <DependentUpon>rust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\mylicence.resx">
+      <DependentUpon>mylicence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\notification.resx">
+      <DependentUpon>notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader\Loader.resx">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_login_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memoryui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mh2muye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mhback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_login_as_user_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-logo_64x_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updates_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\League of Legends-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Counter-Strike_ Global Offensive-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PLAYERUNKNOWN%27S BATTLEGROUNDS-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rust-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escape From Tarkov-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apex_Legends_285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black Desert Online-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fortnite-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tom Clancy%27s Rainbow Six_ Siege-285x380.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brown.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cobalt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crimson.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cyan.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Indigo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magenta.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mauve.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pink.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purple.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taupe.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teal.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-blue.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
