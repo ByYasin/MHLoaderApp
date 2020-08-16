@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.lolbutton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -51,41 +51,41 @@
             this.bunifuCustomLabel7.TabIndex = 32;
             this.bunifuCustomLabel7.Text = "License period: 30 days";
             // 
-            // bunifuFlatButton1
+            // lolbutton
             // 
-            this.bunifuFlatButton1.Active = true;
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "    Renew";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 50D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(438, 127);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = true;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 38);
-            this.bunifuFlatButton1.TabIndex = 31;
-            this.bunifuFlatButton1.Text = "    Renew";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lolbutton.Active = true;
+            this.lolbutton.Activecolor = System.Drawing.Color.Black;
+            this.lolbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.lolbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lolbutton.BorderRadius = 0;
+            this.lolbutton.ButtonText = "    Renew";
+            this.lolbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lolbutton.DisabledColor = System.Drawing.Color.Gray;
+            this.lolbutton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lolbutton.Iconcolor = System.Drawing.Color.Transparent;
+            this.lolbutton.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
+            this.lolbutton.Iconimage_right = null;
+            this.lolbutton.Iconimage_right_Selected = null;
+            this.lolbutton.Iconimage_Selected = null;
+            this.lolbutton.IconMarginLeft = 0;
+            this.lolbutton.IconMarginRight = 0;
+            this.lolbutton.IconRightVisible = true;
+            this.lolbutton.IconRightZoom = 0D;
+            this.lolbutton.IconVisible = true;
+            this.lolbutton.IconZoom = 50D;
+            this.lolbutton.IsTab = false;
+            this.lolbutton.Location = new System.Drawing.Point(438, 127);
+            this.lolbutton.Name = "lolbutton";
+            this.lolbutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.lolbutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.lolbutton.OnHoverTextColor = System.Drawing.Color.White;
+            this.lolbutton.selected = true;
+            this.lolbutton.Size = new System.Drawing.Size(125, 38);
+            this.lolbutton.TabIndex = 31;
+            this.lolbutton.Text = "    Renew";
+            this.lolbutton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lolbutton.Textcolor = System.Drawing.Color.White;
+            this.lolbutton.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             // 
             // bunifuCustomLabel5
             // 
@@ -176,7 +176,7 @@
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.bunifuCustomLabel4);
             this.Controls.Add(this.bunifuCustomLabel7);
-            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.lolbutton);
             this.Controls.Add(this.bunifuCustomLabel5);
             this.Controls.Add(this.bunifuCustomLabel6);
             this.Controls.Add(this.bunifuCustomLabel3);
@@ -185,6 +185,7 @@
             this.Controls.Add(this.bunifuPictureBox1);
             this.Name = "lol";
             this.Size = new System.Drawing.Size(564, 168);
+            this.Load += new System.EventHandler(this.lol_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -194,7 +195,7 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton lolbutton;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;

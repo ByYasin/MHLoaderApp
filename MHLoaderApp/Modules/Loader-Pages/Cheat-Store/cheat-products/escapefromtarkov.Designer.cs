@@ -34,7 +34,7 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.eftbutton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
@@ -106,41 +106,41 @@
             this.bunifuCustomLabel1.TabIndex = 26;
             this.bunifuCustomLabel1.Text = "Escape from Tarkov";
             // 
-            // bunifuFlatButton1
+            // eftbutton
             // 
-            this.bunifuFlatButton1.Active = true;
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "    Renew";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 50D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(438, 127);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = true;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 38);
-            this.bunifuFlatButton1.TabIndex = 31;
-            this.bunifuFlatButton1.Text = "    Renew";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.eftbutton.Active = true;
+            this.eftbutton.Activecolor = System.Drawing.Color.Black;
+            this.eftbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.eftbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.eftbutton.BorderRadius = 0;
+            this.eftbutton.ButtonText = "    Renew";
+            this.eftbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.eftbutton.DisabledColor = System.Drawing.Color.Gray;
+            this.eftbutton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.eftbutton.Iconcolor = System.Drawing.Color.Transparent;
+            this.eftbutton.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
+            this.eftbutton.Iconimage_right = null;
+            this.eftbutton.Iconimage_right_Selected = null;
+            this.eftbutton.Iconimage_Selected = null;
+            this.eftbutton.IconMarginLeft = 0;
+            this.eftbutton.IconMarginRight = 0;
+            this.eftbutton.IconRightVisible = true;
+            this.eftbutton.IconRightZoom = 0D;
+            this.eftbutton.IconVisible = true;
+            this.eftbutton.IconZoom = 50D;
+            this.eftbutton.IsTab = false;
+            this.eftbutton.Location = new System.Drawing.Point(438, 127);
+            this.eftbutton.Name = "eftbutton";
+            this.eftbutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.eftbutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.eftbutton.OnHoverTextColor = System.Drawing.Color.White;
+            this.eftbutton.selected = true;
+            this.eftbutton.Size = new System.Drawing.Size(125, 38);
+            this.eftbutton.TabIndex = 31;
+            this.eftbutton.Text = "    Renew";
+            this.eftbutton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.eftbutton.Textcolor = System.Drawing.Color.White;
+            this.eftbutton.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             // 
             // bunifuPictureBox1
             // 
@@ -176,7 +176,7 @@
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.bunifuCustomLabel4);
             this.Controls.Add(this.bunifuCustomLabel7);
-            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.eftbutton);
             this.Controls.Add(this.bunifuCustomLabel5);
             this.Controls.Add(this.bunifuCustomLabel6);
             this.Controls.Add(this.bunifuCustomLabel3);
@@ -185,6 +185,7 @@
             this.Controls.Add(this.bunifuPictureBox1);
             this.Name = "escapefromtarkov";
             this.Size = new System.Drawing.Size(564, 168);
+            this.Load += new System.EventHandler(this.escapefromtarkov_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -194,7 +195,7 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton eftbutton;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;

@@ -35,7 +35,7 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.pubgbutton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -117,41 +117,41 @@
             this.bunifuCustomLabel1.TabIndex = 35;
             this.bunifuCustomLabel1.Text = "PlayerUnknown\'s Battlegrounds";
             // 
-            // bunifuFlatButton1
+            // pubgbutton
             // 
-            this.bunifuFlatButton1.Active = true;
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "    Renew";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 50D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(438, 127);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = true;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 38);
-            this.bunifuFlatButton1.TabIndex = 40;
-            this.bunifuFlatButton1.Text = "    Renew";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pubgbutton.Active = true;
+            this.pubgbutton.Activecolor = System.Drawing.Color.Black;
+            this.pubgbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.pubgbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pubgbutton.BorderRadius = 0;
+            this.pubgbutton.ButtonText = "    Renew";
+            this.pubgbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pubgbutton.DisabledColor = System.Drawing.Color.Gray;
+            this.pubgbutton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pubgbutton.Iconcolor = System.Drawing.Color.Transparent;
+            this.pubgbutton.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
+            this.pubgbutton.Iconimage_right = null;
+            this.pubgbutton.Iconimage_right_Selected = null;
+            this.pubgbutton.Iconimage_Selected = null;
+            this.pubgbutton.IconMarginLeft = 0;
+            this.pubgbutton.IconMarginRight = 0;
+            this.pubgbutton.IconRightVisible = true;
+            this.pubgbutton.IconRightZoom = 0D;
+            this.pubgbutton.IconVisible = true;
+            this.pubgbutton.IconZoom = 50D;
+            this.pubgbutton.IsTab = false;
+            this.pubgbutton.Location = new System.Drawing.Point(438, 127);
+            this.pubgbutton.Name = "pubgbutton";
+            this.pubgbutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.pubgbutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.pubgbutton.OnHoverTextColor = System.Drawing.Color.White;
+            this.pubgbutton.selected = true;
+            this.pubgbutton.Size = new System.Drawing.Size(125, 38);
+            this.pubgbutton.TabIndex = 40;
+            this.pubgbutton.Text = "    Renew";
+            this.pubgbutton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.pubgbutton.Textcolor = System.Drawing.Color.White;
+            this.pubgbutton.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             // 
             // bunifuPictureBox1
             // 
@@ -176,7 +176,7 @@
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.bunifuCustomLabel4);
             this.Controls.Add(this.bunifuCustomLabel7);
-            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.pubgbutton);
             this.Controls.Add(this.bunifuCustomLabel5);
             this.Controls.Add(this.bunifuCustomLabel6);
             this.Controls.Add(this.bunifuCustomLabel3);
@@ -185,6 +185,7 @@
             this.Controls.Add(this.bunifuPictureBox1);
             this.Name = "pubg";
             this.Size = new System.Drawing.Size(564, 168);
+            this.Load += new System.EventHandler(this.pubg_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -195,7 +196,7 @@
 
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton pubgbutton;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;

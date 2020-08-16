@@ -35,7 +35,7 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.rainbowbutton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -117,41 +117,41 @@
             this.bunifuCustomLabel1.TabIndex = 27;
             this.bunifuCustomLabel1.Text = "Tom Clancy\'s Rainbow Six: Siege";
             // 
-            // bunifuFlatButton1
+            // rainbowbutton
             // 
-            this.bunifuFlatButton1.Active = true;
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "     Buy";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 50D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(438, 127);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = true;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 38);
-            this.bunifuFlatButton1.TabIndex = 33;
-            this.bunifuFlatButton1.Text = "     Buy";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rainbowbutton.Active = true;
+            this.rainbowbutton.Activecolor = System.Drawing.Color.Black;
+            this.rainbowbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.rainbowbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rainbowbutton.BorderRadius = 0;
+            this.rainbowbutton.ButtonText = "     Buy";
+            this.rainbowbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rainbowbutton.DisabledColor = System.Drawing.Color.Gray;
+            this.rainbowbutton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rainbowbutton.Iconcolor = System.Drawing.Color.Transparent;
+            this.rainbowbutton.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
+            this.rainbowbutton.Iconimage_right = null;
+            this.rainbowbutton.Iconimage_right_Selected = null;
+            this.rainbowbutton.Iconimage_Selected = null;
+            this.rainbowbutton.IconMarginLeft = 0;
+            this.rainbowbutton.IconMarginRight = 0;
+            this.rainbowbutton.IconRightVisible = true;
+            this.rainbowbutton.IconRightZoom = 0D;
+            this.rainbowbutton.IconVisible = true;
+            this.rainbowbutton.IconZoom = 50D;
+            this.rainbowbutton.IsTab = false;
+            this.rainbowbutton.Location = new System.Drawing.Point(438, 127);
+            this.rainbowbutton.Name = "rainbowbutton";
+            this.rainbowbutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.rainbowbutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.rainbowbutton.OnHoverTextColor = System.Drawing.Color.White;
+            this.rainbowbutton.selected = true;
+            this.rainbowbutton.Size = new System.Drawing.Size(125, 38);
+            this.rainbowbutton.TabIndex = 33;
+            this.rainbowbutton.Text = "     Buy";
+            this.rainbowbutton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.rainbowbutton.Textcolor = System.Drawing.Color.White;
+            this.rainbowbutton.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             // 
             // bunifuPictureBox1
             // 
@@ -175,7 +175,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.bunifuCustomLabel7);
-            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.rainbowbutton);
             this.Controls.Add(this.bunifuCustomLabel5);
             this.Controls.Add(this.bunifuCustomLabel6);
             this.Controls.Add(this.bunifuCustomLabel4);
@@ -185,6 +185,7 @@
             this.Controls.Add(this.bunifuPictureBox1);
             this.Name = "rainbow";
             this.Size = new System.Drawing.Size(564, 168);
+            this.Load += new System.EventHandler(this.rainbow_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -194,7 +195,7 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton rainbowbutton;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;

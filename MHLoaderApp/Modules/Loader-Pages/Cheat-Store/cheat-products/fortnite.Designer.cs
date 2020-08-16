@@ -34,7 +34,7 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.fortnitebutton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
@@ -106,41 +106,41 @@
             this.bunifuCustomLabel1.TabIndex = 34;
             this.bunifuCustomLabel1.Text = "Fortnite";
             // 
-            // bunifuFlatButton1
+            // fortnitebutton
             // 
-            this.bunifuFlatButton1.Active = true;
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Black;
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "    Buy";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 50D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(438, 127);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = true;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 38);
-            this.bunifuFlatButton1.TabIndex = 39;
-            this.bunifuFlatButton1.Text = "    Buy";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.fortnitebutton.Active = true;
+            this.fortnitebutton.Activecolor = System.Drawing.Color.Black;
+            this.fortnitebutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.fortnitebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.fortnitebutton.BorderRadius = 0;
+            this.fortnitebutton.ButtonText = "    Buy";
+            this.fortnitebutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fortnitebutton.DisabledColor = System.Drawing.Color.Gray;
+            this.fortnitebutton.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.fortnitebutton.Iconcolor = System.Drawing.Color.Transparent;
+            this.fortnitebutton.Iconimage = global::MHLoaderApp.Properties.Resources.shopping_32;
+            this.fortnitebutton.Iconimage_right = null;
+            this.fortnitebutton.Iconimage_right_Selected = null;
+            this.fortnitebutton.Iconimage_Selected = null;
+            this.fortnitebutton.IconMarginLeft = 0;
+            this.fortnitebutton.IconMarginRight = 0;
+            this.fortnitebutton.IconRightVisible = true;
+            this.fortnitebutton.IconRightZoom = 0D;
+            this.fortnitebutton.IconVisible = true;
+            this.fortnitebutton.IconZoom = 50D;
+            this.fortnitebutton.IsTab = false;
+            this.fortnitebutton.Location = new System.Drawing.Point(438, 127);
+            this.fortnitebutton.Name = "fortnitebutton";
+            this.fortnitebutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.fortnitebutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.fortnitebutton.OnHoverTextColor = System.Drawing.Color.White;
+            this.fortnitebutton.selected = true;
+            this.fortnitebutton.Size = new System.Drawing.Size(125, 38);
+            this.fortnitebutton.TabIndex = 39;
+            this.fortnitebutton.Text = "    Buy";
+            this.fortnitebutton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.fortnitebutton.Textcolor = System.Drawing.Color.White;
+            this.fortnitebutton.TextFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             // 
             // bunifuPictureBox1
             // 
@@ -176,7 +176,7 @@
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.bunifuCustomLabel4);
             this.Controls.Add(this.bunifuCustomLabel7);
-            this.Controls.Add(this.bunifuFlatButton1);
+            this.Controls.Add(this.fortnitebutton);
             this.Controls.Add(this.bunifuCustomLabel5);
             this.Controls.Add(this.bunifuCustomLabel6);
             this.Controls.Add(this.bunifuCustomLabel3);
@@ -185,6 +185,7 @@
             this.Controls.Add(this.bunifuPictureBox1);
             this.Name = "fortnite";
             this.Size = new System.Drawing.Size(564, 168);
+            this.Load += new System.EventHandler(this.fortnite_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -194,7 +195,7 @@
         #endregion
 
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton fortnitebutton;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
