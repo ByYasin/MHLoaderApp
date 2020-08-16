@@ -73,13 +73,13 @@ namespace MHLoaderApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string Theme {
+        [global::System.Configuration.DefaultSettingValueAttribute("Blue")]
+        public string themecolor {
             get {
-                return ((string)(this["Theme"]));
+                return ((string)(this["themecolor"]));
             }
             set {
-                this["Theme"] = value;
+                this["themecolor"] = value;
             }
         }
     }

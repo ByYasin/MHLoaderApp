@@ -23,9 +23,7 @@ namespace MHLoaderApp.Modules.Loader_Pages
         {
             if (Properties.Settings.Default.remember == true)
             {
-                {
-                    rememberme.Checked = true;
-                }
+                rememberme.Checked = true;
             }
             else
             {
@@ -83,7 +81,8 @@ namespace MHLoaderApp.Modules.Loader_Pages
 
         private void settings_Load(object sender, EventArgs e)
         {
-
+            SaveSettings();
+            themecomboBox.Text = Properties.Settings.Default.themecolor;
         }
 
         private void rememberme_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs e)
@@ -99,14 +98,98 @@ namespace MHLoaderApp.Modules.Loader_Pages
         private void bluecolor_Click(object sender, EventArgs e)
         {
 
-            if (comboBox1.SelectedItem == "Blue")
+            if (themecomboBox.SelectedItem == "Blue")
             {
-                Properties.Settings.Default.Theme = "Blue";
+                Properties.Settings.Default.themecolor = "Blue";
             }
 
-            if (comboBox1.SelectedItem == "Brown")
+            if (themecomboBox.SelectedItem == "Brown")
             {
-                Properties.Settings.Default.Theme = "Brown";
+                Properties.Settings.Default.themecolor = "Brown";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Cobalt")
+            {
+                Properties.Settings.Default.themecolor = "Cobalt";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Crimson")
+            {
+                Properties.Settings.Default.themecolor = "Crimson";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Cyan")
+            {
+                Properties.Settings.Default.themecolor = "Cyan";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Green")
+            {
+                Properties.Settings.Default.themecolor = "Green";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Indigo")
+            {
+                Properties.Settings.Default.themecolor = "Indigo";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Magenta")
+            {
+                Properties.Settings.Default.themecolor = "Magenta";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Mauve")
+            {
+                Properties.Settings.Default.themecolor = "Mauve";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Orange")
+            {
+                Properties.Settings.Default.themecolor = "Orange";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Pink")
+            {
+                Properties.Settings.Default.themecolor = "Pink";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Purple")
+            {
+                Properties.Settings.Default.themecolor = "Purple";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Red")
+            {
+                Properties.Settings.Default.themecolor = "Red";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Steel")
+            {
+                Properties.Settings.Default.themecolor = "Steel";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Taupe")
+            {
+                Properties.Settings.Default.themecolor = "Taupe";
+            }
+
+
+            if (themecomboBox.SelectedItem == "Teal")
+            {
+                Properties.Settings.Default.themecolor = "Teal";
             }
             SaveSettings();
             //GetSettings();
@@ -114,59 +197,7 @@ namespace MHLoaderApp.Modules.Loader_Pages
 
         private void timer1_Tick(object sender, EventArgs e) // Timer Loader formunu bozuyor başka yöntem bul !
         {
-            if (Properties.Settings.Default.Theme == "Blue")
-            {
-                Login loginfrm = new Login();
-                var faviconbackcolor = ColorTranslator.FromHtml("#0071BC");
-                loginfrm.favicon.BackColor = (faviconbackcolor);
-                var headerbackcolor = ColorTranslator.FromHtml("#3393DF");
-                loginfrm.header.BackColor = (headerbackcolor);
-                var footerbackcolor = ColorTranslator.FromHtml("#3393DF");
-                loginfrm.footer.BackColor = (footerbackcolor);
-                var remembermebackcolor = ColorTranslator.FromHtml("#3393DF");
-                loginfrm.rememberme.ToggleStateOn.BackColor = (remembermebackcolor);
-                var remembermebordercolor = ColorTranslator.FromHtml("#3393DF");
-                loginfrm.rememberme.ToggleStateOn.BorderColor = (remembermebordercolor);
-                var autologinbackcolor = ColorTranslator.FromHtml("#3393DF");
-                loginfrm.autologin.ToggleStateOn.BackColor = (autologinbackcolor);
-                var autologinbordercolor = ColorTranslator.FromHtml("#3393DF");
-                loginfrm.autologin.ToggleStateOn.BackColor = (autologinbordercolor);
-                var loginbuttonİdleFillcolor = ColorTranslator.FromHtml("#3393DF");
-                loginfrm.loginbutton.IdleFillColor = (loginbuttonİdleFillcolor);
 
-            }
-
-            if (Properties.Settings.Default.Theme == "Brown")
-            {
-                Login loginfrm = new Login();
-                var faviconbackcolor = ColorTranslator.FromHtml("#775E41");
-                loginfrm.favicon.BackColor = (faviconbackcolor);
-
-                var headerbackcolor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.header.BackColor = (headerbackcolor);
-
-                var footerbackcolor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.footer.BackColor = (footerbackcolor);
-
-                var remembermebackcolor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.rememberme.ToggleStateOn.BackColor = (remembermebackcolor);
-
-                var remembermebordercolor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.rememberme.ToggleStateOn.BorderColor = (remembermebordercolor);
-
-                var autologinbackcolor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.autologin.ToggleStateOn.BackColor = (autologinbackcolor);
-
-                var autologinbordercolor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.autologin.ToggleStateOn.BorderColor = (autologinbordercolor);
-
-                var loginbuttonİdleFillcolor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.loginbutton.IdleFillColor = (loginbuttonİdleFillcolor);
-
-                var loginbuttonOnPressedStateFillColor = ColorTranslator.FromHtml("#9B7B56");
-                loginfrm.loginbutton.OnPressedState.FillColor = (loginbuttonOnPressedStateFillColor);
-
-            }
         }
     }
 

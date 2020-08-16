@@ -14,8 +14,8 @@
     <Setting Name="autologinsave" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="Theme" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+    <Setting Name="themecolor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
     </Setting>
   </Settings>
 </SettingsFile>

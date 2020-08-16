@@ -670,8 +670,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel title;
         private Bunifu.UI.WinForms.BunifuPictureBox logo;
         private Bunifu.Framework.UI.BunifuCustomLabel statustitle;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox usernametext;
-        private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox passwordtext;
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
         private Bunifu.Framework.UI.BunifuCustomLabel autologinlabel;
         private Bunifu.Framework.UI.BunifuCustomLabel remembermelabel;
@@ -686,6 +684,8 @@
         public Bunifu.UI.WinForms.BunifuButton.BunifuButton loginbutton;
         public Bunifu.UI.WinForms.BunifuPictureBox favicon;
         public System.Windows.Forms.Panel header;
+        public Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox usernametext;
+        public Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox passwordtext;
     }
 }
 

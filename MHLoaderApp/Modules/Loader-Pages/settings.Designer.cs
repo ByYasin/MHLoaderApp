@@ -39,7 +39,6 @@
             this.rememberme = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.loginsettingslabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.themecomboBox = new Guna.UI.WinForms.GunaComboBox();
             this.browncolor = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tealcolor = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -57,7 +56,6 @@
             this.crimsoncolor = new Bunifu.Framework.UI.BunifuFlatButton();
             this.cobaltcolor = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bluecolor = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.loadersettingscolor = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -95,7 +93,7 @@
             this.panel1.Controls.Add(this.rememberme);
             this.panel1.Controls.Add(this.loginsettingslabel);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.panel1.Location = new System.Drawing.Point(16, 44);
+            this.panel1.Location = new System.Drawing.Point(16, 38);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(260, 118);
             this.panel1.TabIndex = 12;
@@ -260,7 +258,6 @@
             // 
             this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.themecomboBox);
             this.panel2.Controls.Add(this.browncolor);
             this.panel2.Controls.Add(this.tealcolor);
@@ -278,50 +275,23 @@
             this.panel2.Controls.Add(this.crimsoncolor);
             this.panel2.Controls.Add(this.cobaltcolor);
             this.panel2.Controls.Add(this.bluecolor);
-            this.panel2.Controls.Add(this.bunifuCustomLabel5);
             this.panel2.Controls.Add(this.bunifuCustomLabel6);
             this.panel2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.panel2.Location = new System.Drawing.Point(16, 172);
+            this.panel2.Location = new System.Drawing.Point(16, 165);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(551, 204);
+            this.panel2.Size = new System.Drawing.Size(551, 211);
             this.panel2.TabIndex = 13;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Blue",
-            "Brown",
-            "Cobalt",
-            "Crimson",
-            "Cyan",
-            "Green",
-            "Indigo",
-            "Magenta",
-            "Mauve",
-            "Orange",
-            "Pink",
-            "Purple",
-            "Red",
-            "Steel",
-            "Taupe",
-            "Teal"});
-            this.comboBox1.Location = new System.Drawing.Point(44, 40);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 24;
-            this.comboBox1.Text = "Themes";
             // 
             // themecomboBox
             // 
-            this.themecomboBox.BackColor = System.Drawing.Color.Transparent;
-            this.themecomboBox.BaseColor = System.Drawing.Color.White;
-            this.themecomboBox.BorderColor = System.Drawing.Color.Silver;
+            this.themecomboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.themecomboBox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.themecomboBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.themecomboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.themecomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.themecomboBox.FocusedColor = System.Drawing.Color.Empty;
+            this.themecomboBox.FocusedColor = System.Drawing.Color.Transparent;
             this.themecomboBox.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.themecomboBox.ForeColor = System.Drawing.Color.Black;
+            this.themecomboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.themecomboBox.FormattingEnabled = true;
             this.themecomboBox.Items.AddRange(new object[] {
             "Blue",
@@ -340,9 +310,9 @@
             "Steel",
             "Taupe",
             "Teal"});
-            this.themecomboBox.Location = new System.Drawing.Point(369, 40);
+            this.themecomboBox.Location = new System.Drawing.Point(193, 33);
             this.themecomboBox.Name = "themecomboBox";
-            this.themecomboBox.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.themecomboBox.OnHoverItemBaseColor = System.Drawing.Color.Empty;
             this.themecomboBox.OnHoverItemForeColor = System.Drawing.Color.White;
             this.themecomboBox.Size = new System.Drawing.Size(165, 26);
             this.themecomboBox.Sorted = true;
@@ -370,7 +340,7 @@
             this.browncolor.IconVisible = true;
             this.browncolor.IconZoom = 50D;
             this.browncolor.IsTab = false;
-            this.browncolor.Location = new System.Drawing.Point(50, 91);
+            this.browncolor.Location = new System.Drawing.Point(50, 104);
             this.browncolor.Name = "browncolor";
             this.browncolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.browncolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -405,7 +375,7 @@
             this.tealcolor.IconVisible = true;
             this.tealcolor.IconZoom = 50D;
             this.tealcolor.IsTab = false;
-            this.tealcolor.Location = new System.Drawing.Point(422, 163);
+            this.tealcolor.Location = new System.Drawing.Point(419, 176);
             this.tealcolor.Name = "tealcolor";
             this.tealcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.tealcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -440,7 +410,7 @@
             this.taupecolor.IconVisible = true;
             this.taupecolor.IconZoom = 50D;
             this.taupecolor.IsTab = false;
-            this.taupecolor.Location = new System.Drawing.Point(329, 163);
+            this.taupecolor.Location = new System.Drawing.Point(329, 176);
             this.taupecolor.Name = "taupecolor";
             this.taupecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.taupecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -475,7 +445,7 @@
             this.steelcolor.IconVisible = true;
             this.steelcolor.IconZoom = 50D;
             this.steelcolor.IsTab = false;
-            this.steelcolor.Location = new System.Drawing.Point(236, 163);
+            this.steelcolor.Location = new System.Drawing.Point(233, 176);
             this.steelcolor.Name = "steelcolor";
             this.steelcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.steelcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -510,7 +480,7 @@
             this.redcolor.IconVisible = true;
             this.redcolor.IconZoom = 50D;
             this.redcolor.IsTab = false;
-            this.redcolor.Location = new System.Drawing.Point(143, 163);
+            this.redcolor.Location = new System.Drawing.Point(140, 176);
             this.redcolor.Name = "redcolor";
             this.redcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.redcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -545,7 +515,7 @@
             this.purplecolor.IconVisible = true;
             this.purplecolor.IconZoom = 50D;
             this.purplecolor.IsTab = false;
-            this.purplecolor.Location = new System.Drawing.Point(50, 163);
+            this.purplecolor.Location = new System.Drawing.Point(50, 176);
             this.purplecolor.Name = "purplecolor";
             this.purplecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.purplecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -580,7 +550,7 @@
             this.pinkcolor.IconVisible = true;
             this.pinkcolor.IconZoom = 50D;
             this.pinkcolor.IsTab = false;
-            this.pinkcolor.Location = new System.Drawing.Point(422, 127);
+            this.pinkcolor.Location = new System.Drawing.Point(419, 140);
             this.pinkcolor.Name = "pinkcolor";
             this.pinkcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.pinkcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -615,7 +585,7 @@
             this.orangecolor.IconVisible = true;
             this.orangecolor.IconZoom = 50D;
             this.orangecolor.IsTab = false;
-            this.orangecolor.Location = new System.Drawing.Point(329, 127);
+            this.orangecolor.Location = new System.Drawing.Point(329, 140);
             this.orangecolor.Name = "orangecolor";
             this.orangecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.orangecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -650,7 +620,7 @@
             this.mauvecolor.IconVisible = true;
             this.mauvecolor.IconZoom = 50D;
             this.mauvecolor.IsTab = false;
-            this.mauvecolor.Location = new System.Drawing.Point(236, 127);
+            this.mauvecolor.Location = new System.Drawing.Point(233, 139);
             this.mauvecolor.Name = "mauvecolor";
             this.mauvecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.mauvecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -685,7 +655,7 @@
             this.magentacolor.IconVisible = true;
             this.magentacolor.IconZoom = 50D;
             this.magentacolor.IsTab = false;
-            this.magentacolor.Location = new System.Drawing.Point(143, 127);
+            this.magentacolor.Location = new System.Drawing.Point(140, 140);
             this.magentacolor.Name = "magentacolor";
             this.magentacolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.magentacolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -720,7 +690,7 @@
             this.indigocolor.IconVisible = true;
             this.indigocolor.IconZoom = 50D;
             this.indigocolor.IsTab = false;
-            this.indigocolor.Location = new System.Drawing.Point(50, 127);
+            this.indigocolor.Location = new System.Drawing.Point(50, 141);
             this.indigocolor.Name = "indigocolor";
             this.indigocolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.indigocolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -755,7 +725,7 @@
             this.greencolor.IconVisible = true;
             this.greencolor.IconZoom = 50D;
             this.greencolor.IsTab = false;
-            this.greencolor.Location = new System.Drawing.Point(422, 91);
+            this.greencolor.Location = new System.Drawing.Point(419, 104);
             this.greencolor.Name = "greencolor";
             this.greencolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.greencolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -790,7 +760,7 @@
             this.cyancolor.IconVisible = true;
             this.cyancolor.IconZoom = 50D;
             this.cyancolor.IsTab = false;
-            this.cyancolor.Location = new System.Drawing.Point(329, 91);
+            this.cyancolor.Location = new System.Drawing.Point(329, 104);
             this.cyancolor.Name = "cyancolor";
             this.cyancolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.cyancolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -825,7 +795,7 @@
             this.crimsoncolor.IconVisible = true;
             this.crimsoncolor.IconZoom = 50D;
             this.crimsoncolor.IsTab = false;
-            this.crimsoncolor.Location = new System.Drawing.Point(236, 91);
+            this.crimsoncolor.Location = new System.Drawing.Point(230, 104);
             this.crimsoncolor.Name = "crimsoncolor";
             this.crimsoncolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.crimsoncolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -860,7 +830,7 @@
             this.cobaltcolor.IconVisible = true;
             this.cobaltcolor.IconZoom = 50D;
             this.cobaltcolor.IsTab = false;
-            this.cobaltcolor.Location = new System.Drawing.Point(143, 91);
+            this.cobaltcolor.Location = new System.Drawing.Point(140, 104);
             this.cobaltcolor.Name = "cobaltcolor";
             this.cobaltcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.cobaltcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -895,7 +865,7 @@
             this.bluecolor.IconVisible = true;
             this.bluecolor.IconZoom = 50D;
             this.bluecolor.IsTab = false;
-            this.bluecolor.Location = new System.Drawing.Point(222, 54);
+            this.bluecolor.Location = new System.Drawing.Point(222, 69);
             this.bluecolor.Name = "bluecolor";
             this.bluecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.bluecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -909,19 +879,6 @@
             this.bluecolor.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bluecolor.Click += new System.EventHandler(this.bluecolor_Click);
             // 
-            // bunifuCustomLabel5
-            // 
-            this.bunifuCustomLabel5.AccessibleRole = System.Windows.Forms.AccessibleRole.CheckButton;
-            this.bunifuCustomLabel5.AutoSize = true;
-            this.bunifuCustomLabel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bunifuCustomLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(251, 29);
-            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(46, 17);
-            this.bunifuCustomLabel5.TabIndex = 5;
-            this.bunifuCustomLabel5.Text = "Colors";
-            // 
             // bunifuCustomLabel6
             // 
             this.bunifuCustomLabel6.AccessibleRole = System.Windows.Forms.AccessibleRole.CheckButton;
@@ -929,7 +886,7 @@
             this.bunifuCustomLabel6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuCustomLabel6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bunifuCustomLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(142, 6);
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(143, 6);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
             this.bunifuCustomLabel6.Size = new System.Drawing.Size(264, 20);
             this.bunifuCustomLabel6.TabIndex = 3;
@@ -985,7 +942,7 @@
             this.panel3.Controls.Add(this.autoupdatecheck);
             this.panel3.Controls.Add(this.bunifuCustomLabel4);
             this.panel3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.panel3.Location = new System.Drawing.Point(307, 44);
+            this.panel3.Location = new System.Drawing.Point(307, 38);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(260, 118);
             this.panel3.TabIndex = 13;
@@ -1141,7 +1098,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel loginsettingslabel;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private Bunifu.UI.WinForms.BunifuCheckBox autoupdatecheck;
@@ -1170,7 +1126,6 @@
         public Bunifu.Framework.UI.BunifuFlatButton bluecolor;
         public Bunifu.Framework.UI.BunifuFlatButton browncolor;
         public Guna.UI.WinForms.GunaComboBox themecomboBox;
-        public System.Windows.Forms.ComboBox comboBox1;
         public System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Timer timer1;
     }
