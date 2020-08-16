@@ -77,10 +77,14 @@
             this.buyrenew = new Bunifu.UI.WinForms.BunifuImageButton();
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.mylicencetabpage = new System.Windows.Forms.TabPage();
+            this.mylicence1 = new MHLoaderApp.Modules.Loader_Pages.mylicence();
             this.licencebuyrenewtabpage = new System.Windows.Forms.TabPage();
+            this.buyrenew1 = new MHLoaderApp.Modules.Loader_Pages.Cheat_Store.buyrenew();
             this.notificationtabpage = new System.Windows.Forms.TabPage();
+            this.notification1 = new MHLoaderApp.Modules.Loader_Pages.notification();
             this.updatestabpage = new System.Windows.Forms.TabPage();
             this.settingstabpage = new System.Windows.Forms.TabPage();
+            this.settings1 = new MHLoaderApp.Modules.Loader_Pages.settings();
             this.csgotabpage = new System.Windows.Forms.TabPage();
             this.loaderlabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.efttabpage = new System.Windows.Forms.TabPage();
@@ -92,10 +96,8 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.rusttabpage = new System.Windows.Forms.TabPage();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.mylicence1 = new MHLoaderApp.Modules.Loader_Pages.mylicence();
-            this.buyrenew1 = new MHLoaderApp.Modules.Loader_Pages.Cheat_Store.buyrenew();
-            this.notification1 = new MHLoaderApp.Modules.Loader_Pages.notification();
-            this.settings1 = new MHLoaderApp.Modules.Loader_Pages.settings();
+            this.versiontitle = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.version = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.favicon)).BeginInit();
             this.footer.SuspendLayout();
@@ -289,6 +291,8 @@
             // 
             this.footer.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.footer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.footer.Controls.Add(this.version);
+            this.footer.Controls.Add(this.versiontitle);
             this.footer.Controls.Add(this.status);
             this.footer.Controls.Add(this.statustitle);
             this.bunifuTransition1.SetDecoration(this.footer, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
@@ -1100,6 +1104,16 @@
             this.mylicencetabpage.TabIndex = 6;
             this.mylicencetabpage.Text = "mylcnc";
             // 
+            // mylicence1
+            // 
+            this.mylicence1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.mylicence1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.mylicence1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mylicence1.Location = new System.Drawing.Point(0, 0);
+            this.mylicence1.Name = "mylicence1";
+            this.mylicence1.Size = new System.Drawing.Size(583, 390);
+            this.mylicence1.TabIndex = 0;
+            // 
             // licencebuyrenewtabpage
             // 
             this.licencebuyrenewtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1111,6 +1125,18 @@
             this.licencebuyrenewtabpage.TabIndex = 5;
             this.licencebuyrenewtabpage.Text = "lcncbyrnw";
             // 
+            // buyrenew1
+            // 
+            this.buyrenew1.AutoScroll = true;
+            this.buyrenew1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.buyrenew1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.buyrenew1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buyrenew1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buyrenew1.Location = new System.Drawing.Point(0, 0);
+            this.buyrenew1.Name = "buyrenew1";
+            this.buyrenew1.Size = new System.Drawing.Size(583, 390);
+            this.buyrenew1.TabIndex = 0;
+            // 
             // notificationtabpage
             // 
             this.notificationtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1121,6 +1147,18 @@
             this.notificationtabpage.Size = new System.Drawing.Size(583, 390);
             this.notificationtabpage.TabIndex = 7;
             this.notificationtabpage.Text = "notification";
+            // 
+            // notification1
+            // 
+            this.notification1.AutoScroll = true;
+            this.notification1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.notification1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuTransition1.SetDecoration(this.notification1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.notification1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.notification1.Location = new System.Drawing.Point(0, 0);
+            this.notification1.Name = "notification1";
+            this.notification1.Size = new System.Drawing.Size(583, 390);
+            this.notification1.TabIndex = 0;
             // 
             // updatestabpage
             // 
@@ -1142,6 +1180,17 @@
             this.settingstabpage.Size = new System.Drawing.Size(583, 390);
             this.settingstabpage.TabIndex = 9;
             this.settingstabpage.Text = "settings";
+            // 
+            // settings1
+            // 
+            this.settings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.settings1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuTransition1.SetDecoration(this.settings1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.settings1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.settings1.Location = new System.Drawing.Point(0, 0);
+            this.settings1.Name = "settings1";
+            this.settings1.Size = new System.Drawing.Size(583, 390);
+            this.settings1.TabIndex = 0;
             // 
             // csgotabpage
             // 
@@ -1280,50 +1329,31 @@
             this.bunifuCustomLabel4.Text = "Loader cheat page";
             this.bunifuCustomLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // mylicence1
+            // versiontitle
             // 
-            this.mylicence1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTransition1.SetDecoration(this.mylicence1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.mylicence1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mylicence1.Location = new System.Drawing.Point(0, 0);
-            this.mylicence1.Name = "mylicence1";
-            this.mylicence1.Size = new System.Drawing.Size(583, 390);
-            this.mylicence1.TabIndex = 0;
+            this.versiontitle.AutoSize = true;
+            this.versiontitle.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.versiontitle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.versiontitle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.versiontitle.ForeColor = System.Drawing.Color.White;
+            this.versiontitle.Location = new System.Drawing.Point(763, 2);
+            this.versiontitle.Name = "versiontitle";
+            this.versiontitle.Size = new System.Drawing.Size(59, 17);
+            this.versiontitle.TabIndex = 8;
+            this.versiontitle.Text = "Version :";
             // 
-            // buyrenew1
+            // version
             // 
-            this.buyrenew1.AutoScroll = true;
-            this.buyrenew1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTransition1.SetDecoration(this.buyrenew1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.buyrenew1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buyrenew1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buyrenew1.Location = new System.Drawing.Point(0, 0);
-            this.buyrenew1.Name = "buyrenew1";
-            this.buyrenew1.Size = new System.Drawing.Size(583, 390);
-            this.buyrenew1.TabIndex = 0;
-            // 
-            // notification1
-            // 
-            this.notification1.AutoScroll = true;
-            this.notification1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.notification1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuTransition1.SetDecoration(this.notification1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.notification1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.notification1.Location = new System.Drawing.Point(0, 0);
-            this.notification1.Name = "notification1";
-            this.notification1.Size = new System.Drawing.Size(583, 390);
-            this.notification1.TabIndex = 0;
-            // 
-            // settings1
-            // 
-            this.settings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.settings1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuTransition1.SetDecoration(this.settings1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.settings1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.settings1.Location = new System.Drawing.Point(0, 0);
-            this.settings1.Name = "settings1";
-            this.settings1.Size = new System.Drawing.Size(583, 390);
-            this.settings1.TabIndex = 0;
+            this.version.AutoSize = true;
+            this.version.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.version, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.version.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.version.ForeColor = System.Drawing.Color.White;
+            this.version.Location = new System.Drawing.Point(821, 2);
+            this.version.Name = "version";
+            this.version.Size = new System.Drawing.Size(35, 17);
+            this.version.TabIndex = 9;
+            this.version.Text = "Beta";
             // 
             // Loader
             // 
@@ -1437,5 +1467,7 @@
         public System.Windows.Forms.Panel header;
         public System.Windows.Forms.Panel footer;
         private Modules.Loader_Pages.settings settings1;
+        private Bunifu.Framework.UI.BunifuCustomLabel version;
+        private Bunifu.Framework.UI.BunifuCustomLabel versiontitle;
     }
 }
