@@ -92,7 +92,7 @@ namespace MHLoaderApp
 
         private void themecolor_Data()
         {
-            if (Properties.Settings.Default.themecolor == "Blue")
+            if (Properties.Settings.Default.themecolor == "Blue (Default)")
             {
                 var faviconbackcolor = ColorTranslator.FromHtml("#0071BC");
                 favicon.BackColor = (faviconbackcolor);

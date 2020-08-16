@@ -99,7 +99,7 @@ namespace MHLoaderApp.Modules.Loader_Pages
         {
             if (themecomboBox.SelectedItem == "Blue (Default)")
             {
-                Properties.Settings.Default.themecolor = "Blue";
+                Properties.Settings.Default.themecolor = "Blue (Default)";
             }
 
             if (themecomboBox.SelectedItem == "Brown")
