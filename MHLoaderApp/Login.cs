@@ -262,6 +262,108 @@ namespace MHLoaderApp
 
             }
 
+            if (Properties.Settings.Default.themecolor == "Dark Gold")
+            {
+                var faviconbackcolor = ColorTranslator.FromHtml("#A67C00");
+                favicon.BackColor = (faviconbackcolor);
+
+                var headerbackcolor = ColorTranslator.FromHtml("#BF9B30");
+                header.BackColor = (headerbackcolor);
+
+                var footerbackcolor = ColorTranslator.FromHtml("#BF9B30");
+                footer.BackColor = (footerbackcolor);
+
+                var remembermebackcolor = ColorTranslator.FromHtml("#BF9B30");
+                rememberme.ToggleStateOn.BackColor = (remembermebackcolor);
+
+                var remembermebordercolor = ColorTranslator.FromHtml("#BF9B30");
+                rememberme.ToggleStateOn.BorderColor = (remembermebordercolor);
+
+                var autologinbackcolor = ColorTranslator.FromHtml("#BF9B30");
+                autologin.ToggleStateOn.BackColor = (autologinbackcolor);
+
+                var autologinbordercolor = ColorTranslator.FromHtml("#BF9B30");
+                autologin.ToggleStateOn.BorderColor = (autologinbordercolor);
+
+                var loginbuttonİdleFillcolor = ColorTranslator.FromHtml("#BF9B30");
+                loginbutton.IdleFillColor = (loginbuttonİdleFillcolor);
+
+                var loginbuttonOnIdleStateFillColor = ColorTranslator.FromHtml("#BF9B30");
+                loginbutton.OnIdleState.FillColor = (loginbuttonOnIdleStateFillColor);
+
+                var loginbuttonOnPressedStateFillColor = ColorTranslator.FromHtml("Transparent");
+                loginbutton.OnPressedState.FillColor = (loginbuttonOnPressedStateFillColor);
+
+            }
+
+            if (Properties.Settings.Default.themecolor == "Dark Red")
+            {
+                var faviconbackcolor = ColorTranslator.FromHtml("#920D00");
+                favicon.BackColor = (faviconbackcolor);
+
+                var headerbackcolor = ColorTranslator.FromHtml("#AF1001");
+                header.BackColor = (headerbackcolor);
+
+                var footerbackcolor = ColorTranslator.FromHtml("#AF1001");
+                footer.BackColor = (footerbackcolor);
+
+                var remembermebackcolor = ColorTranslator.FromHtml("#AF1001");
+                rememberme.ToggleStateOn.BackColor = (remembermebackcolor);
+
+                var remembermebordercolor = ColorTranslator.FromHtml("#AF1001");
+                rememberme.ToggleStateOn.BorderColor = (remembermebordercolor);
+
+                var autologinbackcolor = ColorTranslator.FromHtml("#AF1001");
+                autologin.ToggleStateOn.BackColor = (autologinbackcolor);
+
+                var autologinbordercolor = ColorTranslator.FromHtml("#AF1001");
+                autologin.ToggleStateOn.BorderColor = (autologinbordercolor);
+
+                var loginbuttonİdleFillcolor = ColorTranslator.FromHtml("#AF1001");
+                loginbutton.IdleFillColor = (loginbuttonİdleFillcolor);
+
+                var loginbuttonOnIdleStateFillColor = ColorTranslator.FromHtml("#AF1001");
+                loginbutton.OnIdleState.FillColor = (loginbuttonOnIdleStateFillColor);
+
+                var loginbuttonOnPressedStateFillColor = ColorTranslator.FromHtml("Transparent");
+                loginbutton.OnPressedState.FillColor = (loginbuttonOnPressedStateFillColor);
+
+            }
+
+            if (Properties.Settings.Default.themecolor == "Emerald")
+            {
+                var faviconbackcolor = ColorTranslator.FromHtml("#267826");
+                favicon.BackColor = (faviconbackcolor);
+
+                var headerbackcolor = ColorTranslator.FromHtml("#33A133");
+                header.BackColor = (headerbackcolor);
+
+                var footerbackcolor = ColorTranslator.FromHtml("#33A133");
+                footer.BackColor = (footerbackcolor);
+
+                var remembermebackcolor = ColorTranslator.FromHtml("#33A133");
+                rememberme.ToggleStateOn.BackColor = (remembermebackcolor);
+
+                var remembermebordercolor = ColorTranslator.FromHtml("#33A133");
+                rememberme.ToggleStateOn.BorderColor = (remembermebordercolor);
+
+                var autologinbackcolor = ColorTranslator.FromHtml("#33A133");
+                autologin.ToggleStateOn.BackColor = (autologinbackcolor);
+
+                var autologinbordercolor = ColorTranslator.FromHtml("#33A133");
+                autologin.ToggleStateOn.BorderColor = (autologinbordercolor);
+
+                var loginbuttonİdleFillcolor = ColorTranslator.FromHtml("#33A133");
+                loginbutton.IdleFillColor = (loginbuttonİdleFillcolor);
+
+                var loginbuttonOnIdleStateFillColor = ColorTranslator.FromHtml("#33A133");
+                loginbutton.OnIdleState.FillColor = (loginbuttonOnIdleStateFillColor);
+
+                var loginbuttonOnPressedStateFillColor = ColorTranslator.FromHtml("Transparent");
+                loginbutton.OnPressedState.FillColor = (loginbuttonOnPressedStateFillColor);
+
+            }
+
             if (Properties.Settings.Default.themecolor == "Green")
             {
                 var faviconbackcolor = ColorTranslator.FromHtml("#608C33");
@@ -527,6 +629,40 @@ namespace MHLoaderApp
                 loginbutton.IdleFillColor = (loginbuttonİdleFillcolor);
 
                 var loginbuttonOnIdleStateFillColor = ColorTranslator.FromHtml("#EA4333");
+                loginbutton.OnIdleState.FillColor = (loginbuttonOnIdleStateFillColor);
+
+                var loginbuttonOnPressedStateFillColor = ColorTranslator.FromHtml("Transparent");
+                loginbutton.OnPressedState.FillColor = (loginbuttonOnPressedStateFillColor);
+
+            }
+
+            if (Properties.Settings.Default.themecolor == "Sienna")
+            {
+                var faviconbackcolor = ColorTranslator.FromHtml("#865740");
+                favicon.BackColor = (faviconbackcolor);
+
+                var headerbackcolor = ColorTranslator.FromHtml("#B37557");
+                header.BackColor = (headerbackcolor);
+
+                var footerbackcolor = ColorTranslator.FromHtml("#B37557");
+                footer.BackColor = (footerbackcolor);
+
+                var remembermebackcolor = ColorTranslator.FromHtml("#B37557");
+                rememberme.ToggleStateOn.BackColor = (remembermebackcolor);
+
+                var remembermebordercolor = ColorTranslator.FromHtml("#B37557");
+                rememberme.ToggleStateOn.BorderColor = (remembermebordercolor);
+
+                var autologinbackcolor = ColorTranslator.FromHtml("#B37557");
+                autologin.ToggleStateOn.BackColor = (autologinbackcolor);
+
+                var autologinbordercolor = ColorTranslator.FromHtml("#B37557");
+                autologin.ToggleStateOn.BorderColor = (autologinbordercolor);
+
+                var loginbuttonİdleFillcolor = ColorTranslator.FromHtml("#B37557");
+                loginbutton.IdleFillColor = (loginbuttonİdleFillcolor);
+
+                var loginbuttonOnIdleStateFillColor = ColorTranslator.FromHtml("#B37557");
                 loginbutton.OnIdleState.FillColor = (loginbuttonOnIdleStateFillColor);
 
                 var loginbuttonOnPressedStateFillColor = ColorTranslator.FromHtml("Transparent");

@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation3 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation1 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loader));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation4 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation2 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.header = new System.Windows.Forms.Panel();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
@@ -77,14 +77,10 @@
             this.buyrenew = new Bunifu.UI.WinForms.BunifuImageButton();
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.mylicencetabpage = new System.Windows.Forms.TabPage();
-            this.mylicence1 = new MHLoaderApp.Modules.Loader_Pages.mylicence();
             this.licencebuyrenewtabpage = new System.Windows.Forms.TabPage();
-            this.buyrenew1 = new MHLoaderApp.Modules.Loader_Pages.Cheat_Store.buyrenew();
             this.notificationtabpage = new System.Windows.Forms.TabPage();
-            this.notification1 = new MHLoaderApp.Modules.Loader_Pages.notification();
             this.updatestabpage = new System.Windows.Forms.TabPage();
             this.settingstabpage = new System.Windows.Forms.TabPage();
-            this.settings1 = new MHLoaderApp.Modules.Loader_Pages.settings();
             this.csgotabpage = new System.Windows.Forms.TabPage();
             this.loaderlabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.efttabpage = new System.Windows.Forms.TabPage();
@@ -96,6 +92,10 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.rusttabpage = new System.Windows.Forms.TabPage();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.mylicence1 = new MHLoaderApp.Modules.Loader_Pages.mylicence();
+            this.buyrenew1 = new MHLoaderApp.Modules.Loader_Pages.Cheat_Store.buyrenew();
+            this.notification1 = new MHLoaderApp.Modules.Loader_Pages.notification();
+            this.settings1 = new MHLoaderApp.Modules.Loader_Pages.settings();
             this.header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.favicon)).BeginInit();
             this.footer.SuspendLayout();
@@ -305,7 +305,7 @@
             this.bunifuTransition1.SetDecoration(this.status, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.status.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.status.ForeColor = System.Drawing.Color.White;
-            this.status.Location = new System.Drawing.Point(53, 3);
+            this.status.Location = new System.Drawing.Point(53, 2);
             this.status.Name = "status";
             this.status.Size = new System.Drawing.Size(393, 17);
             this.status.TabIndex = 7;
@@ -335,22 +335,22 @@
             // 
             this.bunifuTransition1.AnimationType = Bunifu.UI.WinForms.BunifuAnimatorNS.AnimationType.Transparent;
             this.bunifuTransition1.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 1F;
-            this.bunifuTransition1.DefaultAnimation = animation3;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 1F;
+            this.bunifuTransition1.DefaultAnimation = animation1;
             // 
             // leftmenu
             // 
@@ -438,11 +438,11 @@
             this.eftbutton.ColorContrastOnClick = 45;
             this.eftbutton.ColorContrastOnHover = 45;
             this.eftbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.eftbutton.CustomizableEdges = borderEdges6;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.eftbutton.CustomizableEdges = borderEdges1;
             this.bunifuTransition1.SetDecoration(this.eftbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.eftbutton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.eftbutton.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -509,11 +509,11 @@
             this.rustbutton.ColorContrastOnClick = 45;
             this.rustbutton.ColorContrastOnHover = 45;
             this.rustbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.rustbutton.CustomizableEdges = borderEdges7;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.rustbutton.CustomizableEdges = borderEdges2;
             this.bunifuTransition1.SetDecoration(this.rustbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.rustbutton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.rustbutton.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -580,11 +580,11 @@
             this.pubgbutton.ColorContrastOnClick = 45;
             this.pubgbutton.ColorContrastOnHover = 45;
             this.pubgbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.pubgbutton.CustomizableEdges = borderEdges8;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.pubgbutton.CustomizableEdges = borderEdges3;
             this.bunifuTransition1.SetDecoration(this.pubgbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.pubgbutton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.pubgbutton.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -651,11 +651,11 @@
             this.csgobutton.ColorContrastOnClick = 45;
             this.csgobutton.ColorContrastOnHover = 45;
             this.csgobutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges9.BottomLeft = true;
-            borderEdges9.BottomRight = true;
-            borderEdges9.TopLeft = true;
-            borderEdges9.TopRight = true;
-            this.csgobutton.CustomizableEdges = borderEdges9;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.csgobutton.CustomizableEdges = borderEdges4;
             this.bunifuTransition1.SetDecoration(this.csgobutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.csgobutton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.csgobutton.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -722,11 +722,11 @@
             this.lolbutton.ColorContrastOnClick = 45;
             this.lolbutton.ColorContrastOnHover = 45;
             this.lolbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges10.BottomLeft = true;
-            borderEdges10.BottomRight = true;
-            borderEdges10.TopLeft = true;
-            borderEdges10.TopRight = true;
-            this.lolbutton.CustomizableEdges = borderEdges10;
+            borderEdges5.BottomLeft = true;
+            borderEdges5.BottomRight = true;
+            borderEdges5.TopLeft = true;
+            borderEdges5.TopRight = true;
+            this.lolbutton.CustomizableEdges = borderEdges5;
             this.bunifuTransition1.SetDecoration(this.lolbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.Custom);
             this.lolbutton.DialogResult = System.Windows.Forms.DialogResult.None;
             this.lolbutton.DisabledBorderColor = System.Drawing.Color.Empty;
@@ -1071,22 +1071,22 @@
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.Size = new System.Drawing.Size(591, 416);
             this.bunifuPages1.TabIndex = 7;
-            animation4.AnimateOnlyDifferences = true;
-            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
-            animation4.LeafCoeff = 0F;
-            animation4.MaxTime = 1F;
-            animation4.MinTime = 0F;
-            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
-            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
-            animation4.MosaicSize = 0;
-            animation4.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation4.RotateCoeff = 0F;
-            animation4.RotateLimit = 0F;
-            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
-            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
-            animation4.TimeCoeff = 0F;
-            animation4.TransparencyCoeff = 1F;
-            this.bunifuPages1.Transition = animation4;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.bunifuPages1.Transition = animation2;
             this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Transparent;
             // 
             // mylicencetabpage
@@ -1100,16 +1100,6 @@
             this.mylicencetabpage.TabIndex = 6;
             this.mylicencetabpage.Text = "mylcnc";
             // 
-            // mylicence1
-            // 
-            this.mylicence1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTransition1.SetDecoration(this.mylicence1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.mylicence1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mylicence1.Location = new System.Drawing.Point(0, 0);
-            this.mylicence1.Name = "mylicence1";
-            this.mylicence1.Size = new System.Drawing.Size(583, 390);
-            this.mylicence1.TabIndex = 0;
-            // 
             // licencebuyrenewtabpage
             // 
             this.licencebuyrenewtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1121,18 +1111,6 @@
             this.licencebuyrenewtabpage.TabIndex = 5;
             this.licencebuyrenewtabpage.Text = "lcncbyrnw";
             // 
-            // buyrenew1
-            // 
-            this.buyrenew1.AutoScroll = true;
-            this.buyrenew1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTransition1.SetDecoration(this.buyrenew1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.buyrenew1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buyrenew1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buyrenew1.Location = new System.Drawing.Point(0, 0);
-            this.buyrenew1.Name = "buyrenew1";
-            this.buyrenew1.Size = new System.Drawing.Size(583, 390);
-            this.buyrenew1.TabIndex = 0;
-            // 
             // notificationtabpage
             // 
             this.notificationtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1143,18 +1121,6 @@
             this.notificationtabpage.Size = new System.Drawing.Size(583, 390);
             this.notificationtabpage.TabIndex = 7;
             this.notificationtabpage.Text = "notification";
-            // 
-            // notification1
-            // 
-            this.notification1.AutoScroll = true;
-            this.notification1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.notification1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuTransition1.SetDecoration(this.notification1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.notification1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.notification1.Location = new System.Drawing.Point(0, 0);
-            this.notification1.Name = "notification1";
-            this.notification1.Size = new System.Drawing.Size(583, 390);
-            this.notification1.TabIndex = 0;
             // 
             // updatestabpage
             // 
@@ -1176,16 +1142,6 @@
             this.settingstabpage.Size = new System.Drawing.Size(583, 390);
             this.settingstabpage.TabIndex = 9;
             this.settingstabpage.Text = "settings";
-            // 
-            // settings1
-            // 
-            this.settings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTransition1.SetDecoration(this.settings1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.settings1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.settings1.Location = new System.Drawing.Point(0, 0);
-            this.settings1.Name = "settings1";
-            this.settings1.Size = new System.Drawing.Size(583, 390);
-            this.settings1.TabIndex = 0;
             // 
             // csgotabpage
             // 
@@ -1324,6 +1280,51 @@
             this.bunifuCustomLabel4.Text = "Loader cheat page";
             this.bunifuCustomLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // mylicence1
+            // 
+            this.mylicence1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.mylicence1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.mylicence1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mylicence1.Location = new System.Drawing.Point(0, 0);
+            this.mylicence1.Name = "mylicence1";
+            this.mylicence1.Size = new System.Drawing.Size(583, 390);
+            this.mylicence1.TabIndex = 0;
+            // 
+            // buyrenew1
+            // 
+            this.buyrenew1.AutoScroll = true;
+            this.buyrenew1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.buyrenew1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.buyrenew1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buyrenew1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buyrenew1.Location = new System.Drawing.Point(0, 0);
+            this.buyrenew1.Name = "buyrenew1";
+            this.buyrenew1.Size = new System.Drawing.Size(583, 390);
+            this.buyrenew1.TabIndex = 0;
+            // 
+            // notification1
+            // 
+            this.notification1.AutoScroll = true;
+            this.notification1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.notification1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuTransition1.SetDecoration(this.notification1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.notification1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.notification1.Location = new System.Drawing.Point(0, 0);
+            this.notification1.Name = "notification1";
+            this.notification1.Size = new System.Drawing.Size(583, 390);
+            this.notification1.TabIndex = 0;
+            // 
+            // settings1
+            // 
+            this.settings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.settings1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.bunifuTransition1.SetDecoration(this.settings1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.settings1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.settings1.Location = new System.Drawing.Point(0, 0);
+            this.settings1.Name = "settings1";
+            this.settings1.Size = new System.Drawing.Size(583, 390);
+            this.settings1.TabIndex = 0;
+            // 
             // Loader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1432,9 +1433,9 @@
         private System.Windows.Forms.Panel leftcolor1;
         private System.Windows.Forms.Panel mylicencecolor;
         private System.Windows.Forms.Panel licencebuyrenewcolor;
-        private Modules.Loader_Pages.settings settings1;
         public Bunifu.UI.WinForms.BunifuPictureBox favicon;
         public System.Windows.Forms.Panel header;
         public System.Windows.Forms.Panel footer;
+        private Modules.Loader_Pages.settings settings1;
     }
 }

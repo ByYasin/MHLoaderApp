@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(settings));
             this.settingslabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -39,6 +38,11 @@
             this.rememberme = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.loginsettingslabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.changethemebutton = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.siennacolor = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.emeraldcolor = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.darkredcolor = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.darkgoldcolor = new Bunifu.Framework.UI.BunifuFlatButton();
             this.themecomboBox = new Guna.UI.WinForms.GunaComboBox();
             this.browncolor = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tealcolor = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -64,7 +68,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.autoinject = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.autoupdatecheck = new Bunifu.UI.WinForms.BunifuCheckBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -258,6 +261,11 @@
             // 
             this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel2.Controls.Add(this.changethemebutton);
+            this.panel2.Controls.Add(this.siennacolor);
+            this.panel2.Controls.Add(this.emeraldcolor);
+            this.panel2.Controls.Add(this.darkredcolor);
+            this.panel2.Controls.Add(this.darkgoldcolor);
             this.panel2.Controls.Add(this.themecomboBox);
             this.panel2.Controls.Add(this.browncolor);
             this.panel2.Controls.Add(this.tealcolor);
@@ -279,14 +287,195 @@
             this.panel2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.panel2.Location = new System.Drawing.Point(16, 165);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(551, 211);
+            this.panel2.Size = new System.Drawing.Size(551, 215);
             this.panel2.TabIndex = 13;
+            // 
+            // changethemebutton
+            // 
+            this.changethemebutton.Active = false;
+            this.changethemebutton.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.changethemebutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.changethemebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.changethemebutton.BorderRadius = 0;
+            this.changethemebutton.ButtonText = "Change Theme";
+            this.changethemebutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.changethemebutton.DisabledColor = System.Drawing.Color.Gray;
+            this.changethemebutton.Iconcolor = System.Drawing.Color.Transparent;
+            this.changethemebutton.Iconimage = global::MHLoaderApp.Properties.Resources.changetheme;
+            this.changethemebutton.Iconimage_right = null;
+            this.changethemebutton.Iconimage_right_Selected = null;
+            this.changethemebutton.Iconimage_Selected = null;
+            this.changethemebutton.IconMarginLeft = 0;
+            this.changethemebutton.IconMarginRight = 0;
+            this.changethemebutton.IconRightVisible = true;
+            this.changethemebutton.IconRightZoom = 0D;
+            this.changethemebutton.IconVisible = true;
+            this.changethemebutton.IconZoom = 50D;
+            this.changethemebutton.IsTab = false;
+            this.changethemebutton.Location = new System.Drawing.Point(333, 29);
+            this.changethemebutton.Name = "changethemebutton";
+            this.changethemebutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.changethemebutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.changethemebutton.OnHoverTextColor = System.Drawing.Color.White;
+            this.changethemebutton.selected = false;
+            this.changethemebutton.Size = new System.Drawing.Size(115, 31);
+            this.changethemebutton.TabIndex = 28;
+            this.changethemebutton.Text = "Change Theme";
+            this.changethemebutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.changethemebutton.Textcolor = System.Drawing.Color.White;
+            this.changethemebutton.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.changethemebutton.Click += new System.EventHandler(this.changethemebutton_Click);
+            // 
+            // siennacolor
+            // 
+            this.siennacolor.Active = false;
+            this.siennacolor.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.siennacolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.siennacolor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.siennacolor.BorderRadius = 0;
+            this.siennacolor.ButtonText = "Sienna";
+            this.siennacolor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.siennacolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.siennacolor.Enabled = false;
+            this.siennacolor.Iconcolor = System.Drawing.Color.Transparent;
+            this.siennacolor.Iconimage = global::MHLoaderApp.Properties.Resources.Sienna;
+            this.siennacolor.Iconimage_right = null;
+            this.siennacolor.Iconimage_right_Selected = null;
+            this.siennacolor.Iconimage_Selected = null;
+            this.siennacolor.IconMarginLeft = 0;
+            this.siennacolor.IconMarginRight = 0;
+            this.siennacolor.IconRightVisible = true;
+            this.siennacolor.IconRightZoom = 0D;
+            this.siennacolor.IconVisible = true;
+            this.siennacolor.IconZoom = 50D;
+            this.siennacolor.IsTab = false;
+            this.siennacolor.Location = new System.Drawing.Point(421, 66);
+            this.siennacolor.Name = "siennacolor";
+            this.siennacolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.siennacolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.siennacolor.OnHoverTextColor = System.Drawing.Color.White;
+            this.siennacolor.selected = false;
+            this.siennacolor.Size = new System.Drawing.Size(78, 31);
+            this.siennacolor.TabIndex = 27;
+            this.siennacolor.Text = "Sienna";
+            this.siennacolor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.siennacolor.Textcolor = System.Drawing.Color.White;
+            this.siennacolor.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            // 
+            // emeraldcolor
+            // 
+            this.emeraldcolor.Active = false;
+            this.emeraldcolor.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.emeraldcolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.emeraldcolor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.emeraldcolor.BorderRadius = 0;
+            this.emeraldcolor.ButtonText = "Emerald";
+            this.emeraldcolor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.emeraldcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.emeraldcolor.Enabled = false;
+            this.emeraldcolor.Iconcolor = System.Drawing.Color.Transparent;
+            this.emeraldcolor.Iconimage = global::MHLoaderApp.Properties.Resources.Emerald;
+            this.emeraldcolor.Iconimage_right = null;
+            this.emeraldcolor.Iconimage_right_Selected = null;
+            this.emeraldcolor.Iconimage_Selected = null;
+            this.emeraldcolor.IconMarginLeft = 0;
+            this.emeraldcolor.IconMarginRight = 0;
+            this.emeraldcolor.IconRightVisible = true;
+            this.emeraldcolor.IconRightZoom = 0D;
+            this.emeraldcolor.IconVisible = true;
+            this.emeraldcolor.IconZoom = 50D;
+            this.emeraldcolor.IsTab = false;
+            this.emeraldcolor.Location = new System.Drawing.Point(330, 67);
+            this.emeraldcolor.Name = "emeraldcolor";
+            this.emeraldcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.emeraldcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.emeraldcolor.OnHoverTextColor = System.Drawing.Color.White;
+            this.emeraldcolor.selected = false;
+            this.emeraldcolor.Size = new System.Drawing.Size(78, 31);
+            this.emeraldcolor.TabIndex = 26;
+            this.emeraldcolor.Text = "Emerald";
+            this.emeraldcolor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.emeraldcolor.Textcolor = System.Drawing.Color.White;
+            this.emeraldcolor.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            // 
+            // darkredcolor
+            // 
+            this.darkredcolor.Active = false;
+            this.darkredcolor.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.darkredcolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.darkredcolor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.darkredcolor.BorderRadius = 0;
+            this.darkredcolor.ButtonText = "Dark Red";
+            this.darkredcolor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.darkredcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.darkredcolor.Enabled = false;
+            this.darkredcolor.Iconcolor = System.Drawing.Color.Transparent;
+            this.darkredcolor.Iconimage = global::MHLoaderApp.Properties.Resources.DarkRed;
+            this.darkredcolor.Iconimage_right = null;
+            this.darkredcolor.Iconimage_right_Selected = null;
+            this.darkredcolor.Iconimage_Selected = null;
+            this.darkredcolor.IconMarginLeft = 0;
+            this.darkredcolor.IconMarginRight = 0;
+            this.darkredcolor.IconRightVisible = true;
+            this.darkredcolor.IconRightZoom = 0D;
+            this.darkredcolor.IconVisible = true;
+            this.darkredcolor.IconZoom = 50D;
+            this.darkredcolor.IsTab = false;
+            this.darkredcolor.Location = new System.Drawing.Point(233, 67);
+            this.darkredcolor.Name = "darkredcolor";
+            this.darkredcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.darkredcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.darkredcolor.OnHoverTextColor = System.Drawing.Color.White;
+            this.darkredcolor.selected = false;
+            this.darkredcolor.Size = new System.Drawing.Size(87, 31);
+            this.darkredcolor.TabIndex = 25;
+            this.darkredcolor.Text = "Dark Red";
+            this.darkredcolor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.darkredcolor.Textcolor = System.Drawing.Color.White;
+            this.darkredcolor.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            // 
+            // darkgoldcolor
+            // 
+            this.darkgoldcolor.Active = false;
+            this.darkgoldcolor.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.darkgoldcolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.darkgoldcolor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.darkgoldcolor.BorderRadius = 0;
+            this.darkgoldcolor.ButtonText = "Dark Gold";
+            this.darkgoldcolor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.darkgoldcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.darkgoldcolor.Enabled = false;
+            this.darkgoldcolor.Iconcolor = System.Drawing.Color.Transparent;
+            this.darkgoldcolor.Iconimage = global::MHLoaderApp.Properties.Resources.DarkGold;
+            this.darkgoldcolor.Iconimage_right = null;
+            this.darkgoldcolor.Iconimage_right_Selected = null;
+            this.darkgoldcolor.Iconimage_Selected = null;
+            this.darkgoldcolor.IconMarginLeft = 0;
+            this.darkgoldcolor.IconMarginRight = 0;
+            this.darkgoldcolor.IconRightVisible = true;
+            this.darkgoldcolor.IconRightZoom = 0D;
+            this.darkgoldcolor.IconVisible = true;
+            this.darkgoldcolor.IconZoom = 50D;
+            this.darkgoldcolor.IsTab = false;
+            this.darkgoldcolor.Location = new System.Drawing.Point(142, 67);
+            this.darkgoldcolor.Name = "darkgoldcolor";
+            this.darkgoldcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.darkgoldcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.darkgoldcolor.OnHoverTextColor = System.Drawing.Color.White;
+            this.darkgoldcolor.selected = false;
+            this.darkgoldcolor.Size = new System.Drawing.Size(87, 31);
+            this.darkgoldcolor.TabIndex = 24;
+            this.darkgoldcolor.Text = "Dark Gold";
+            this.darkgoldcolor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.darkgoldcolor.Textcolor = System.Drawing.Color.White;
+            this.darkgoldcolor.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             // 
             // themecomboBox
             // 
             this.themecomboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.themecomboBox.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.themecomboBox.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.themecomboBox.BorderSize = 1;
             this.themecomboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.themecomboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.themecomboBox.FocusedColor = System.Drawing.Color.Transparent;
@@ -294,11 +483,14 @@
             this.themecomboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.themecomboBox.FormattingEnabled = true;
             this.themecomboBox.Items.AddRange(new object[] {
-            "Blue",
+            "Blue (Default)",
             "Brown",
             "Cobalt",
             "Crimson",
             "Cyan",
+            "Dark Gold",
+            "Dark Red",
+            "Emerald",
             "Green",
             "Indigo",
             "Magenta",
@@ -307,10 +499,11 @@
             "Pink",
             "Purple",
             "Red",
+            "Sienna",
             "Steel",
             "Taupe",
             "Teal"});
-            this.themecomboBox.Location = new System.Drawing.Point(193, 33);
+            this.themecomboBox.Location = new System.Drawing.Point(147, 30);
             this.themecomboBox.Name = "themecomboBox";
             this.themecomboBox.OnHoverItemBaseColor = System.Drawing.Color.Empty;
             this.themecomboBox.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -327,7 +520,8 @@
             this.browncolor.BorderRadius = 0;
             this.browncolor.ButtonText = "Brown";
             this.browncolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.browncolor.DisabledColor = System.Drawing.Color.Gray;
+            this.browncolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.browncolor.Enabled = false;
             this.browncolor.Iconcolor = System.Drawing.Color.Transparent;
             this.browncolor.Iconimage = global::MHLoaderApp.Properties.Resources.Brown;
             this.browncolor.Iconimage_right = null;
@@ -340,7 +534,7 @@
             this.browncolor.IconVisible = true;
             this.browncolor.IconZoom = 50D;
             this.browncolor.IsTab = false;
-            this.browncolor.Location = new System.Drawing.Point(50, 104);
+            this.browncolor.Location = new System.Drawing.Point(52, 104);
             this.browncolor.Name = "browncolor";
             this.browncolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.browncolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -362,7 +556,8 @@
             this.tealcolor.BorderRadius = 0;
             this.tealcolor.ButtonText = "Teal";
             this.tealcolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tealcolor.DisabledColor = System.Drawing.Color.Gray;
+            this.tealcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.tealcolor.Enabled = false;
             this.tealcolor.Iconcolor = System.Drawing.Color.Transparent;
             this.tealcolor.Iconimage = global::MHLoaderApp.Properties.Resources.Teal;
             this.tealcolor.Iconimage_right = null;
@@ -375,7 +570,7 @@
             this.tealcolor.IconVisible = true;
             this.tealcolor.IconZoom = 50D;
             this.tealcolor.IsTab = false;
-            this.tealcolor.Location = new System.Drawing.Point(419, 176);
+            this.tealcolor.Location = new System.Drawing.Point(421, 176);
             this.tealcolor.Name = "tealcolor";
             this.tealcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.tealcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -397,7 +592,8 @@
             this.taupecolor.BorderRadius = 0;
             this.taupecolor.ButtonText = "Taupe";
             this.taupecolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.taupecolor.DisabledColor = System.Drawing.Color.Gray;
+            this.taupecolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.taupecolor.Enabled = false;
             this.taupecolor.Iconcolor = System.Drawing.Color.Transparent;
             this.taupecolor.Iconimage = global::MHLoaderApp.Properties.Resources.Taupe;
             this.taupecolor.Iconimage_right = null;
@@ -410,7 +606,7 @@
             this.taupecolor.IconVisible = true;
             this.taupecolor.IconZoom = 50D;
             this.taupecolor.IsTab = false;
-            this.taupecolor.Location = new System.Drawing.Point(329, 176);
+            this.taupecolor.Location = new System.Drawing.Point(331, 176);
             this.taupecolor.Name = "taupecolor";
             this.taupecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.taupecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -432,7 +628,8 @@
             this.steelcolor.BorderRadius = 0;
             this.steelcolor.ButtonText = "Steel";
             this.steelcolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.steelcolor.DisabledColor = System.Drawing.Color.Gray;
+            this.steelcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.steelcolor.Enabled = false;
             this.steelcolor.Iconcolor = System.Drawing.Color.Transparent;
             this.steelcolor.Iconimage = global::MHLoaderApp.Properties.Resources.Steel;
             this.steelcolor.Iconimage_right = null;
@@ -445,7 +642,7 @@
             this.steelcolor.IconVisible = true;
             this.steelcolor.IconZoom = 50D;
             this.steelcolor.IsTab = false;
-            this.steelcolor.Location = new System.Drawing.Point(233, 176);
+            this.steelcolor.Location = new System.Drawing.Point(235, 176);
             this.steelcolor.Name = "steelcolor";
             this.steelcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.steelcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -467,7 +664,8 @@
             this.redcolor.BorderRadius = 0;
             this.redcolor.ButtonText = "Red";
             this.redcolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.redcolor.DisabledColor = System.Drawing.Color.Gray;
+            this.redcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.redcolor.Enabled = false;
             this.redcolor.Iconcolor = System.Drawing.Color.Transparent;
             this.redcolor.Iconimage = global::MHLoaderApp.Properties.Resources.Red;
             this.redcolor.Iconimage_right = null;
@@ -480,7 +678,7 @@
             this.redcolor.IconVisible = true;
             this.redcolor.IconZoom = 50D;
             this.redcolor.IsTab = false;
-            this.redcolor.Location = new System.Drawing.Point(140, 176);
+            this.redcolor.Location = new System.Drawing.Point(142, 176);
             this.redcolor.Name = "redcolor";
             this.redcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.redcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -502,7 +700,8 @@
             this.purplecolor.BorderRadius = 0;
             this.purplecolor.ButtonText = "Purple";
             this.purplecolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.purplecolor.DisabledColor = System.Drawing.Color.Gray;
+            this.purplecolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.purplecolor.Enabled = false;
             this.purplecolor.Iconcolor = System.Drawing.Color.Transparent;
             this.purplecolor.Iconimage = global::MHLoaderApp.Properties.Resources.Purple;
             this.purplecolor.Iconimage_right = null;
@@ -515,7 +714,7 @@
             this.purplecolor.IconVisible = true;
             this.purplecolor.IconZoom = 50D;
             this.purplecolor.IsTab = false;
-            this.purplecolor.Location = new System.Drawing.Point(50, 176);
+            this.purplecolor.Location = new System.Drawing.Point(52, 176);
             this.purplecolor.Name = "purplecolor";
             this.purplecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.purplecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -537,7 +736,8 @@
             this.pinkcolor.BorderRadius = 0;
             this.pinkcolor.ButtonText = "Pink";
             this.pinkcolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pinkcolor.DisabledColor = System.Drawing.Color.Gray;
+            this.pinkcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.pinkcolor.Enabled = false;
             this.pinkcolor.Iconcolor = System.Drawing.Color.Transparent;
             this.pinkcolor.Iconimage = global::MHLoaderApp.Properties.Resources.Pink;
             this.pinkcolor.Iconimage_right = null;
@@ -550,7 +750,7 @@
             this.pinkcolor.IconVisible = true;
             this.pinkcolor.IconZoom = 50D;
             this.pinkcolor.IsTab = false;
-            this.pinkcolor.Location = new System.Drawing.Point(419, 140);
+            this.pinkcolor.Location = new System.Drawing.Point(421, 140);
             this.pinkcolor.Name = "pinkcolor";
             this.pinkcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.pinkcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -572,7 +772,8 @@
             this.orangecolor.BorderRadius = 0;
             this.orangecolor.ButtonText = "Orange";
             this.orangecolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.orangecolor.DisabledColor = System.Drawing.Color.Gray;
+            this.orangecolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.orangecolor.Enabled = false;
             this.orangecolor.Iconcolor = System.Drawing.Color.Transparent;
             this.orangecolor.Iconimage = global::MHLoaderApp.Properties.Resources.Orange;
             this.orangecolor.Iconimage_right = null;
@@ -585,7 +786,7 @@
             this.orangecolor.IconVisible = true;
             this.orangecolor.IconZoom = 50D;
             this.orangecolor.IsTab = false;
-            this.orangecolor.Location = new System.Drawing.Point(329, 140);
+            this.orangecolor.Location = new System.Drawing.Point(331, 140);
             this.orangecolor.Name = "orangecolor";
             this.orangecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.orangecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -607,7 +808,8 @@
             this.mauvecolor.BorderRadius = 0;
             this.mauvecolor.ButtonText = "Mauve";
             this.mauvecolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mauvecolor.DisabledColor = System.Drawing.Color.Gray;
+            this.mauvecolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.mauvecolor.Enabled = false;
             this.mauvecolor.Iconcolor = System.Drawing.Color.Transparent;
             this.mauvecolor.Iconimage = global::MHLoaderApp.Properties.Resources.Mauve;
             this.mauvecolor.Iconimage_right = null;
@@ -620,7 +822,7 @@
             this.mauvecolor.IconVisible = true;
             this.mauvecolor.IconZoom = 50D;
             this.mauvecolor.IsTab = false;
-            this.mauvecolor.Location = new System.Drawing.Point(233, 139);
+            this.mauvecolor.Location = new System.Drawing.Point(235, 139);
             this.mauvecolor.Name = "mauvecolor";
             this.mauvecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.mauvecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -642,7 +844,8 @@
             this.magentacolor.BorderRadius = 0;
             this.magentacolor.ButtonText = "Magenta";
             this.magentacolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.magentacolor.DisabledColor = System.Drawing.Color.Gray;
+            this.magentacolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.magentacolor.Enabled = false;
             this.magentacolor.Iconcolor = System.Drawing.Color.Transparent;
             this.magentacolor.Iconimage = global::MHLoaderApp.Properties.Resources.Magenta;
             this.magentacolor.Iconimage_right = null;
@@ -655,7 +858,7 @@
             this.magentacolor.IconVisible = true;
             this.magentacolor.IconZoom = 50D;
             this.magentacolor.IsTab = false;
-            this.magentacolor.Location = new System.Drawing.Point(140, 140);
+            this.magentacolor.Location = new System.Drawing.Point(142, 140);
             this.magentacolor.Name = "magentacolor";
             this.magentacolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.magentacolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -677,7 +880,8 @@
             this.indigocolor.BorderRadius = 0;
             this.indigocolor.ButtonText = "Indigo";
             this.indigocolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.indigocolor.DisabledColor = System.Drawing.Color.Gray;
+            this.indigocolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.indigocolor.Enabled = false;
             this.indigocolor.Iconcolor = System.Drawing.Color.Transparent;
             this.indigocolor.Iconimage = global::MHLoaderApp.Properties.Resources.Indigo;
             this.indigocolor.Iconimage_right = null;
@@ -690,7 +894,7 @@
             this.indigocolor.IconVisible = true;
             this.indigocolor.IconZoom = 50D;
             this.indigocolor.IsTab = false;
-            this.indigocolor.Location = new System.Drawing.Point(50, 141);
+            this.indigocolor.Location = new System.Drawing.Point(52, 141);
             this.indigocolor.Name = "indigocolor";
             this.indigocolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.indigocolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -712,7 +916,8 @@
             this.greencolor.BorderRadius = 0;
             this.greencolor.ButtonText = "Green";
             this.greencolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.greencolor.DisabledColor = System.Drawing.Color.Gray;
+            this.greencolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.greencolor.Enabled = false;
             this.greencolor.Iconcolor = System.Drawing.Color.Transparent;
             this.greencolor.Iconimage = global::MHLoaderApp.Properties.Resources.Green;
             this.greencolor.Iconimage_right = null;
@@ -725,7 +930,7 @@
             this.greencolor.IconVisible = true;
             this.greencolor.IconZoom = 50D;
             this.greencolor.IsTab = false;
-            this.greencolor.Location = new System.Drawing.Point(419, 104);
+            this.greencolor.Location = new System.Drawing.Point(421, 104);
             this.greencolor.Name = "greencolor";
             this.greencolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.greencolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -747,7 +952,8 @@
             this.cyancolor.BorderRadius = 0;
             this.cyancolor.ButtonText = "Cyan";
             this.cyancolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cyancolor.DisabledColor = System.Drawing.Color.Gray;
+            this.cyancolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.cyancolor.Enabled = false;
             this.cyancolor.Iconcolor = System.Drawing.Color.Transparent;
             this.cyancolor.Iconimage = global::MHLoaderApp.Properties.Resources.Cyan;
             this.cyancolor.Iconimage_right = null;
@@ -760,7 +966,7 @@
             this.cyancolor.IconVisible = true;
             this.cyancolor.IconZoom = 50D;
             this.cyancolor.IsTab = false;
-            this.cyancolor.Location = new System.Drawing.Point(329, 104);
+            this.cyancolor.Location = new System.Drawing.Point(331, 104);
             this.cyancolor.Name = "cyancolor";
             this.cyancolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.cyancolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -782,7 +988,8 @@
             this.crimsoncolor.BorderRadius = 0;
             this.crimsoncolor.ButtonText = "Crimson";
             this.crimsoncolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.crimsoncolor.DisabledColor = System.Drawing.Color.Gray;
+            this.crimsoncolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.crimsoncolor.Enabled = false;
             this.crimsoncolor.Iconcolor = System.Drawing.Color.Transparent;
             this.crimsoncolor.Iconimage = global::MHLoaderApp.Properties.Resources.Crimson;
             this.crimsoncolor.Iconimage_right = null;
@@ -795,7 +1002,7 @@
             this.crimsoncolor.IconVisible = true;
             this.crimsoncolor.IconZoom = 50D;
             this.crimsoncolor.IsTab = false;
-            this.crimsoncolor.Location = new System.Drawing.Point(230, 104);
+            this.crimsoncolor.Location = new System.Drawing.Point(232, 104);
             this.crimsoncolor.Name = "crimsoncolor";
             this.crimsoncolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.crimsoncolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -817,7 +1024,8 @@
             this.cobaltcolor.BorderRadius = 0;
             this.cobaltcolor.ButtonText = "Cobalt";
             this.cobaltcolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cobaltcolor.DisabledColor = System.Drawing.Color.Gray;
+            this.cobaltcolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.cobaltcolor.Enabled = false;
             this.cobaltcolor.Iconcolor = System.Drawing.Color.Transparent;
             this.cobaltcolor.Iconimage = global::MHLoaderApp.Properties.Resources.Cobalt;
             this.cobaltcolor.Iconimage_right = null;
@@ -830,7 +1038,7 @@
             this.cobaltcolor.IconVisible = true;
             this.cobaltcolor.IconZoom = 50D;
             this.cobaltcolor.IsTab = false;
-            this.cobaltcolor.Location = new System.Drawing.Point(140, 104);
+            this.cobaltcolor.Location = new System.Drawing.Point(142, 104);
             this.cobaltcolor.Name = "cobaltcolor";
             this.cobaltcolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.cobaltcolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -850,9 +1058,10 @@
             this.bluecolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.bluecolor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bluecolor.BorderRadius = 0;
-            this.bluecolor.ButtonText = "Blue (Default)";
+            this.bluecolor.ButtonText = "Default";
             this.bluecolor.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bluecolor.DisabledColor = System.Drawing.Color.Gray;
+            this.bluecolor.DisabledColor = System.Drawing.Color.Transparent;
+            this.bluecolor.Enabled = false;
             this.bluecolor.Iconcolor = System.Drawing.Color.Transparent;
             this.bluecolor.Iconimage = global::MHLoaderApp.Properties.Resources._1_blue;
             this.bluecolor.Iconimage_right = null;
@@ -865,19 +1074,18 @@
             this.bluecolor.IconVisible = true;
             this.bluecolor.IconZoom = 50D;
             this.bluecolor.IsTab = false;
-            this.bluecolor.Location = new System.Drawing.Point(222, 69);
+            this.bluecolor.Location = new System.Drawing.Point(52, 67);
             this.bluecolor.Name = "bluecolor";
             this.bluecolor.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.bluecolor.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.bluecolor.OnHoverTextColor = System.Drawing.Color.White;
             this.bluecolor.selected = false;
-            this.bluecolor.Size = new System.Drawing.Size(106, 31);
+            this.bluecolor.Size = new System.Drawing.Size(74, 31);
             this.bluecolor.TabIndex = 6;
-            this.bluecolor.Text = "Blue (Default)";
+            this.bluecolor.Text = "Default";
             this.bluecolor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bluecolor.Textcolor = System.Drawing.Color.White;
             this.bluecolor.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bluecolor.Click += new System.EventHandler(this.bluecolor_Click);
             // 
             // bunifuCustomLabel6
             // 
@@ -1062,11 +1270,6 @@
             this.autoupdatecheck.ThreeState = false;
             this.autoupdatecheck.ToolTipText = "Setting for remember me in login screen.";
             // 
-            // timer1
-            // 
-            this.timer1.Interval = 1;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1127,6 +1330,10 @@
         public Bunifu.Framework.UI.BunifuFlatButton browncolor;
         public Guna.UI.WinForms.GunaComboBox themecomboBox;
         public System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Timer timer1;
+        private Bunifu.Framework.UI.BunifuFlatButton siennacolor;
+        private Bunifu.Framework.UI.BunifuFlatButton emeraldcolor;
+        private Bunifu.Framework.UI.BunifuFlatButton darkredcolor;
+        private Bunifu.Framework.UI.BunifuFlatButton darkgoldcolor;
+        public Bunifu.Framework.UI.BunifuFlatButton changethemebutton;
     }
 }

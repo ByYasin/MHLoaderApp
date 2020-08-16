@@ -175,7 +175,7 @@
             this.bunifuTransition1.SetDecoration(this.status, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.status.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.status.ForeColor = System.Drawing.Color.White;
-            this.status.Location = new System.Drawing.Point(53, 3);
+            this.status.Location = new System.Drawing.Point(53, 2);
             this.status.Name = "status";
             this.status.Size = new System.Drawing.Size(393, 17);
             this.status.TabIndex = 7;

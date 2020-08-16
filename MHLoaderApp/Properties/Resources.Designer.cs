@@ -113,6 +113,16 @@ namespace MHLoaderApp.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap changetheme {
+            get {
+                object obj = ResourceManager.GetObject("changetheme", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap circle_16 {
             get {
                 object obj = ResourceManager.GetObject("circle_16", resourceCulture);
@@ -156,6 +166,36 @@ namespace MHLoaderApp.Properties {
         internal static System.Drawing.Bitmap Cyan {
             get {
                 object obj = ResourceManager.GetObject("Cyan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap DarkGold {
+            get {
+                object obj = ResourceManager.GetObject("DarkGold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap DarkRed {
+            get {
+                object obj = ResourceManager.GetObject("DarkRed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Emerald {
+            get {
+                object obj = ResourceManager.GetObject("Emerald", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -416,6 +456,16 @@ namespace MHLoaderApp.Properties {
         internal static System.Drawing.Bitmap shopping_32 {
             get {
                 object obj = ResourceManager.GetObject("shopping_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sienna {
+            get {
+                object obj = ResourceManager.GetObject("Sienna", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

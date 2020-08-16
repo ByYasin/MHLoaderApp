@@ -95,10 +95,9 @@ namespace MHLoaderApp.Modules.Loader_Pages
             Auto_Save_Data();
         }
 
-        private void bluecolor_Click(object sender, EventArgs e)
+        private void changethemebutton_Click(object sender, EventArgs e)
         {
-
-            if (themecomboBox.SelectedItem == "Blue")
+            if (themecomboBox.SelectedItem == "Blue (Default)")
             {
                 Properties.Settings.Default.themecolor = "Blue";
             }
@@ -124,6 +123,21 @@ namespace MHLoaderApp.Modules.Loader_Pages
             if (themecomboBox.SelectedItem == "Cyan")
             {
                 Properties.Settings.Default.themecolor = "Cyan";
+            }
+
+            if (themecomboBox.SelectedItem == "Dark Gold")
+            {
+                Properties.Settings.Default.themecolor = "Dark Gold";
+            }
+
+            if (themecomboBox.SelectedItem == "Dark Red")
+            {
+                Properties.Settings.Default.themecolor = "Dark Red";
+            }
+
+            if (themecomboBox.SelectedItem == "Emerald")
+            {
+                Properties.Settings.Default.themecolor = "Emerald";
             }
 
 
@@ -174,6 +188,11 @@ namespace MHLoaderApp.Modules.Loader_Pages
                 Properties.Settings.Default.themecolor = "Red";
             }
 
+            if (themecomboBox.SelectedItem == "Sienna")
+            {
+                Properties.Settings.Default.themecolor = "Sienna";
+            }
+
 
             if (themecomboBox.SelectedItem == "Steel")
             {
@@ -192,14 +211,8 @@ namespace MHLoaderApp.Modules.Loader_Pages
                 Properties.Settings.Default.themecolor = "Teal";
             }
             SaveSettings();
-            //GetSettings();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e) // Timer Loader formunu bozuyor başka yöntem bul !
-        {
-
+            Application.Restart();
         }
     }
-
 
 }

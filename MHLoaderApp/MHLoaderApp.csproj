@@ -381,5 +381,20 @@
   <ItemGroup>
     <None Include="Resources\1-blue.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DarkGold.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DarkRed.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emerald.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sienna.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changetheme.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
