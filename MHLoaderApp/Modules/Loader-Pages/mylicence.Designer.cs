@@ -144,6 +144,7 @@
             this.hwidresetbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.hwidresetbutton.Textcolor = System.Drawing.Color.White;
             this.hwidresetbutton.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.hwidresetbutton.Click += new System.EventHandler(this.hwidresetbutton_Click);
             // 
             // hwidnolabel
             // 

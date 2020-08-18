@@ -225,5 +225,11 @@ namespace MHLoaderApp.Modules.Loader_Pages
         {
             themecolor_Data();
         }
+
+        private void hwidresetbutton_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(hwidnolabel.Text);
+            MessageBox.Show("Hwid reset system will be added soon!", "This feature is coming soon!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
