@@ -28,13 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mylicence));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.Mylicencelabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.Announcementslabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.hwidcopybutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.hwidresetbutton = new Bunifu.Framework.UI.BunifuFlatButton();
             this.hwidnolabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.hwidtitlelabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -103,7 +101,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel4.Controls.Add(this.hwidcopybutton);
+            this.panel4.Controls.Add(this.hwidresetbutton);
             this.panel4.Controls.Add(this.hwidnolabel);
             this.panel4.Controls.Add(this.hwidtitlelabel);
             this.panel4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -112,75 +110,40 @@
             this.panel4.Size = new System.Drawing.Size(550, 46);
             this.panel4.TabIndex = 8;
             // 
-            // hwidcopybutton
+            // hwidresetbutton
             // 
-            this.hwidcopybutton.AllowToggling = false;
-            this.hwidcopybutton.AnimationSpeed = 200;
-            this.hwidcopybutton.AutoGenerateColors = false;
-            this.hwidcopybutton.BackColor = System.Drawing.Color.Transparent;
-            this.hwidcopybutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.hwidcopybutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("hwidcopybutton.BackgroundImage")));
-            this.hwidcopybutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.hwidcopybutton.ButtonText = "Hwid Reset";
-            this.hwidcopybutton.ButtonTextMarginLeft = 0;
-            this.hwidcopybutton.ColorContrastOnClick = 45;
-            this.hwidcopybutton.ColorContrastOnHover = 45;
-            this.hwidcopybutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.hwidcopybutton.CustomizableEdges = borderEdges1;
-            this.hwidcopybutton.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.hwidcopybutton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.hwidcopybutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.hwidcopybutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.hwidcopybutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.hwidcopybutton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.hwidcopybutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.hwidcopybutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.hwidcopybutton.IconMarginLeft = 11;
-            this.hwidcopybutton.IconPadding = 10;
-            this.hwidcopybutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.hwidcopybutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.hwidcopybutton.IdleBorderRadius = 2;
-            this.hwidcopybutton.IdleBorderThickness = 2;
-            this.hwidcopybutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.hwidcopybutton.IdleIconLeftImage = null;
-            this.hwidcopybutton.IdleIconRightImage = null;
-            this.hwidcopybutton.IndicateFocus = true;
-            this.hwidcopybutton.Location = new System.Drawing.Point(447, 0);
-            this.hwidcopybutton.Name = "hwidcopybutton";
-            this.hwidcopybutton.onHoverState.BorderColor = System.Drawing.Color.Black;
-            this.hwidcopybutton.onHoverState.BorderRadius = 2;
-            this.hwidcopybutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.hwidcopybutton.onHoverState.BorderThickness = 2;
-            this.hwidcopybutton.onHoverState.FillColor = System.Drawing.Color.Black;
-            this.hwidcopybutton.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.hwidcopybutton.onHoverState.IconLeftImage = null;
-            this.hwidcopybutton.onHoverState.IconRightImage = null;
-            this.hwidcopybutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.hwidcopybutton.OnIdleState.BorderRadius = 2;
-            this.hwidcopybutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.hwidcopybutton.OnIdleState.BorderThickness = 2;
-            this.hwidcopybutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.hwidcopybutton.OnIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.hwidcopybutton.OnIdleState.IconLeftImage = null;
-            this.hwidcopybutton.OnIdleState.IconRightImage = null;
-            this.hwidcopybutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.hwidcopybutton.OnPressedState.BorderRadius = 2;
-            this.hwidcopybutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.hwidcopybutton.OnPressedState.BorderThickness = 2;
-            this.hwidcopybutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.hwidcopybutton.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.hwidcopybutton.OnPressedState.IconLeftImage = null;
-            this.hwidcopybutton.OnPressedState.IconRightImage = null;
-            this.hwidcopybutton.Size = new System.Drawing.Size(103, 46);
-            this.hwidcopybutton.TabIndex = 5;
-            this.hwidcopybutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.hwidcopybutton.TextMarginLeft = 0;
-            this.hwidcopybutton.UseDefaultRadiusAndThickness = true;
-            this.hwidcopybutton.Click += new System.EventHandler(this.hwidcopybutton_Click);
+            this.hwidresetbutton.Active = false;
+            this.hwidresetbutton.Activecolor = System.Drawing.Color.Black;
+            this.hwidresetbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.hwidresetbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.hwidresetbutton.BorderRadius = 0;
+            this.hwidresetbutton.ButtonText = "Hwid reset";
+            this.hwidresetbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.hwidresetbutton.DisabledColor = System.Drawing.Color.Gray;
+            this.hwidresetbutton.Iconcolor = System.Drawing.Color.Transparent;
+            this.hwidresetbutton.Iconimage = null;
+            this.hwidresetbutton.Iconimage_right = null;
+            this.hwidresetbutton.Iconimage_right_Selected = null;
+            this.hwidresetbutton.Iconimage_Selected = null;
+            this.hwidresetbutton.IconMarginLeft = 0;
+            this.hwidresetbutton.IconMarginRight = 0;
+            this.hwidresetbutton.IconRightVisible = true;
+            this.hwidresetbutton.IconRightZoom = 0D;
+            this.hwidresetbutton.IconVisible = true;
+            this.hwidresetbutton.IconZoom = 90D;
+            this.hwidresetbutton.IsTab = false;
+            this.hwidresetbutton.Location = new System.Drawing.Point(434, 2);
+            this.hwidresetbutton.Name = "hwidresetbutton";
+            this.hwidresetbutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.hwidresetbutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.hwidresetbutton.OnHoverTextColor = System.Drawing.Color.White;
+            this.hwidresetbutton.selected = false;
+            this.hwidresetbutton.Size = new System.Drawing.Size(116, 43);
+            this.hwidresetbutton.TabIndex = 22;
+            this.hwidresetbutton.Text = "Hwid reset";
+            this.hwidresetbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.hwidresetbutton.Textcolor = System.Drawing.Color.White;
+            this.hwidresetbutton.TextFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             // 
             // hwidnolabel
             // 
@@ -390,6 +353,7 @@
             this.Controls.Add(this.Mylicencelabel);
             this.Name = "mylicence";
             this.Size = new System.Drawing.Size(583, 390);
+            this.Load += new System.EventHandler(this.mylicence_Load);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -416,7 +380,6 @@
         private Bunifu.Framework.UI.BunifuCustomLabel Mylicencelabel;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton hwidcopybutton;
         private Bunifu.Framework.UI.BunifuCustomLabel hwidnolabel;
         private Bunifu.Framework.UI.BunifuCustomLabel hwidtitlelabel;
         private System.Windows.Forms.Panel panel3;
@@ -433,5 +396,6 @@
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private Bunifu.Framework.UI.BunifuCustomLabel Announcementslabel;
+        private Bunifu.Framework.UI.BunifuFlatButton hwidresetbutton;
     }
 }
