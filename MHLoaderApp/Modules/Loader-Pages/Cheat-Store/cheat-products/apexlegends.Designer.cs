@@ -108,7 +108,7 @@
             // 
             // apexlegendsbutton
             // 
-            this.apexlegendsbutton.Active = true;
+            this.apexlegendsbutton.Active = false;
             this.apexlegendsbutton.Activecolor = System.Drawing.Color.Black;
             this.apexlegendsbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
             this.apexlegendsbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -134,7 +134,7 @@
             this.apexlegendsbutton.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
             this.apexlegendsbutton.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
             this.apexlegendsbutton.OnHoverTextColor = System.Drawing.Color.White;
-            this.apexlegendsbutton.selected = true;
+            this.apexlegendsbutton.selected = false;
             this.apexlegendsbutton.Size = new System.Drawing.Size(125, 38);
             this.apexlegendsbutton.TabIndex = 7;
             this.apexlegendsbutton.Text = "     Buy";

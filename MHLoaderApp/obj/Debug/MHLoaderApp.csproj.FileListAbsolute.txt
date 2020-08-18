@@ -68,6 +68,7 @@ C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Mo
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Modules.Loader_Pages.Cheat_Store.cheat_products.pubg.resources
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Modules.Loader_Pages.Cheat_Store.cheat_products.rainbow.resources
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Modules.Loader_Pages.Cheat_Store.cheat_products.rust.resources
+C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Modules.Loader_Pages.Cheats.csgovip.resources
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Modules.Loader_Pages.mylicence.resources
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Modules.Loader_Pages.notification.resources
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.Modules.Loader_Pages.settings.resources
@@ -79,4 +80,3 @@ C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.cs
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.csproj.CopyComplete
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.exe
 C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.pdb
-C:\Users\proya\Documents\GitHub\MHLoaderApp\MHLoaderApp\obj\Debug\MHLoaderApp.csprojAssemblyReference.cache

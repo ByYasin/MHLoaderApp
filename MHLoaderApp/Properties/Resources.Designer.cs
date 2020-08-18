@@ -163,6 +163,16 @@ namespace MHLoaderApp.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap csgovip {
+            get {
+                object obj = ResourceManager.GetObject("csgovip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Cyan {
             get {
                 object obj = ResourceManager.GetObject("Cyan", resourceCulture);
@@ -193,9 +203,49 @@ namespace MHLoaderApp.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap date_to_48 {
+            get {
+                object obj = ResourceManager.GetObject("date_to_48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap developericon_32 {
+            get {
+                object obj = ResourceManager.GetObject("developericon_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap eftvip {
+            get {
+                object obj = ResourceManager.GetObject("eftvip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Emerald {
             get {
                 object obj = ResourceManager.GetObject("Emerald", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap eng_32 {
+            get {
+                object obj = ResourceManager.GetObject("eng_32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +303,16 @@ namespace MHLoaderApp.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap hdd_48 {
+            get {
+                object obj = ResourceManager.GetObject("hdd_48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_login_16 {
             get {
                 object obj = ResourceManager.GetObject("icons8_login_16", resourceCulture);
@@ -283,6 +343,16 @@ namespace MHLoaderApp.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap inject_48 {
+            get {
+                object obj = ResourceManager.GetObject("inject_48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap League_of_Legends_285x380 {
             get {
                 object obj = ResourceManager.GetObject("League of Legends-285x380", resourceCulture);
@@ -296,6 +366,16 @@ namespace MHLoaderApp.Properties {
         internal static System.Drawing.Bitmap login_logo_64x_64 {
             get {
                 object obj = ResourceManager.GetObject("login-logo_64x_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap lolscriptvip {
+            get {
+                object obj = ResourceManager.GetObject("lolscriptvip", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,6 +493,16 @@ namespace MHLoaderApp.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap pubgvip {
+            get {
+                object obj = ResourceManager.GetObject("pubgvip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap Purple {
             get {
                 object obj = ResourceManager.GetObject("Purple", resourceCulture);
@@ -436,6 +526,16 @@ namespace MHLoaderApp.Properties {
         internal static System.Drawing.Bitmap Rust_285x380 {
             get {
                 object obj = ResourceManager.GetObject("Rust-285x380", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap rustvip {
+            get {
+                object obj = ResourceManager.GetObject("rustvip", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +606,26 @@ namespace MHLoaderApp.Properties {
         internal static System.Drawing.Bitmap Tom_Clancy_s_Rainbow_Six__Siege_285x380 {
             get {
                 object obj = ResourceManager.GetObject("Tom Clancy\'s Rainbow Six_ Siege-285x380", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap tur_32 {
+            get {
+                object obj = ResourceManager.GetObject("tur_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap undetected_48 {
+            get {
+                object obj = ResourceManager.GetObject("undetected_48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

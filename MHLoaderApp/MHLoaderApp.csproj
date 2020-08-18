@@ -151,6 +151,12 @@
     <Compile Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rust.Designer.cs">
       <DependentUpon>rust.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\csgovip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\csgovip.Designer.cs">
+      <DependentUpon>csgovip.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Loader-Pages\mylicence.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -212,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\Loader-Pages\Cheat-Store\cheat-products\rust.resx">
       <DependentUpon>rust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheats\csgovip.resx">
+      <DependentUpon>csgovip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\Loader-Pages\mylicence.resx">
       <DependentUpon>mylicence.cs</DependentUpon>
@@ -395,6 +404,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\changetheme.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eng_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tur_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\developericon_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csgovip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eftvip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lolscriptvip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pubgvip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rustvip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date_to_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undetected_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hdd_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inject_48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -57,7 +57,7 @@
             this.Announcementslabel.AutoSize = true;
             this.Announcementslabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Announcementslabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.Announcementslabel.Location = new System.Drawing.Point(11, 9);
+            this.Announcementslabel.Location = new System.Drawing.Point(11, 15);
             this.Announcementslabel.Name = "Announcementslabel";
             this.Announcementslabel.Size = new System.Drawing.Size(123, 21);
             this.Announcementslabel.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.panel1.Location = new System.Drawing.Point(24, 48);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(535, 90);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 2;
             // 
             // bunifuCustomLabel3
             // 
@@ -119,7 +119,7 @@
             this.panel2.Location = new System.Drawing.Point(24, 158);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(535, 90);
-            this.panel2.TabIndex = 2;
+            this.panel2.TabIndex = 3;
             // 
             // bunifuCustomLabel4
             // 
@@ -165,7 +165,7 @@
             this.panel3.Location = new System.Drawing.Point(24, 269);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(535, 90);
-            this.panel3.TabIndex = 3;
+            this.panel3.TabIndex = 4;
             // 
             // bunifuCustomLabel7
             // 
@@ -211,7 +211,7 @@
             this.panel4.Location = new System.Drawing.Point(24, 381);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(535, 90);
-            this.panel4.TabIndex = 4;
+            this.panel4.TabIndex = 5;
             // 
             // linkLabel1
             // 
@@ -274,7 +274,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Announcementslabel);
             this.Name = "notification";
-            this.Size = new System.Drawing.Size(547, 371);
+            this.Size = new System.Drawing.Size(496, 320);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

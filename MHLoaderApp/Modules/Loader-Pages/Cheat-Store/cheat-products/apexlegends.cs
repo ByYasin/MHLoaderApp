@@ -225,5 +225,6 @@ namespace MHLoaderApp.Modules.Loader_Pages.Cheat_Store.cheats
         {
             themecolor_Data();
         }
+
     }
 }

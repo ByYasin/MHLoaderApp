@@ -127,8 +127,8 @@
   <data name="mhback" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mhback.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Black Desert Online-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Black Desert Online-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mauve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mauve.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_male_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_male_161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,11 +136,20 @@
   <data name="enter_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Sienna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sienna.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eng_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eng_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Orange.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cyan.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Black Desert Online-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black Desert Online-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_login_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_login_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fortnite-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fortnite-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,8 +172,8 @@
   <data name="shopping_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shopping_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="updates_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\updates_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pubgvip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pubgvip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Escape From Tarkov-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Escape From Tarkov-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +181,8 @@
   <data name="Tom Clancy's Rainbow Six_ Siege-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tom Clancy's Rainbow Six_ Siege-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mauve" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mauve.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Purple.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Indigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Indigo.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,11 +193,17 @@
   <data name="enter_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tur_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tur_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Teal.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rust-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rust-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="date_to_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\date_to_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hdd_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hdd_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="account_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\account_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +217,14 @@
   <data name="Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Red.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Green.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lolscriptvip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lolscriptvip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csgovip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csgovip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rust-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rust-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ok_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ok_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,23 +238,32 @@
   <data name="password_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\password_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Purple.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Taupe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Taupe.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="updates_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updates_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login-logo_64x_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login-logo_64x_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DarkRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DarkRed.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cyan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cyan.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8_login_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8_login_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memoryui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memoryui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eftvip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eftvip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Crimson" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Crimson.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rustvip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rustvip.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="changetheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\changetheme.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Emerald" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Emerald.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,22 +274,28 @@
   <data name="notification_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notification_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="memoryui" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\memoryui.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PLAYERUNKNOWN'S BATTLEGROUNDS-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PLAYERUNKNOWN'S BATTLEGROUNDS-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Steel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Steel.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PLAYERUNKNOWN'S BATTLEGROUNDS-285x380" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PLAYERUNKNOWN'S BATTLEGROUNDS-285x380.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Taupe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Taupe.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DarkRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DarkRed.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mh2muye" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mh2muye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sienna" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sienna.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undetected_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undetected_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="changetheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\changetheme.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="developericon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\developericon_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inject_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inject_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
