@@ -84,7 +84,7 @@
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
             this.bunifuCustomLabel3.Size = new System.Drawing.Size(61, 13);
             this.bunifuCustomLabel3.TabIndex = 4;
-            this.bunifuCustomLabel3.Text = "30.07.2020";
+            this.bunifuCustomLabel3.Text = "19.08.2020";
             // 
             // bunifuCustomLabel2
             // 
@@ -130,7 +130,7 @@
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
             this.bunifuCustomLabel4.Size = new System.Drawing.Size(61, 13);
             this.bunifuCustomLabel4.TabIndex = 4;
-            this.bunifuCustomLabel4.Text = "29.07.2020";
+            this.bunifuCustomLabel4.Text = "14.08.2020";
             // 
             // bunifuCustomLabel5
             // 
@@ -176,7 +176,7 @@
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
             this.bunifuCustomLabel7.Size = new System.Drawing.Size(61, 13);
             this.bunifuCustomLabel7.TabIndex = 4;
-            this.bunifuCustomLabel7.Text = "28.07.2020";
+            this.bunifuCustomLabel7.Text = "29.07.2020";
             // 
             // bunifuCustomLabel8
             // 
@@ -237,7 +237,7 @@
             this.bunifuCustomLabel10.Name = "bunifuCustomLabel10";
             this.bunifuCustomLabel10.Size = new System.Drawing.Size(61, 13);
             this.bunifuCustomLabel10.TabIndex = 4;
-            this.bunifuCustomLabel10.Text = "28.07.2020";
+            this.bunifuCustomLabel10.Text = "29.07.2020";
             // 
             // bunifuCustomLabel11
             // 
@@ -274,7 +274,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Announcementslabel);
             this.Name = "notification";
-            this.Size = new System.Drawing.Size(496, 320);
+            this.Size = new System.Drawing.Size(479, 303);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

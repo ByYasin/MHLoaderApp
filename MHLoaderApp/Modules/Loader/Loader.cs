@@ -809,6 +809,14 @@ namespace MHLoaderApp.Loader
         private void Loader_Load(object sender, EventArgs e)
         {
             themecolor_Data();
+            if (bunifuPages1.PageIndex == 0)
+            {
+                mylicencecolor.Visible = true;
+            }
+            else
+            {
+                mylicencecolor.Visible = false;
+            }
         }
 
         private void logo2_Click(object sender, EventArgs e)
@@ -866,7 +874,8 @@ namespace MHLoaderApp.Loader
 
         private void updates_Click(object sender, EventArgs e)
         {
-            bunifuPages1.PageIndex = 3;
+            MessageBox.Show("You are using the most current version.", "Version control", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            version.Text = "Beta 0.1";
             leftcolor1.Visible = false;
             leftcolor2.Visible = false;
             leftcolor3.Visible = false;
@@ -878,7 +887,7 @@ namespace MHLoaderApp.Loader
 
         private void settings_Click(object sender, EventArgs e)
         {
-            bunifuPages1.PageIndex = 4;
+            bunifuPages1.PageIndex = 3;
             leftcolor1.Visible = false;
             leftcolor2.Visible = false;
             leftcolor3.Visible = false;
@@ -890,7 +899,7 @@ namespace MHLoaderApp.Loader
 
         private void csgobutton_Click(object sender, EventArgs e)
         {
-            bunifuPages1.PageIndex = 5;
+            bunifuPages1.PageIndex = 4;
             leftcolor1.Visible = true;
             leftcolor2.Visible = false;
             leftcolor3.Visible = false;
@@ -902,7 +911,7 @@ namespace MHLoaderApp.Loader
 
         private void eftbutton_Click(object sender, EventArgs e)
         {
-            bunifuPages1.PageIndex = 6;
+            bunifuPages1.PageIndex = 5;
             leftcolor1.Visible = false;
             leftcolor2.Visible = true;
             leftcolor3.Visible = false;
@@ -914,7 +923,7 @@ namespace MHLoaderApp.Loader
 
         private void lolbutton_Click(object sender, EventArgs e)
         {
-            bunifuPages1.PageIndex = 7;
+            bunifuPages1.PageIndex = 6;
             leftcolor1.Visible = false;
             leftcolor2.Visible = false;
             leftcolor3.Visible = true;
@@ -926,7 +935,7 @@ namespace MHLoaderApp.Loader
 
         private void pubgbutton_Click(object sender, EventArgs e)
         {
-            bunifuPages1.PageIndex = 8;
+            bunifuPages1.PageIndex = 7;
             leftcolor1.Visible = false;
             leftcolor2.Visible = false;
             leftcolor3.Visible = false;
@@ -938,7 +947,7 @@ namespace MHLoaderApp.Loader
 
         private void rustbutton_Click(object sender, EventArgs e)
         {
-            bunifuPages1.PageIndex = 9;
+            bunifuPages1.PageIndex = 8;
             leftcolor1.Visible = false;
             leftcolor2.Visible = false;
             leftcolor3.Visible = false;
@@ -946,6 +955,11 @@ namespace MHLoaderApp.Loader
             leftcolor5.Visible = true;
             licencebuyrenewcolor.Visible = false;
             mylicencecolor.Visible = false;
+        }
+
+        private void mylicence1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

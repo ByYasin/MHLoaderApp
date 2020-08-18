@@ -29,18 +29,21 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation1 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
+            Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation2 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loader));
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation2 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges15 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation5 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.header = new System.Windows.Forms.Panel();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.settings = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.updates = new Bunifu.Framework.UI.BunifuFlatButton();
             this.title = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.favicon = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.minimizebox = new Guna.UI2.WinForms.Guna2ControlBox();
             this.closebox = new Guna.UI2.WinForms.Guna2ControlBox();
             this.footer = new System.Windows.Forms.Panel();
@@ -56,6 +59,12 @@
             this.leftcolor4 = new System.Windows.Forms.Panel();
             this.leftcolor2 = new System.Windows.Forms.Panel();
             this.leftcolor1 = new System.Windows.Forms.Panel();
+            this.eftbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.rustbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.pubgbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.csgobutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.lolbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.logo2 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.buyrenewlabel = new Guna.UI.WinForms.GunaLinkLabel();
             this.mylicencelabel = new Guna.UI.WinForms.GunaLinkLabel();
             this.usertext = new Guna.UI.WinForms.GunaLinkLabel();
@@ -64,43 +73,35 @@
             this.licencebuyrenewcolor = new System.Windows.Forms.Panel();
             this.welcomelabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
-            this.mylicencetabpage = new System.Windows.Forms.TabPage();
-            this.licencebuyrenewtabpage = new System.Windows.Forms.TabPage();
-            this.notificationtabpage = new System.Windows.Forms.TabPage();
-            this.updatestabpage = new System.Windows.Forms.TabPage();
-            this.settingstabpage = new System.Windows.Forms.TabPage();
-            this.csgotabpage = new System.Windows.Forms.TabPage();
-            this.efttabpage = new System.Windows.Forms.TabPage();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.loltabpage = new System.Windows.Forms.TabPage();
-            this.pubgtabpage = new System.Windows.Forms.TabPage();
-            this.rusttabpage = new System.Windows.Forms.TabPage();
             this.newnot = new Bunifu.UI.WinForms.BunifuImageButton();
             this.notification = new Bunifu.UI.WinForms.BunifuImageButton();
             this.avatar = new Bunifu.UI.WinForms.BunifuImageButton();
             this.buyrenew = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.eftbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.rustbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.pubgbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.csgobutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.lolbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.logo2 = new Bunifu.UI.WinForms.BunifuPictureBox();
-            this.settings = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.updates = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.favicon = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
+            this.mylicencetabpage = new System.Windows.Forms.TabPage();
             this.mylicence1 = new MHLoaderApp.Modules.Loader_Pages.mylicence();
+            this.licencebuyrenewtabpage = new System.Windows.Forms.TabPage();
             this.buyrenew1 = new MHLoaderApp.Modules.Loader_Pages.Cheat_Store.buyrenew();
+            this.notificationtabpage = new System.Windows.Forms.TabPage();
             this.notification1 = new MHLoaderApp.Modules.Loader_Pages.notification();
+            this.settingstabpage = new System.Windows.Forms.TabPage();
             this.settings1 = new MHLoaderApp.Modules.Loader_Pages.settings();
+            this.csgotabpage = new System.Windows.Forms.TabPage();
             this.csgovip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.csgovip();
+            this.efttabpage = new System.Windows.Forms.TabPage();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.eftvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.eftvip();
+            this.loltabpage = new System.Windows.Forms.TabPage();
             this.lolvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.lolvip();
+            this.pubgtabpage = new System.Windows.Forms.TabPage();
             this.pubgvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.pubgvip();
+            this.rusttabpage = new System.Windows.Forms.TabPage();
             this.rustvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.rustvip();
             this.header.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.favicon)).BeginInit();
             this.footer.SuspendLayout();
             this.leftmenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
             this.panel1.SuspendLayout();
             this.bunifuPages1.SuspendLayout();
             this.mylicencetabpage.SuspendLayout();
@@ -113,8 +114,6 @@
             this.loltabpage.SuspendLayout();
             this.pubgtabpage.SuspendLayout();
             this.rusttabpage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.favicon)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -153,6 +152,80 @@
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = true;
             // 
+            // settings
+            // 
+            this.settings.Active = false;
+            this.settings.Activecolor = System.Drawing.Color.Transparent;
+            this.settings.BackColor = System.Drawing.Color.Transparent;
+            this.settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.settings.BorderRadius = 0;
+            this.settings.ButtonText = " Loader Settings";
+            this.settings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.settings, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.settings.DisabledColor = System.Drawing.Color.Gray;
+            this.settings.Iconcolor = System.Drawing.Color.Transparent;
+            this.settings.Iconimage = global::MHLoaderApp.Properties.Resources.settings_32;
+            this.settings.Iconimage_right = null;
+            this.settings.Iconimage_right_Selected = null;
+            this.settings.Iconimage_Selected = null;
+            this.settings.IconMarginLeft = 0;
+            this.settings.IconMarginRight = 0;
+            this.settings.IconRightVisible = true;
+            this.settings.IconRightZoom = 0D;
+            this.settings.IconVisible = true;
+            this.settings.IconZoom = 30D;
+            this.settings.IsTab = false;
+            this.settings.Location = new System.Drawing.Point(653, 6);
+            this.settings.Name = "settings";
+            this.settings.Normalcolor = System.Drawing.Color.Transparent;
+            this.settings.OnHovercolor = System.Drawing.Color.Transparent;
+            this.settings.OnHoverTextColor = System.Drawing.Color.White;
+            this.settings.selected = false;
+            this.settings.Size = new System.Drawing.Size(116, 20);
+            this.settings.TabIndex = 8;
+            this.settings.Text = " Loader Settings";
+            this.settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.settings.Textcolor = System.Drawing.Color.White;
+            this.settings.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.settings.Click += new System.EventHandler(this.settings_Click);
+            // 
+            // updates
+            // 
+            this.updates.Active = false;
+            this.updates.Activecolor = System.Drawing.Color.Transparent;
+            this.updates.BackColor = System.Drawing.Color.Transparent;
+            this.updates.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.updates.BorderRadius = 0;
+            this.updates.ButtonText = "Check For Updates";
+            this.updates.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.updates, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.updates.DisabledColor = System.Drawing.Color.Gray;
+            this.updates.Iconcolor = System.Drawing.Color.Transparent;
+            this.updates.Iconimage = global::MHLoaderApp.Properties.Resources.updates_32;
+            this.updates.Iconimage_right = null;
+            this.updates.Iconimage_right_Selected = null;
+            this.updates.Iconimage_Selected = null;
+            this.updates.IconMarginLeft = 0;
+            this.updates.IconMarginRight = 0;
+            this.updates.IconRightVisible = true;
+            this.updates.IconRightZoom = 0D;
+            this.updates.IconVisible = true;
+            this.updates.IconZoom = 35D;
+            this.updates.IsTab = false;
+            this.updates.Location = new System.Drawing.Point(502, 6);
+            this.updates.Name = "updates";
+            this.updates.Normalcolor = System.Drawing.Color.Transparent;
+            this.updates.OnHovercolor = System.Drawing.Color.Transparent;
+            this.updates.OnHoverTextColor = System.Drawing.Color.White;
+            this.updates.selected = false;
+            this.updates.Size = new System.Drawing.Size(131, 20);
+            this.updates.TabIndex = 7;
+            this.updates.Text = "Check For Updates";
+            this.updates.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.updates.Textcolor = System.Drawing.Color.White;
+            this.updates.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.updates.Click += new System.EventHandler(this.updates_Click);
+            // 
             // title
             // 
             this.title.AutoSize = true;
@@ -165,6 +238,23 @@
             this.title.Size = new System.Drawing.Size(159, 20);
             this.title.TabIndex = 3;
             this.title.Text = "LOADER DASHBOARD";
+            // 
+            // favicon
+            // 
+            this.favicon.AllowFocused = false;
+            this.favicon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(113)))), ((int)(((byte)(188)))));
+            this.favicon.BorderRadius = 0;
+            this.bunifuTransition1.SetDecoration(this.favicon, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.favicon.Dock = System.Windows.Forms.DockStyle.Left;
+            this.favicon.Image = global::MHLoaderApp.Properties.Resources.icons8_login_as_user_32;
+            this.favicon.IsCircle = false;
+            this.favicon.Location = new System.Drawing.Point(0, 0);
+            this.favicon.Name = "favicon";
+            this.favicon.Size = new System.Drawing.Size(32, 32);
+            this.favicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.favicon.TabIndex = 3;
+            this.favicon.TabStop = false;
+            this.favicon.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
             // 
             // minimizebox
             // 
@@ -218,11 +308,11 @@
             this.bunifuTransition1.SetDecoration(this.version, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.version.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.version.ForeColor = System.Drawing.Color.White;
-            this.version.Location = new System.Drawing.Point(821, 2);
+            this.version.Location = new System.Drawing.Point(801, 2);
             this.version.Name = "version";
-            this.version.Size = new System.Drawing.Size(35, 17);
+            this.version.Size = new System.Drawing.Size(41, 17);
             this.version.TabIndex = 9;
-            this.version.Text = "Beta";
+            this.version.Text = "None";
             // 
             // versiontitle
             // 
@@ -231,7 +321,7 @@
             this.bunifuTransition1.SetDecoration(this.versiontitle, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.versiontitle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.versiontitle.ForeColor = System.Drawing.Color.White;
-            this.versiontitle.Location = new System.Drawing.Point(763, 2);
+            this.versiontitle.Location = new System.Drawing.Point(743, 2);
             this.versiontitle.Name = "versiontitle";
             this.versiontitle.Size = new System.Drawing.Size(59, 17);
             this.versiontitle.TabIndex = 8;
@@ -274,22 +364,22 @@
             // 
             this.bunifuTransition1.AnimationType = Bunifu.UI.WinForms.BunifuAnimatorNS.AnimationType.Transparent;
             this.bunifuTransition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 1F;
-            this.bunifuTransition1.DefaultAnimation = animation1;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.bunifuTransition1.DefaultAnimation = animation2;
             // 
             // leftmenu
             // 
@@ -362,6 +452,380 @@
             this.leftcolor1.Size = new System.Drawing.Size(5, 75);
             this.leftcolor1.TabIndex = 13;
             this.leftcolor1.Visible = false;
+            // 
+            // eftbutton
+            // 
+            this.eftbutton.AllowToggling = true;
+            this.eftbutton.AnimationSpeed = 200;
+            this.eftbutton.AutoGenerateColors = false;
+            this.eftbutton.BackColor = System.Drawing.Color.Transparent;
+            this.eftbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.eftbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("eftbutton.BackgroundImage")));
+            this.eftbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.eftbutton.ButtonText = "Escape from Tarkov";
+            this.eftbutton.ButtonTextMarginLeft = 25;
+            this.eftbutton.ColorContrastOnClick = 45;
+            this.eftbutton.ColorContrastOnHover = 45;
+            this.eftbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges11.BottomLeft = true;
+            borderEdges11.BottomRight = true;
+            borderEdges11.TopLeft = true;
+            borderEdges11.TopRight = true;
+            this.eftbutton.CustomizableEdges = borderEdges11;
+            this.bunifuTransition1.SetDecoration(this.eftbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.eftbutton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.eftbutton.DisabledBorderColor = System.Drawing.Color.Empty;
+            this.eftbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.eftbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.eftbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
+            this.eftbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.eftbutton.ForeColor = System.Drawing.Color.White;
+            this.eftbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.eftbutton.IconMarginLeft = 0;
+            this.eftbutton.IconPadding = 0;
+            this.eftbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.eftbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.eftbutton.IdleBorderRadius = 3;
+            this.eftbutton.IdleBorderThickness = 1;
+            this.eftbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.eftbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.Escape_From_Tarkov_285x380;
+            this.eftbutton.IdleIconRightImage = null;
+            this.eftbutton.IndicateFocus = true;
+            this.eftbutton.Location = new System.Drawing.Point(0, 141);
+            this.eftbutton.Name = "eftbutton";
+            this.eftbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.eftbutton.onHoverState.BorderRadius = 3;
+            this.eftbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.eftbutton.onHoverState.BorderThickness = 1;
+            this.eftbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.eftbutton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.eftbutton.onHoverState.IconLeftImage = null;
+            this.eftbutton.onHoverState.IconRightImage = null;
+            this.eftbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.eftbutton.OnIdleState.BorderRadius = 3;
+            this.eftbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.eftbutton.OnIdleState.BorderThickness = 1;
+            this.eftbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.eftbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.eftbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.Escape_From_Tarkov_285x380;
+            this.eftbutton.OnIdleState.IconRightImage = null;
+            this.eftbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.eftbutton.OnPressedState.BorderRadius = 3;
+            this.eftbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.eftbutton.OnPressedState.BorderThickness = 1;
+            this.eftbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.eftbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.eftbutton.OnPressedState.IconLeftImage = null;
+            this.eftbutton.OnPressedState.IconRightImage = null;
+            this.eftbutton.Size = new System.Drawing.Size(276, 75);
+            this.eftbutton.TabIndex = 5;
+            this.eftbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.eftbutton.TextMarginLeft = 25;
+            this.eftbutton.UseDefaultRadiusAndThickness = true;
+            this.eftbutton.Click += new System.EventHandler(this.eftbutton_Click);
+            // 
+            // rustbutton
+            // 
+            this.rustbutton.AllowToggling = true;
+            this.rustbutton.AnimationSpeed = 200;
+            this.rustbutton.AutoGenerateColors = false;
+            this.rustbutton.BackColor = System.Drawing.Color.Transparent;
+            this.rustbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.rustbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rustbutton.BackgroundImage")));
+            this.rustbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.rustbutton.ButtonText = "Rust-Steam";
+            this.rustbutton.ButtonTextMarginLeft = 25;
+            this.rustbutton.ColorContrastOnClick = 45;
+            this.rustbutton.ColorContrastOnHover = 45;
+            this.rustbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges12.BottomLeft = true;
+            borderEdges12.BottomRight = true;
+            borderEdges12.TopLeft = true;
+            borderEdges12.TopRight = true;
+            this.rustbutton.CustomizableEdges = borderEdges12;
+            this.bunifuTransition1.SetDecoration(this.rustbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.rustbutton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.rustbutton.DisabledBorderColor = System.Drawing.Color.Empty;
+            this.rustbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.rustbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.rustbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
+            this.rustbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rustbutton.ForeColor = System.Drawing.Color.White;
+            this.rustbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.rustbutton.IconMarginLeft = 0;
+            this.rustbutton.IconPadding = 0;
+            this.rustbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.rustbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.rustbutton.IdleBorderRadius = 3;
+            this.rustbutton.IdleBorderThickness = 1;
+            this.rustbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.rustbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.Rust_285x380;
+            this.rustbutton.IdleIconRightImage = null;
+            this.rustbutton.IndicateFocus = true;
+            this.rustbutton.Location = new System.Drawing.Point(0, 384);
+            this.rustbutton.Name = "rustbutton";
+            this.rustbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.rustbutton.onHoverState.BorderRadius = 3;
+            this.rustbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.rustbutton.onHoverState.BorderThickness = 1;
+            this.rustbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.rustbutton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.rustbutton.onHoverState.IconLeftImage = null;
+            this.rustbutton.onHoverState.IconRightImage = null;
+            this.rustbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.rustbutton.OnIdleState.BorderRadius = 3;
+            this.rustbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.rustbutton.OnIdleState.BorderThickness = 1;
+            this.rustbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.rustbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.rustbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.Rust_285x380;
+            this.rustbutton.OnIdleState.IconRightImage = null;
+            this.rustbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.rustbutton.OnPressedState.BorderRadius = 3;
+            this.rustbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.rustbutton.OnPressedState.BorderThickness = 1;
+            this.rustbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.rustbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.rustbutton.OnPressedState.IconLeftImage = null;
+            this.rustbutton.OnPressedState.IconRightImage = null;
+            this.rustbutton.Size = new System.Drawing.Size(276, 75);
+            this.rustbutton.TabIndex = 4;
+            this.rustbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rustbutton.TextMarginLeft = 25;
+            this.rustbutton.UseDefaultRadiusAndThickness = true;
+            this.rustbutton.Click += new System.EventHandler(this.rustbutton_Click);
+            // 
+            // pubgbutton
+            // 
+            this.pubgbutton.AllowToggling = true;
+            this.pubgbutton.AnimationSpeed = 200;
+            this.pubgbutton.AutoGenerateColors = false;
+            this.pubgbutton.BackColor = System.Drawing.Color.Transparent;
+            this.pubgbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pubgbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pubgbutton.BackgroundImage")));
+            this.pubgbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.pubgbutton.ButtonText = "Pubg-Steam";
+            this.pubgbutton.ButtonTextMarginLeft = 25;
+            this.pubgbutton.ColorContrastOnClick = 45;
+            this.pubgbutton.ColorContrastOnHover = 45;
+            this.pubgbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges13.BottomLeft = true;
+            borderEdges13.BottomRight = true;
+            borderEdges13.TopLeft = true;
+            borderEdges13.TopRight = true;
+            this.pubgbutton.CustomizableEdges = borderEdges13;
+            this.bunifuTransition1.SetDecoration(this.pubgbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.pubgbutton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.pubgbutton.DisabledBorderColor = System.Drawing.Color.Empty;
+            this.pubgbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.pubgbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.pubgbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
+            this.pubgbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pubgbutton.ForeColor = System.Drawing.Color.White;
+            this.pubgbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.pubgbutton.IconMarginLeft = 0;
+            this.pubgbutton.IconPadding = 0;
+            this.pubgbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.pubgbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pubgbutton.IdleBorderRadius = 3;
+            this.pubgbutton.IdleBorderThickness = 1;
+            this.pubgbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pubgbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.PLAYERUNKNOWN_S_BATTLEGROUNDS_285x380;
+            this.pubgbutton.IdleIconRightImage = null;
+            this.pubgbutton.IndicateFocus = true;
+            this.pubgbutton.Location = new System.Drawing.Point(0, 303);
+            this.pubgbutton.Name = "pubgbutton";
+            this.pubgbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.pubgbutton.onHoverState.BorderRadius = 3;
+            this.pubgbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.pubgbutton.onHoverState.BorderThickness = 1;
+            this.pubgbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.pubgbutton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.pubgbutton.onHoverState.IconLeftImage = null;
+            this.pubgbutton.onHoverState.IconRightImage = null;
+            this.pubgbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pubgbutton.OnIdleState.BorderRadius = 3;
+            this.pubgbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.pubgbutton.OnIdleState.BorderThickness = 1;
+            this.pubgbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pubgbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.pubgbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.PLAYERUNKNOWN_S_BATTLEGROUNDS_285x380;
+            this.pubgbutton.OnIdleState.IconRightImage = null;
+            this.pubgbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.pubgbutton.OnPressedState.BorderRadius = 3;
+            this.pubgbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.pubgbutton.OnPressedState.BorderThickness = 1;
+            this.pubgbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.pubgbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.pubgbutton.OnPressedState.IconLeftImage = null;
+            this.pubgbutton.OnPressedState.IconRightImage = null;
+            this.pubgbutton.Size = new System.Drawing.Size(276, 75);
+            this.pubgbutton.TabIndex = 3;
+            this.pubgbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pubgbutton.TextMarginLeft = 25;
+            this.pubgbutton.UseDefaultRadiusAndThickness = true;
+            this.pubgbutton.Click += new System.EventHandler(this.pubgbutton_Click);
+            // 
+            // csgobutton
+            // 
+            this.csgobutton.AllowToggling = true;
+            this.csgobutton.AnimationSpeed = 200;
+            this.csgobutton.AutoGenerateColors = false;
+            this.csgobutton.BackColor = System.Drawing.Color.Transparent;
+            this.csgobutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.csgobutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("csgobutton.BackgroundImage")));
+            this.csgobutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.csgobutton.ButtonText = "Counter-Strike: Global Offensive";
+            this.csgobutton.ButtonTextMarginLeft = 25;
+            this.csgobutton.ColorContrastOnClick = 45;
+            this.csgobutton.ColorContrastOnHover = 45;
+            this.csgobutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges14.BottomLeft = true;
+            borderEdges14.BottomRight = true;
+            borderEdges14.TopLeft = true;
+            borderEdges14.TopRight = true;
+            this.csgobutton.CustomizableEdges = borderEdges14;
+            this.bunifuTransition1.SetDecoration(this.csgobutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.csgobutton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.csgobutton.DisabledBorderColor = System.Drawing.Color.Empty;
+            this.csgobutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.csgobutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.csgobutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
+            this.csgobutton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.csgobutton.ForeColor = System.Drawing.Color.White;
+            this.csgobutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.csgobutton.IconMarginLeft = 0;
+            this.csgobutton.IconPadding = 0;
+            this.csgobutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.csgobutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.csgobutton.IdleBorderRadius = 3;
+            this.csgobutton.IdleBorderThickness = 1;
+            this.csgobutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.csgobutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.Counter_Strike__Global_Offensive_285x380;
+            this.csgobutton.IdleIconRightImage = null;
+            this.csgobutton.IndicateFocus = true;
+            this.csgobutton.Location = new System.Drawing.Point(0, 60);
+            this.csgobutton.Name = "csgobutton";
+            this.csgobutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.csgobutton.onHoverState.BorderRadius = 3;
+            this.csgobutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.csgobutton.onHoverState.BorderThickness = 1;
+            this.csgobutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.csgobutton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.csgobutton.onHoverState.IconLeftImage = null;
+            this.csgobutton.onHoverState.IconRightImage = null;
+            this.csgobutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.csgobutton.OnIdleState.BorderRadius = 3;
+            this.csgobutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.csgobutton.OnIdleState.BorderThickness = 1;
+            this.csgobutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.csgobutton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.csgobutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.Counter_Strike__Global_Offensive_285x380;
+            this.csgobutton.OnIdleState.IconRightImage = null;
+            this.csgobutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.csgobutton.OnPressedState.BorderRadius = 3;
+            this.csgobutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.csgobutton.OnPressedState.BorderThickness = 1;
+            this.csgobutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.csgobutton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.csgobutton.OnPressedState.IconLeftImage = null;
+            this.csgobutton.OnPressedState.IconRightImage = null;
+            this.csgobutton.Size = new System.Drawing.Size(276, 75);
+            this.csgobutton.TabIndex = 2;
+            this.csgobutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.csgobutton.TextMarginLeft = 25;
+            this.csgobutton.UseDefaultRadiusAndThickness = true;
+            this.csgobutton.Click += new System.EventHandler(this.csgobutton_Click);
+            // 
+            // lolbutton
+            // 
+            this.lolbutton.AllowToggling = true;
+            this.lolbutton.AnimationSpeed = 200;
+            this.lolbutton.AutoGenerateColors = false;
+            this.lolbutton.BackColor = System.Drawing.Color.Transparent;
+            this.lolbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.lolbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lolbutton.BackgroundImage")));
+            this.lolbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Dash;
+            this.lolbutton.ButtonText = "League of Legends";
+            this.lolbutton.ButtonTextMarginLeft = 25;
+            this.lolbutton.ColorContrastOnClick = 45;
+            this.lolbutton.ColorContrastOnHover = 45;
+            this.lolbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            borderEdges15.BottomLeft = true;
+            borderEdges15.BottomRight = true;
+            borderEdges15.TopLeft = true;
+            borderEdges15.TopRight = true;
+            this.lolbutton.CustomizableEdges = borderEdges15;
+            this.bunifuTransition1.SetDecoration(this.lolbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.Custom);
+            this.lolbutton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.lolbutton.DisabledBorderColor = System.Drawing.Color.Empty;
+            this.lolbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.lolbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.lolbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
+            this.lolbutton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lolbutton.ForeColor = System.Drawing.Color.White;
+            this.lolbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.lolbutton.IconMarginLeft = 0;
+            this.lolbutton.IconPadding = 0;
+            this.lolbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.lolbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.lolbutton.IdleBorderRadius = 3;
+            this.lolbutton.IdleBorderThickness = 1;
+            this.lolbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.lolbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.League_of_Legends_285x380;
+            this.lolbutton.IdleIconRightImage = null;
+            this.lolbutton.IndicateFocus = true;
+            this.lolbutton.Location = new System.Drawing.Point(0, 222);
+            this.lolbutton.Name = "lolbutton";
+            this.lolbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.lolbutton.onHoverState.BorderRadius = 3;
+            this.lolbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.lolbutton.onHoverState.BorderThickness = 1;
+            this.lolbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.lolbutton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.lolbutton.onHoverState.IconLeftImage = null;
+            this.lolbutton.onHoverState.IconRightImage = null;
+            this.lolbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.lolbutton.OnIdleState.BorderRadius = 3;
+            this.lolbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Dash;
+            this.lolbutton.OnIdleState.BorderThickness = 1;
+            this.lolbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.lolbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.lolbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.League_of_Legends_285x380;
+            this.lolbutton.OnIdleState.IconRightImage = null;
+            this.lolbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.lolbutton.OnPressedState.BorderRadius = 3;
+            this.lolbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.lolbutton.OnPressedState.BorderThickness = 1;
+            this.lolbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.lolbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.lolbutton.OnPressedState.IconLeftImage = null;
+            this.lolbutton.OnPressedState.IconRightImage = null;
+            this.lolbutton.Size = new System.Drawing.Size(276, 75);
+            this.lolbutton.TabIndex = 1;
+            this.lolbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lolbutton.TextMarginLeft = 25;
+            this.lolbutton.UseDefaultRadiusAndThickness = true;
+            this.lolbutton.Click += new System.EventHandler(this.lolbutton_Click);
+            // 
+            // logo2
+            // 
+            this.logo2.AllowFocused = true;
+            this.logo2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.logo2.BackgroundImage = global::MHLoaderApp.Properties.Resources.mhback;
+            this.logo2.BorderRadius = 0;
+            this.logo2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.logo2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.logo2.Image = global::MHLoaderApp.Properties.Resources.memoryui;
+            this.logo2.IsCircle = false;
+            this.logo2.Location = new System.Drawing.Point(0, 0);
+            this.logo2.Name = "logo2";
+            this.logo2.Size = new System.Drawing.Size(276, 60);
+            this.logo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo2.TabIndex = 0;
+            this.logo2.TabStop = false;
+            this.logo2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
+            this.logo2.Click += new System.EventHandler(this.logo2_Click);
             // 
             // buyrenewlabel
             // 
@@ -480,176 +944,6 @@
             this.bunifuSeparator2.TabIndex = 9;
             this.bunifuSeparator2.Transparency = 255;
             this.bunifuSeparator2.Vertical = true;
-            // 
-            // bunifuPages1
-            // 
-            this.bunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
-            this.bunifuPages1.AllowTransitions = true;
-            this.bunifuPages1.Controls.Add(this.mylicencetabpage);
-            this.bunifuPages1.Controls.Add(this.licencebuyrenewtabpage);
-            this.bunifuPages1.Controls.Add(this.notificationtabpage);
-            this.bunifuPages1.Controls.Add(this.updatestabpage);
-            this.bunifuPages1.Controls.Add(this.settingstabpage);
-            this.bunifuPages1.Controls.Add(this.csgotabpage);
-            this.bunifuPages1.Controls.Add(this.efttabpage);
-            this.bunifuPages1.Controls.Add(this.loltabpage);
-            this.bunifuPages1.Controls.Add(this.pubgtabpage);
-            this.bunifuPages1.Controls.Add(this.rusttabpage);
-            this.bunifuTransition1.SetDecoration(this.bunifuPages1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuPages1.Location = new System.Drawing.Point(276, 92);
-            this.bunifuPages1.Multiline = true;
-            this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.csgotabpage;
-            this.bunifuPages1.PageIndex = 5;
-            this.bunifuPages1.PageName = "csgotabpage";
-            this.bunifuPages1.PageTitle = "csgo";
-            this.bunifuPages1.SelectedIndex = 0;
-            this.bunifuPages1.Size = new System.Drawing.Size(591, 416);
-            this.bunifuPages1.TabIndex = 7;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 1F;
-            this.bunifuPages1.Transition = animation2;
-            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Transparent;
-            // 
-            // mylicencetabpage
-            // 
-            this.mylicencetabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.mylicencetabpage.Controls.Add(this.mylicence1);
-            this.bunifuTransition1.SetDecoration(this.mylicencetabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.mylicencetabpage.Location = new System.Drawing.Point(4, 4);
-            this.mylicencetabpage.Name = "mylicencetabpage";
-            this.mylicencetabpage.Size = new System.Drawing.Size(583, 390);
-            this.mylicencetabpage.TabIndex = 6;
-            this.mylicencetabpage.Text = "mylcnc";
-            // 
-            // licencebuyrenewtabpage
-            // 
-            this.licencebuyrenewtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.licencebuyrenewtabpage.Controls.Add(this.buyrenew1);
-            this.bunifuTransition1.SetDecoration(this.licencebuyrenewtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.licencebuyrenewtabpage.Location = new System.Drawing.Point(4, 4);
-            this.licencebuyrenewtabpage.Name = "licencebuyrenewtabpage";
-            this.licencebuyrenewtabpage.Size = new System.Drawing.Size(583, 390);
-            this.licencebuyrenewtabpage.TabIndex = 5;
-            this.licencebuyrenewtabpage.Text = "lcncbyrnw";
-            // 
-            // notificationtabpage
-            // 
-            this.notificationtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.notificationtabpage.Controls.Add(this.notification1);
-            this.bunifuTransition1.SetDecoration(this.notificationtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.notificationtabpage.Location = new System.Drawing.Point(4, 4);
-            this.notificationtabpage.Name = "notificationtabpage";
-            this.notificationtabpage.Size = new System.Drawing.Size(583, 390);
-            this.notificationtabpage.TabIndex = 7;
-            this.notificationtabpage.Text = "notification";
-            // 
-            // updatestabpage
-            // 
-            this.updatestabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTransition1.SetDecoration(this.updatestabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.updatestabpage.Location = new System.Drawing.Point(4, 4);
-            this.updatestabpage.Name = "updatestabpage";
-            this.updatestabpage.Size = new System.Drawing.Size(583, 390);
-            this.updatestabpage.TabIndex = 8;
-            this.updatestabpage.Text = "updates";
-            // 
-            // settingstabpage
-            // 
-            this.settingstabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.settingstabpage.Controls.Add(this.settings1);
-            this.bunifuTransition1.SetDecoration(this.settingstabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.settingstabpage.Location = new System.Drawing.Point(4, 4);
-            this.settingstabpage.Name = "settingstabpage";
-            this.settingstabpage.Size = new System.Drawing.Size(583, 390);
-            this.settingstabpage.TabIndex = 9;
-            this.settingstabpage.Text = "settings";
-            // 
-            // csgotabpage
-            // 
-            this.csgotabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.csgotabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.csgotabpage.Controls.Add(this.csgovip1);
-            this.bunifuTransition1.SetDecoration(this.csgotabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.csgotabpage.Location = new System.Drawing.Point(4, 4);
-            this.csgotabpage.Name = "csgotabpage";
-            this.csgotabpage.Padding = new System.Windows.Forms.Padding(3);
-            this.csgotabpage.Size = new System.Drawing.Size(583, 390);
-            this.csgotabpage.TabIndex = 1;
-            this.csgotabpage.Text = "csgo";
-            // 
-            // efttabpage
-            // 
-            this.efttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.efttabpage.Controls.Add(this.panel3);
-            this.bunifuTransition1.SetDecoration(this.efttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.efttabpage.Location = new System.Drawing.Point(4, 4);
-            this.efttabpage.Name = "efttabpage";
-            this.efttabpage.Size = new System.Drawing.Size(583, 390);
-            this.efttabpage.TabIndex = 4;
-            this.efttabpage.Text = "eft";
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.eftvip1);
-            this.bunifuTransition1.SetDecoration(this.panel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(583, 390);
-            this.panel3.TabIndex = 1;
-            // 
-            // loltabpage
-            // 
-            this.loltabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.loltabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.loltabpage.Controls.Add(this.lolvip1);
-            this.bunifuTransition1.SetDecoration(this.loltabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.loltabpage.Location = new System.Drawing.Point(4, 4);
-            this.loltabpage.Name = "loltabpage";
-            this.loltabpage.Padding = new System.Windows.Forms.Padding(3);
-            this.loltabpage.Size = new System.Drawing.Size(583, 390);
-            this.loltabpage.TabIndex = 0;
-            this.loltabpage.Text = "lol";
-            // 
-            // pubgtabpage
-            // 
-            this.pubgtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pubgtabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pubgtabpage.Controls.Add(this.pubgvip1);
-            this.bunifuTransition1.SetDecoration(this.pubgtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.pubgtabpage.Location = new System.Drawing.Point(4, 4);
-            this.pubgtabpage.Name = "pubgtabpage";
-            this.pubgtabpage.Size = new System.Drawing.Size(583, 390);
-            this.pubgtabpage.TabIndex = 2;
-            this.pubgtabpage.Text = "pubg";
-            // 
-            // rusttabpage
-            // 
-            this.rusttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.rusttabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.rusttabpage.Controls.Add(this.rustvip1);
-            this.bunifuTransition1.SetDecoration(this.rusttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.rusttabpage.Location = new System.Drawing.Point(4, 4);
-            this.rusttabpage.Name = "rusttabpage";
-            this.rusttabpage.Size = new System.Drawing.Size(583, 390);
-            this.rusttabpage.TabIndex = 3;
-            this.rusttabpage.Text = "rust";
             // 
             // newnot
             // 
@@ -780,470 +1074,59 @@
             this.buyrenew.Zoom = 0;
             this.buyrenew.ZoomSpeed = 10;
             // 
-            // eftbutton
+            // bunifuPages1
             // 
-            this.eftbutton.AllowToggling = true;
-            this.eftbutton.AnimationSpeed = 200;
-            this.eftbutton.AutoGenerateColors = false;
-            this.eftbutton.BackColor = System.Drawing.Color.Transparent;
-            this.eftbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.eftbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("eftbutton.BackgroundImage")));
-            this.eftbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.eftbutton.ButtonText = "Escape from Tarkov";
-            this.eftbutton.ButtonTextMarginLeft = 25;
-            this.eftbutton.ColorContrastOnClick = 45;
-            this.eftbutton.ColorContrastOnHover = 45;
-            this.eftbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.eftbutton.CustomizableEdges = borderEdges1;
-            this.bunifuTransition1.SetDecoration(this.eftbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.eftbutton.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.eftbutton.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.eftbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.eftbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.eftbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
-            this.eftbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.eftbutton.ForeColor = System.Drawing.Color.White;
-            this.eftbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.eftbutton.IconMarginLeft = 0;
-            this.eftbutton.IconPadding = 0;
-            this.eftbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.eftbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.eftbutton.IdleBorderRadius = 3;
-            this.eftbutton.IdleBorderThickness = 1;
-            this.eftbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.eftbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.Escape_From_Tarkov_285x380;
-            this.eftbutton.IdleIconRightImage = null;
-            this.eftbutton.IndicateFocus = true;
-            this.eftbutton.Location = new System.Drawing.Point(0, 141);
-            this.eftbutton.Name = "eftbutton";
-            this.eftbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.eftbutton.onHoverState.BorderRadius = 3;
-            this.eftbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.eftbutton.onHoverState.BorderThickness = 1;
-            this.eftbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.eftbutton.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.eftbutton.onHoverState.IconLeftImage = null;
-            this.eftbutton.onHoverState.IconRightImage = null;
-            this.eftbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.eftbutton.OnIdleState.BorderRadius = 3;
-            this.eftbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.eftbutton.OnIdleState.BorderThickness = 1;
-            this.eftbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.eftbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.eftbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.Escape_From_Tarkov_285x380;
-            this.eftbutton.OnIdleState.IconRightImage = null;
-            this.eftbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.eftbutton.OnPressedState.BorderRadius = 3;
-            this.eftbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.eftbutton.OnPressedState.BorderThickness = 1;
-            this.eftbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.eftbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.eftbutton.OnPressedState.IconLeftImage = null;
-            this.eftbutton.OnPressedState.IconRightImage = null;
-            this.eftbutton.Size = new System.Drawing.Size(276, 75);
-            this.eftbutton.TabIndex = 5;
-            this.eftbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.eftbutton.TextMarginLeft = 25;
-            this.eftbutton.UseDefaultRadiusAndThickness = true;
-            this.eftbutton.Click += new System.EventHandler(this.eftbutton_Click);
+            this.bunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.bunifuPages1.AllowTransitions = true;
+            this.bunifuPages1.Controls.Add(this.mylicencetabpage);
+            this.bunifuPages1.Controls.Add(this.licencebuyrenewtabpage);
+            this.bunifuPages1.Controls.Add(this.notificationtabpage);
+            this.bunifuPages1.Controls.Add(this.settingstabpage);
+            this.bunifuPages1.Controls.Add(this.csgotabpage);
+            this.bunifuPages1.Controls.Add(this.efttabpage);
+            this.bunifuPages1.Controls.Add(this.loltabpage);
+            this.bunifuPages1.Controls.Add(this.pubgtabpage);
+            this.bunifuPages1.Controls.Add(this.rusttabpage);
+            this.bunifuTransition1.SetDecoration(this.bunifuPages1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuPages1.Location = new System.Drawing.Point(276, 92);
+            this.bunifuPages1.Multiline = true;
+            this.bunifuPages1.Name = "bunifuPages1";
+            this.bunifuPages1.Page = this.mylicencetabpage;
+            this.bunifuPages1.PageIndex = 0;
+            this.bunifuPages1.PageName = "mylicencetabpage";
+            this.bunifuPages1.PageTitle = "mylcnc";
+            this.bunifuPages1.SelectedIndex = 0;
+            this.bunifuPages1.Size = new System.Drawing.Size(591, 416);
+            this.bunifuPages1.TabIndex = 7;
+            animation5.AnimateOnlyDifferences = true;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 0F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation5.RotateCoeff = 0F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 1F;
+            this.bunifuPages1.Transition = animation5;
+            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Transparent;
             // 
-            // rustbutton
+            // mylicencetabpage
             // 
-            this.rustbutton.AllowToggling = true;
-            this.rustbutton.AnimationSpeed = 200;
-            this.rustbutton.AutoGenerateColors = false;
-            this.rustbutton.BackColor = System.Drawing.Color.Transparent;
-            this.rustbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.rustbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rustbutton.BackgroundImage")));
-            this.rustbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.rustbutton.ButtonText = "Rust-Steam";
-            this.rustbutton.ButtonTextMarginLeft = 25;
-            this.rustbutton.ColorContrastOnClick = 45;
-            this.rustbutton.ColorContrastOnHover = 45;
-            this.rustbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.rustbutton.CustomizableEdges = borderEdges2;
-            this.bunifuTransition1.SetDecoration(this.rustbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.rustbutton.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.rustbutton.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.rustbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.rustbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.rustbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
-            this.rustbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rustbutton.ForeColor = System.Drawing.Color.White;
-            this.rustbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.rustbutton.IconMarginLeft = 0;
-            this.rustbutton.IconPadding = 0;
-            this.rustbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.rustbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.rustbutton.IdleBorderRadius = 3;
-            this.rustbutton.IdleBorderThickness = 1;
-            this.rustbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.rustbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.Rust_285x380;
-            this.rustbutton.IdleIconRightImage = null;
-            this.rustbutton.IndicateFocus = true;
-            this.rustbutton.Location = new System.Drawing.Point(0, 384);
-            this.rustbutton.Name = "rustbutton";
-            this.rustbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.rustbutton.onHoverState.BorderRadius = 3;
-            this.rustbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.rustbutton.onHoverState.BorderThickness = 1;
-            this.rustbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.rustbutton.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.rustbutton.onHoverState.IconLeftImage = null;
-            this.rustbutton.onHoverState.IconRightImage = null;
-            this.rustbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.rustbutton.OnIdleState.BorderRadius = 3;
-            this.rustbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.rustbutton.OnIdleState.BorderThickness = 1;
-            this.rustbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.rustbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.rustbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.Rust_285x380;
-            this.rustbutton.OnIdleState.IconRightImage = null;
-            this.rustbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.rustbutton.OnPressedState.BorderRadius = 3;
-            this.rustbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.rustbutton.OnPressedState.BorderThickness = 1;
-            this.rustbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.rustbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.rustbutton.OnPressedState.IconLeftImage = null;
-            this.rustbutton.OnPressedState.IconRightImage = null;
-            this.rustbutton.Size = new System.Drawing.Size(276, 75);
-            this.rustbutton.TabIndex = 4;
-            this.rustbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rustbutton.TextMarginLeft = 25;
-            this.rustbutton.UseDefaultRadiusAndThickness = true;
-            this.rustbutton.Click += new System.EventHandler(this.rustbutton_Click);
-            // 
-            // pubgbutton
-            // 
-            this.pubgbutton.AllowToggling = true;
-            this.pubgbutton.AnimationSpeed = 200;
-            this.pubgbutton.AutoGenerateColors = false;
-            this.pubgbutton.BackColor = System.Drawing.Color.Transparent;
-            this.pubgbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pubgbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pubgbutton.BackgroundImage")));
-            this.pubgbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.pubgbutton.ButtonText = "Pubg-Steam";
-            this.pubgbutton.ButtonTextMarginLeft = 25;
-            this.pubgbutton.ColorContrastOnClick = 45;
-            this.pubgbutton.ColorContrastOnHover = 45;
-            this.pubgbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.pubgbutton.CustomizableEdges = borderEdges3;
-            this.bunifuTransition1.SetDecoration(this.pubgbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.pubgbutton.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.pubgbutton.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.pubgbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.pubgbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.pubgbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
-            this.pubgbutton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.pubgbutton.ForeColor = System.Drawing.Color.White;
-            this.pubgbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.pubgbutton.IconMarginLeft = 0;
-            this.pubgbutton.IconPadding = 0;
-            this.pubgbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.pubgbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pubgbutton.IdleBorderRadius = 3;
-            this.pubgbutton.IdleBorderThickness = 1;
-            this.pubgbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pubgbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.PLAYERUNKNOWN_S_BATTLEGROUNDS_285x380;
-            this.pubgbutton.IdleIconRightImage = null;
-            this.pubgbutton.IndicateFocus = true;
-            this.pubgbutton.Location = new System.Drawing.Point(0, 303);
-            this.pubgbutton.Name = "pubgbutton";
-            this.pubgbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pubgbutton.onHoverState.BorderRadius = 3;
-            this.pubgbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.pubgbutton.onHoverState.BorderThickness = 1;
-            this.pubgbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pubgbutton.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.pubgbutton.onHoverState.IconLeftImage = null;
-            this.pubgbutton.onHoverState.IconRightImage = null;
-            this.pubgbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pubgbutton.OnIdleState.BorderRadius = 3;
-            this.pubgbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.pubgbutton.OnIdleState.BorderThickness = 1;
-            this.pubgbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pubgbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.pubgbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.PLAYERUNKNOWN_S_BATTLEGROUNDS_285x380;
-            this.pubgbutton.OnIdleState.IconRightImage = null;
-            this.pubgbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.pubgbutton.OnPressedState.BorderRadius = 3;
-            this.pubgbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.pubgbutton.OnPressedState.BorderThickness = 1;
-            this.pubgbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.pubgbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.pubgbutton.OnPressedState.IconLeftImage = null;
-            this.pubgbutton.OnPressedState.IconRightImage = null;
-            this.pubgbutton.Size = new System.Drawing.Size(276, 75);
-            this.pubgbutton.TabIndex = 3;
-            this.pubgbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.pubgbutton.TextMarginLeft = 25;
-            this.pubgbutton.UseDefaultRadiusAndThickness = true;
-            this.pubgbutton.Click += new System.EventHandler(this.pubgbutton_Click);
-            // 
-            // csgobutton
-            // 
-            this.csgobutton.AllowToggling = true;
-            this.csgobutton.AnimationSpeed = 200;
-            this.csgobutton.AutoGenerateColors = false;
-            this.csgobutton.BackColor = System.Drawing.Color.Transparent;
-            this.csgobutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.csgobutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("csgobutton.BackgroundImage")));
-            this.csgobutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.csgobutton.ButtonText = "Counter-Strike: Global Offensive";
-            this.csgobutton.ButtonTextMarginLeft = 25;
-            this.csgobutton.ColorContrastOnClick = 45;
-            this.csgobutton.ColorContrastOnHover = 45;
-            this.csgobutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.csgobutton.CustomizableEdges = borderEdges4;
-            this.bunifuTransition1.SetDecoration(this.csgobutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.csgobutton.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.csgobutton.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.csgobutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.csgobutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.csgobutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
-            this.csgobutton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.csgobutton.ForeColor = System.Drawing.Color.White;
-            this.csgobutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.csgobutton.IconMarginLeft = 0;
-            this.csgobutton.IconPadding = 0;
-            this.csgobutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.csgobutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.csgobutton.IdleBorderRadius = 3;
-            this.csgobutton.IdleBorderThickness = 1;
-            this.csgobutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.csgobutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.Counter_Strike__Global_Offensive_285x380;
-            this.csgobutton.IdleIconRightImage = null;
-            this.csgobutton.IndicateFocus = true;
-            this.csgobutton.Location = new System.Drawing.Point(0, 60);
-            this.csgobutton.Name = "csgobutton";
-            this.csgobutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.csgobutton.onHoverState.BorderRadius = 3;
-            this.csgobutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.csgobutton.onHoverState.BorderThickness = 1;
-            this.csgobutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.csgobutton.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.csgobutton.onHoverState.IconLeftImage = null;
-            this.csgobutton.onHoverState.IconRightImage = null;
-            this.csgobutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.csgobutton.OnIdleState.BorderRadius = 3;
-            this.csgobutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.csgobutton.OnIdleState.BorderThickness = 1;
-            this.csgobutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.csgobutton.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.csgobutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.Counter_Strike__Global_Offensive_285x380;
-            this.csgobutton.OnIdleState.IconRightImage = null;
-            this.csgobutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.csgobutton.OnPressedState.BorderRadius = 3;
-            this.csgobutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.csgobutton.OnPressedState.BorderThickness = 1;
-            this.csgobutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.csgobutton.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.csgobutton.OnPressedState.IconLeftImage = null;
-            this.csgobutton.OnPressedState.IconRightImage = null;
-            this.csgobutton.Size = new System.Drawing.Size(276, 75);
-            this.csgobutton.TabIndex = 2;
-            this.csgobutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.csgobutton.TextMarginLeft = 25;
-            this.csgobutton.UseDefaultRadiusAndThickness = true;
-            this.csgobutton.Click += new System.EventHandler(this.csgobutton_Click);
-            // 
-            // lolbutton
-            // 
-            this.lolbutton.AllowToggling = true;
-            this.lolbutton.AnimationSpeed = 200;
-            this.lolbutton.AutoGenerateColors = false;
-            this.lolbutton.BackColor = System.Drawing.Color.Transparent;
-            this.lolbutton.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.lolbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lolbutton.BackgroundImage")));
-            this.lolbutton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Dash;
-            this.lolbutton.ButtonText = "League of Legends";
-            this.lolbutton.ButtonTextMarginLeft = 25;
-            this.lolbutton.ColorContrastOnClick = 45;
-            this.lolbutton.ColorContrastOnHover = 45;
-            this.lolbutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.lolbutton.CustomizableEdges = borderEdges5;
-            this.bunifuTransition1.SetDecoration(this.lolbutton, Bunifu.UI.WinForms.BunifuTransition.DecorationType.Custom);
-            this.lolbutton.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.lolbutton.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.lolbutton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.lolbutton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.lolbutton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Hover;
-            this.lolbutton.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lolbutton.ForeColor = System.Drawing.Color.White;
-            this.lolbutton.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.lolbutton.IconMarginLeft = 0;
-            this.lolbutton.IconPadding = 0;
-            this.lolbutton.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.lolbutton.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.lolbutton.IdleBorderRadius = 3;
-            this.lolbutton.IdleBorderThickness = 1;
-            this.lolbutton.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.lolbutton.IdleIconLeftImage = global::MHLoaderApp.Properties.Resources.League_of_Legends_285x380;
-            this.lolbutton.IdleIconRightImage = null;
-            this.lolbutton.IndicateFocus = true;
-            this.lolbutton.Location = new System.Drawing.Point(0, 222);
-            this.lolbutton.Name = "lolbutton";
-            this.lolbutton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.lolbutton.onHoverState.BorderRadius = 3;
-            this.lolbutton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.lolbutton.onHoverState.BorderThickness = 1;
-            this.lolbutton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.lolbutton.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.lolbutton.onHoverState.IconLeftImage = null;
-            this.lolbutton.onHoverState.IconRightImage = null;
-            this.lolbutton.OnIdleState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.lolbutton.OnIdleState.BorderRadius = 3;
-            this.lolbutton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Dash;
-            this.lolbutton.OnIdleState.BorderThickness = 1;
-            this.lolbutton.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.lolbutton.OnIdleState.ForeColor = System.Drawing.Color.White;
-            this.lolbutton.OnIdleState.IconLeftImage = global::MHLoaderApp.Properties.Resources.League_of_Legends_285x380;
-            this.lolbutton.OnIdleState.IconRightImage = null;
-            this.lolbutton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.lolbutton.OnPressedState.BorderRadius = 3;
-            this.lolbutton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.lolbutton.OnPressedState.BorderThickness = 1;
-            this.lolbutton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.lolbutton.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.lolbutton.OnPressedState.IconLeftImage = null;
-            this.lolbutton.OnPressedState.IconRightImage = null;
-            this.lolbutton.Size = new System.Drawing.Size(276, 75);
-            this.lolbutton.TabIndex = 1;
-            this.lolbutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lolbutton.TextMarginLeft = 25;
-            this.lolbutton.UseDefaultRadiusAndThickness = true;
-            this.lolbutton.Click += new System.EventHandler(this.lolbutton_Click);
-            // 
-            // logo2
-            // 
-            this.logo2.AllowFocused = true;
-            this.logo2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.logo2.BackgroundImage = global::MHLoaderApp.Properties.Resources.mhback;
-            this.logo2.BorderRadius = 0;
-            this.logo2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.logo2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.logo2.Image = global::MHLoaderApp.Properties.Resources.memoryui;
-            this.logo2.IsCircle = false;
-            this.logo2.Location = new System.Drawing.Point(0, 0);
-            this.logo2.Name = "logo2";
-            this.logo2.Size = new System.Drawing.Size(276, 60);
-            this.logo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logo2.TabIndex = 0;
-            this.logo2.TabStop = false;
-            this.logo2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
-            this.logo2.Click += new System.EventHandler(this.logo2_Click);
-            // 
-            // settings
-            // 
-            this.settings.Active = false;
-            this.settings.Activecolor = System.Drawing.Color.Transparent;
-            this.settings.BackColor = System.Drawing.Color.Transparent;
-            this.settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.settings.BorderRadius = 0;
-            this.settings.ButtonText = " Loader Settings";
-            this.settings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.settings, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.settings.DisabledColor = System.Drawing.Color.Gray;
-            this.settings.Iconcolor = System.Drawing.Color.Transparent;
-            this.settings.Iconimage = global::MHLoaderApp.Properties.Resources.settings_32;
-            this.settings.Iconimage_right = null;
-            this.settings.Iconimage_right_Selected = null;
-            this.settings.Iconimage_Selected = null;
-            this.settings.IconMarginLeft = 0;
-            this.settings.IconMarginRight = 0;
-            this.settings.IconRightVisible = true;
-            this.settings.IconRightZoom = 0D;
-            this.settings.IconVisible = true;
-            this.settings.IconZoom = 30D;
-            this.settings.IsTab = false;
-            this.settings.Location = new System.Drawing.Point(653, 6);
-            this.settings.Name = "settings";
-            this.settings.Normalcolor = System.Drawing.Color.Transparent;
-            this.settings.OnHovercolor = System.Drawing.Color.Transparent;
-            this.settings.OnHoverTextColor = System.Drawing.Color.White;
-            this.settings.selected = false;
-            this.settings.Size = new System.Drawing.Size(116, 20);
-            this.settings.TabIndex = 8;
-            this.settings.Text = " Loader Settings";
-            this.settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settings.Textcolor = System.Drawing.Color.White;
-            this.settings.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.settings.Click += new System.EventHandler(this.settings_Click);
-            // 
-            // updates
-            // 
-            this.updates.Active = false;
-            this.updates.Activecolor = System.Drawing.Color.Transparent;
-            this.updates.BackColor = System.Drawing.Color.Transparent;
-            this.updates.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.updates.BorderRadius = 0;
-            this.updates.ButtonText = "Check For Updates";
-            this.updates.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.updates, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.updates.DisabledColor = System.Drawing.Color.Gray;
-            this.updates.Iconcolor = System.Drawing.Color.Transparent;
-            this.updates.Iconimage = global::MHLoaderApp.Properties.Resources.updates_32;
-            this.updates.Iconimage_right = null;
-            this.updates.Iconimage_right_Selected = null;
-            this.updates.Iconimage_Selected = null;
-            this.updates.IconMarginLeft = 0;
-            this.updates.IconMarginRight = 0;
-            this.updates.IconRightVisible = true;
-            this.updates.IconRightZoom = 0D;
-            this.updates.IconVisible = true;
-            this.updates.IconZoom = 35D;
-            this.updates.IsTab = false;
-            this.updates.Location = new System.Drawing.Point(502, 6);
-            this.updates.Name = "updates";
-            this.updates.Normalcolor = System.Drawing.Color.Transparent;
-            this.updates.OnHovercolor = System.Drawing.Color.Transparent;
-            this.updates.OnHoverTextColor = System.Drawing.Color.White;
-            this.updates.selected = false;
-            this.updates.Size = new System.Drawing.Size(131, 20);
-            this.updates.TabIndex = 7;
-            this.updates.Text = "Check For Updates";
-            this.updates.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updates.Textcolor = System.Drawing.Color.White;
-            this.updates.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.updates.Click += new System.EventHandler(this.updates_Click);
-            // 
-            // favicon
-            // 
-            this.favicon.AllowFocused = false;
-            this.favicon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(113)))), ((int)(((byte)(188)))));
-            this.favicon.BorderRadius = 0;
-            this.bunifuTransition1.SetDecoration(this.favicon, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.favicon.Dock = System.Windows.Forms.DockStyle.Left;
-            this.favicon.Image = global::MHLoaderApp.Properties.Resources.icons8_login_as_user_32;
-            this.favicon.IsCircle = false;
-            this.favicon.Location = new System.Drawing.Point(0, 0);
-            this.favicon.Name = "favicon";
-            this.favicon.Size = new System.Drawing.Size(32, 32);
-            this.favicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.favicon.TabIndex = 3;
-            this.favicon.TabStop = false;
-            this.favicon.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
+            this.mylicencetabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.mylicencetabpage.Controls.Add(this.mylicence1);
+            this.bunifuTransition1.SetDecoration(this.mylicencetabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.mylicencetabpage.Location = new System.Drawing.Point(4, 4);
+            this.mylicencetabpage.Name = "mylicencetabpage";
+            this.mylicencetabpage.Size = new System.Drawing.Size(583, 390);
+            this.mylicencetabpage.TabIndex = 6;
+            this.mylicencetabpage.Text = "mylcnc";
             // 
             // mylicence1
             // 
@@ -1254,6 +1137,18 @@
             this.mylicence1.Name = "mylicence1";
             this.mylicence1.Size = new System.Drawing.Size(583, 390);
             this.mylicence1.TabIndex = 0;
+            this.mylicence1.Load += new System.EventHandler(this.mylicence1_Load);
+            // 
+            // licencebuyrenewtabpage
+            // 
+            this.licencebuyrenewtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.licencebuyrenewtabpage.Controls.Add(this.buyrenew1);
+            this.bunifuTransition1.SetDecoration(this.licencebuyrenewtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.licencebuyrenewtabpage.Location = new System.Drawing.Point(4, 4);
+            this.licencebuyrenewtabpage.Name = "licencebuyrenewtabpage";
+            this.licencebuyrenewtabpage.Size = new System.Drawing.Size(583, 390);
+            this.licencebuyrenewtabpage.TabIndex = 5;
+            this.licencebuyrenewtabpage.Text = "lcncbyrnw";
             // 
             // buyrenew1
             // 
@@ -1267,6 +1162,17 @@
             this.buyrenew1.Size = new System.Drawing.Size(583, 390);
             this.buyrenew1.TabIndex = 0;
             // 
+            // notificationtabpage
+            // 
+            this.notificationtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.notificationtabpage.Controls.Add(this.notification1);
+            this.bunifuTransition1.SetDecoration(this.notificationtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.notificationtabpage.Location = new System.Drawing.Point(4, 4);
+            this.notificationtabpage.Name = "notificationtabpage";
+            this.notificationtabpage.Size = new System.Drawing.Size(583, 390);
+            this.notificationtabpage.TabIndex = 7;
+            this.notificationtabpage.Text = "notification";
+            // 
             // notification1
             // 
             this.notification1.AutoScroll = true;
@@ -1279,6 +1185,17 @@
             this.notification1.Size = new System.Drawing.Size(583, 390);
             this.notification1.TabIndex = 0;
             // 
+            // settingstabpage
+            // 
+            this.settingstabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.settingstabpage.Controls.Add(this.settings1);
+            this.bunifuTransition1.SetDecoration(this.settingstabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.settingstabpage.Location = new System.Drawing.Point(4, 4);
+            this.settingstabpage.Name = "settingstabpage";
+            this.settingstabpage.Size = new System.Drawing.Size(583, 390);
+            this.settingstabpage.TabIndex = 9;
+            this.settingstabpage.Text = "settings";
+            // 
             // settings1
             // 
             this.settings1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1290,6 +1207,19 @@
             this.settings1.Size = new System.Drawing.Size(583, 390);
             this.settings1.TabIndex = 0;
             // 
+            // csgotabpage
+            // 
+            this.csgotabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.csgotabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.csgotabpage.Controls.Add(this.csgovip1);
+            this.bunifuTransition1.SetDecoration(this.csgotabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.csgotabpage.Location = new System.Drawing.Point(4, 4);
+            this.csgotabpage.Name = "csgotabpage";
+            this.csgotabpage.Padding = new System.Windows.Forms.Padding(3);
+            this.csgotabpage.Size = new System.Drawing.Size(583, 390);
+            this.csgotabpage.TabIndex = 1;
+            this.csgotabpage.Text = "csgo";
+            // 
             // csgovip1
             // 
             this.csgovip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1299,6 +1229,28 @@
             this.csgovip1.Name = "csgovip1";
             this.csgovip1.Size = new System.Drawing.Size(575, 382);
             this.csgovip1.TabIndex = 0;
+            // 
+            // efttabpage
+            // 
+            this.efttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.efttabpage.Controls.Add(this.panel3);
+            this.bunifuTransition1.SetDecoration(this.efttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.efttabpage.Location = new System.Drawing.Point(4, 4);
+            this.efttabpage.Name = "efttabpage";
+            this.efttabpage.Size = new System.Drawing.Size(583, 390);
+            this.efttabpage.TabIndex = 4;
+            this.efttabpage.Text = "eft";
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.eftvip1);
+            this.bunifuTransition1.SetDecoration(this.panel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(583, 390);
+            this.panel3.TabIndex = 1;
             // 
             // eftvip1
             // 
@@ -1310,6 +1262,19 @@
             this.eftvip1.Size = new System.Drawing.Size(581, 388);
             this.eftvip1.TabIndex = 0;
             // 
+            // loltabpage
+            // 
+            this.loltabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.loltabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.loltabpage.Controls.Add(this.lolvip1);
+            this.bunifuTransition1.SetDecoration(this.loltabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.loltabpage.Location = new System.Drawing.Point(4, 4);
+            this.loltabpage.Name = "loltabpage";
+            this.loltabpage.Padding = new System.Windows.Forms.Padding(3);
+            this.loltabpage.Size = new System.Drawing.Size(583, 390);
+            this.loltabpage.TabIndex = 0;
+            this.loltabpage.Text = "lol";
+            // 
             // lolvip1
             // 
             this.lolvip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1320,6 +1285,18 @@
             this.lolvip1.Size = new System.Drawing.Size(575, 382);
             this.lolvip1.TabIndex = 0;
             // 
+            // pubgtabpage
+            // 
+            this.pubgtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.pubgtabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pubgtabpage.Controls.Add(this.pubgvip1);
+            this.bunifuTransition1.SetDecoration(this.pubgtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.pubgtabpage.Location = new System.Drawing.Point(4, 4);
+            this.pubgtabpage.Name = "pubgtabpage";
+            this.pubgtabpage.Size = new System.Drawing.Size(583, 390);
+            this.pubgtabpage.TabIndex = 2;
+            this.pubgtabpage.Text = "pubg";
+            // 
             // pubgvip1
             // 
             this.pubgvip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
@@ -1329,6 +1306,18 @@
             this.pubgvip1.Name = "pubgvip1";
             this.pubgvip1.Size = new System.Drawing.Size(581, 388);
             this.pubgvip1.TabIndex = 0;
+            // 
+            // rusttabpage
+            // 
+            this.rusttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.rusttabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.rusttabpage.Controls.Add(this.rustvip1);
+            this.bunifuTransition1.SetDecoration(this.rusttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.rusttabpage.Location = new System.Drawing.Point(4, 4);
+            this.rusttabpage.Name = "rusttabpage";
+            this.rusttabpage.Size = new System.Drawing.Size(583, 390);
+            this.rusttabpage.TabIndex = 3;
+            this.rusttabpage.Text = "rust";
             // 
             // rustvip1
             // 
@@ -1364,9 +1353,11 @@
             this.Load += new System.EventHandler(this.Loader_Load);
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.favicon)).EndInit();
             this.footer.ResumeLayout(false);
             this.footer.PerformLayout();
             this.leftmenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.bunifuPages1.ResumeLayout(false);
@@ -1380,8 +1371,6 @@
             this.loltabpage.ResumeLayout(false);
             this.pubgtabpage.ResumeLayout(false);
             this.rusttabpage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.favicon)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1417,7 +1406,6 @@
         private System.Windows.Forms.TabPage licencebuyrenewtabpage;
         private System.Windows.Forms.TabPage mylicencetabpage;
         private System.Windows.Forms.TabPage notificationtabpage;
-        private System.Windows.Forms.TabPage updatestabpage;
         private System.Windows.Forms.TabPage settingstabpage;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton lolbutton;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton eftbutton;

@@ -552,6 +552,7 @@
             this.Controls.Add(this.cheatnamelabel);
             this.Name = "rustvip";
             this.Size = new System.Drawing.Size(583, 390);
+            this.Load += new System.EventHandler(this.rustvip_Load);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
