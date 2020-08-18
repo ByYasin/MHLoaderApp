@@ -31,19 +31,16 @@
             this.components = new System.ComponentModel.Container();
             Bunifu.UI.WinForms.BunifuAnimatorNS.Animation animation1 = new Bunifu.UI.WinForms.BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loader));
+            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation2 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Utilities.BunifuPages.BunifuAnimatorNS.Animation animation2 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.header = new System.Windows.Forms.Panel();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.settings = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.updates = new Bunifu.Framework.UI.BunifuFlatButton();
             this.title = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.favicon = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.minimizebox = new Guna.UI2.WinForms.Guna2ControlBox();
             this.closebox = new Guna.UI2.WinForms.Guna2ControlBox();
             this.footer = new System.Windows.Forms.Panel();
@@ -59,12 +56,6 @@
             this.leftcolor4 = new System.Windows.Forms.Panel();
             this.leftcolor2 = new System.Windows.Forms.Panel();
             this.leftcolor1 = new System.Windows.Forms.Panel();
-            this.eftbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.rustbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.pubgbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.csgobutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.lolbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.logo2 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.buyrenewlabel = new Guna.UI.WinForms.GunaLinkLabel();
             this.mylicencelabel = new Guna.UI.WinForms.GunaLinkLabel();
             this.usertext = new Guna.UI.WinForms.GunaLinkLabel();
@@ -73,10 +64,6 @@
             this.licencebuyrenewcolor = new System.Windows.Forms.Panel();
             this.welcomelabel = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.newnot = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.notification = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.avatar = new Bunifu.UI.WinForms.BunifuImageButton();
-            this.buyrenew = new Bunifu.UI.WinForms.BunifuImageButton();
             this.bunifuPages1 = new Bunifu.UI.WinForms.BunifuPages();
             this.mylicencetabpage = new System.Windows.Forms.TabPage();
             this.licencebuyrenewtabpage = new System.Windows.Forms.TabPage();
@@ -89,16 +76,31 @@
             this.loltabpage = new System.Windows.Forms.TabPage();
             this.pubgtabpage = new System.Windows.Forms.TabPage();
             this.rusttabpage = new System.Windows.Forms.TabPage();
+            this.newnot = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.notification = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.avatar = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.buyrenew = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.eftbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.rustbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.pubgbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.csgobutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.lolbutton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.logo2 = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.settings = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.updates = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.favicon = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.mylicence1 = new MHLoaderApp.Modules.Loader_Pages.mylicence();
             this.buyrenew1 = new MHLoaderApp.Modules.Loader_Pages.Cheat_Store.buyrenew();
             this.notification1 = new MHLoaderApp.Modules.Loader_Pages.notification();
             this.settings1 = new MHLoaderApp.Modules.Loader_Pages.settings();
             this.csgovip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.csgovip();
+            this.eftvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.eftvip();
+            this.lolvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.lolvip();
+            this.pubgvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.pubgvip();
+            this.rustvip1 = new MHLoaderApp.Modules.Loader_Pages.Cheats.rustvip();
             this.header.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.favicon)).BeginInit();
             this.footer.SuspendLayout();
             this.leftmenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
             this.panel1.SuspendLayout();
             this.bunifuPages1.SuspendLayout();
             this.mylicencetabpage.SuspendLayout();
@@ -107,6 +109,12 @@
             this.settingstabpage.SuspendLayout();
             this.csgotabpage.SuspendLayout();
             this.efttabpage.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.loltabpage.SuspendLayout();
+            this.pubgtabpage.SuspendLayout();
+            this.rusttabpage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favicon)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -145,80 +153,6 @@
             this.bunifuSeparator1.Transparency = 255;
             this.bunifuSeparator1.Vertical = true;
             // 
-            // settings
-            // 
-            this.settings.Active = false;
-            this.settings.Activecolor = System.Drawing.Color.Transparent;
-            this.settings.BackColor = System.Drawing.Color.Transparent;
-            this.settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.settings.BorderRadius = 0;
-            this.settings.ButtonText = " Loader Settings";
-            this.settings.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.settings, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.settings.DisabledColor = System.Drawing.Color.Gray;
-            this.settings.Iconcolor = System.Drawing.Color.Transparent;
-            this.settings.Iconimage = global::MHLoaderApp.Properties.Resources.settings_32;
-            this.settings.Iconimage_right = null;
-            this.settings.Iconimage_right_Selected = null;
-            this.settings.Iconimage_Selected = null;
-            this.settings.IconMarginLeft = 0;
-            this.settings.IconMarginRight = 0;
-            this.settings.IconRightVisible = true;
-            this.settings.IconRightZoom = 0D;
-            this.settings.IconVisible = true;
-            this.settings.IconZoom = 30D;
-            this.settings.IsTab = false;
-            this.settings.Location = new System.Drawing.Point(653, 6);
-            this.settings.Name = "settings";
-            this.settings.Normalcolor = System.Drawing.Color.Transparent;
-            this.settings.OnHovercolor = System.Drawing.Color.Transparent;
-            this.settings.OnHoverTextColor = System.Drawing.Color.White;
-            this.settings.selected = false;
-            this.settings.Size = new System.Drawing.Size(116, 20);
-            this.settings.TabIndex = 8;
-            this.settings.Text = " Loader Settings";
-            this.settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settings.Textcolor = System.Drawing.Color.White;
-            this.settings.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.settings.Click += new System.EventHandler(this.settings_Click);
-            // 
-            // updates
-            // 
-            this.updates.Active = false;
-            this.updates.Activecolor = System.Drawing.Color.Transparent;
-            this.updates.BackColor = System.Drawing.Color.Transparent;
-            this.updates.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.updates.BorderRadius = 0;
-            this.updates.ButtonText = "Check For Updates";
-            this.updates.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.updates, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.updates.DisabledColor = System.Drawing.Color.Gray;
-            this.updates.Iconcolor = System.Drawing.Color.Transparent;
-            this.updates.Iconimage = global::MHLoaderApp.Properties.Resources.updates_32;
-            this.updates.Iconimage_right = null;
-            this.updates.Iconimage_right_Selected = null;
-            this.updates.Iconimage_Selected = null;
-            this.updates.IconMarginLeft = 0;
-            this.updates.IconMarginRight = 0;
-            this.updates.IconRightVisible = true;
-            this.updates.IconRightZoom = 0D;
-            this.updates.IconVisible = true;
-            this.updates.IconZoom = 35D;
-            this.updates.IsTab = false;
-            this.updates.Location = new System.Drawing.Point(502, 6);
-            this.updates.Name = "updates";
-            this.updates.Normalcolor = System.Drawing.Color.Transparent;
-            this.updates.OnHovercolor = System.Drawing.Color.Transparent;
-            this.updates.OnHoverTextColor = System.Drawing.Color.White;
-            this.updates.selected = false;
-            this.updates.Size = new System.Drawing.Size(131, 20);
-            this.updates.TabIndex = 7;
-            this.updates.Text = "Check For Updates";
-            this.updates.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updates.Textcolor = System.Drawing.Color.White;
-            this.updates.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.updates.Click += new System.EventHandler(this.updates_Click);
-            // 
             // title
             // 
             this.title.AutoSize = true;
@@ -231,23 +165,6 @@
             this.title.Size = new System.Drawing.Size(159, 20);
             this.title.TabIndex = 3;
             this.title.Text = "LOADER DASHBOARD";
-            // 
-            // favicon
-            // 
-            this.favicon.AllowFocused = false;
-            this.favicon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(113)))), ((int)(((byte)(188)))));
-            this.favicon.BorderRadius = 0;
-            this.bunifuTransition1.SetDecoration(this.favicon, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.favicon.Dock = System.Windows.Forms.DockStyle.Left;
-            this.favicon.Image = global::MHLoaderApp.Properties.Resources.icons8_login_as_user_32;
-            this.favicon.IsCircle = false;
-            this.favicon.Location = new System.Drawing.Point(0, 0);
-            this.favicon.Name = "favicon";
-            this.favicon.Size = new System.Drawing.Size(32, 32);
-            this.favicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.favicon.TabIndex = 3;
-            this.favicon.TabStop = false;
-            this.favicon.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
             // 
             // minimizebox
             // 
@@ -445,6 +362,423 @@
             this.leftcolor1.Size = new System.Drawing.Size(5, 75);
             this.leftcolor1.TabIndex = 13;
             this.leftcolor1.Visible = false;
+            // 
+            // buyrenewlabel
+            // 
+            this.buyrenewlabel.ActiveLinkColor = System.Drawing.Color.White;
+            this.buyrenewlabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.buyrenewlabel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.buyrenewlabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buyrenewlabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.buyrenewlabel.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.buyrenewlabel.Location = new System.Drawing.Point(55, 24);
+            this.buyrenewlabel.Name = "buyrenewlabel";
+            this.buyrenewlabel.Size = new System.Drawing.Size(125, 17);
+            this.buyrenewlabel.TabIndex = 0;
+            this.buyrenewlabel.TabStop = true;
+            this.buyrenewlabel.Text = "Licence Buy - Renew";
+            this.buyrenewlabel.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.buyrenewlabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.buyrenewlabel_LinkClicked);
+            // 
+            // mylicencelabel
+            // 
+            this.mylicencelabel.ActiveLinkColor = System.Drawing.Color.White;
+            this.mylicencelabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.mylicencelabel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.mylicencelabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.mylicencelabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.mylicencelabel.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.mylicencelabel.Location = new System.Drawing.Point(203, 24);
+            this.mylicencelabel.Name = "mylicencelabel";
+            this.mylicencelabel.Size = new System.Drawing.Size(72, 17);
+            this.mylicencelabel.TabIndex = 1;
+            this.mylicencelabel.TabStop = true;
+            this.mylicencelabel.Text = "My Licence";
+            this.mylicencelabel.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.mylicencelabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.mylicencelabel_LinkClicked);
+            // 
+            // usertext
+            // 
+            this.usertext.ActiveLinkColor = System.Drawing.Color.White;
+            this.usertext.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.usertext, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.usertext.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.usertext.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.usertext.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.usertext.Location = new System.Drawing.Point(415, 31);
+            this.usertext.Name = "usertext";
+            this.usertext.Size = new System.Drawing.Size(40, 17);
+            this.usertext.TabIndex = 9;
+            this.usertext.TabStop = true;
+            this.usertext.Text = "None";
+            this.usertext.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.usertext.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.usertext_LinkClicked);
+            // 
+            // panel1
+            // 
+            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel1.Controls.Add(this.mylicencecolor);
+            this.panel1.Controls.Add(this.licencebuyrenewcolor);
+            this.panel1.Controls.Add(this.welcomelabel);
+            this.panel1.Controls.Add(this.bunifuSeparator2);
+            this.panel1.Controls.Add(this.newnot);
+            this.panel1.Controls.Add(this.notification);
+            this.panel1.Controls.Add(this.usertext);
+            this.panel1.Controls.Add(this.avatar);
+            this.panel1.Controls.Add(this.buyrenew);
+            this.panel1.Controls.Add(this.mylicencelabel);
+            this.panel1.Controls.Add(this.buyrenewlabel);
+            this.bunifuTransition1.SetDecoration(this.panel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(276, 32);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(591, 60);
+            this.panel1.TabIndex = 6;
+            // 
+            // mylicencecolor
+            // 
+            this.mylicencecolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.bunifuTransition1.SetDecoration(this.mylicencecolor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.mylicencecolor.Location = new System.Drawing.Point(203, 43);
+            this.mylicencecolor.Name = "mylicencecolor";
+            this.mylicencecolor.Size = new System.Drawing.Size(70, 2);
+            this.mylicencecolor.TabIndex = 17;
+            this.mylicencecolor.Visible = false;
+            // 
+            // licencebuyrenewcolor
+            // 
+            this.licencebuyrenewcolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.bunifuTransition1.SetDecoration(this.licencebuyrenewcolor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.licencebuyrenewcolor.Location = new System.Drawing.Point(57, 43);
+            this.licencebuyrenewcolor.Name = "licencebuyrenewcolor";
+            this.licencebuyrenewcolor.Size = new System.Drawing.Size(120, 2);
+            this.licencebuyrenewcolor.TabIndex = 16;
+            this.licencebuyrenewcolor.Visible = false;
+            // 
+            // welcomelabel
+            // 
+            this.welcomelabel.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.welcomelabel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.welcomelabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.welcomelabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.welcomelabel.Location = new System.Drawing.Point(415, 13);
+            this.welcomelabel.Name = "welcomelabel";
+            this.welcomelabel.Size = new System.Drawing.Size(61, 17);
+            this.welcomelabel.TabIndex = 1;
+            this.welcomelabel.Text = "Welcome";
+            // 
+            // bunifuSeparator2
+            // 
+            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.bunifuSeparator2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuSeparator2.LineThickness = 1;
+            this.bunifuSeparator2.Location = new System.Drawing.Point(186, 24);
+            this.bunifuSeparator2.Name = "bunifuSeparator2";
+            this.bunifuSeparator2.Size = new System.Drawing.Size(10, 17);
+            this.bunifuSeparator2.TabIndex = 9;
+            this.bunifuSeparator2.Transparency = 255;
+            this.bunifuSeparator2.Vertical = true;
+            // 
+            // bunifuPages1
+            // 
+            this.bunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
+            this.bunifuPages1.AllowTransitions = true;
+            this.bunifuPages1.Controls.Add(this.mylicencetabpage);
+            this.bunifuPages1.Controls.Add(this.licencebuyrenewtabpage);
+            this.bunifuPages1.Controls.Add(this.notificationtabpage);
+            this.bunifuPages1.Controls.Add(this.updatestabpage);
+            this.bunifuPages1.Controls.Add(this.settingstabpage);
+            this.bunifuPages1.Controls.Add(this.csgotabpage);
+            this.bunifuPages1.Controls.Add(this.efttabpage);
+            this.bunifuPages1.Controls.Add(this.loltabpage);
+            this.bunifuPages1.Controls.Add(this.pubgtabpage);
+            this.bunifuPages1.Controls.Add(this.rusttabpage);
+            this.bunifuTransition1.SetDecoration(this.bunifuPages1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.bunifuPages1.Location = new System.Drawing.Point(276, 92);
+            this.bunifuPages1.Multiline = true;
+            this.bunifuPages1.Name = "bunifuPages1";
+            this.bunifuPages1.Page = this.csgotabpage;
+            this.bunifuPages1.PageIndex = 5;
+            this.bunifuPages1.PageName = "csgotabpage";
+            this.bunifuPages1.PageTitle = "csgo";
+            this.bunifuPages1.SelectedIndex = 0;
+            this.bunifuPages1.Size = new System.Drawing.Size(591, 416);
+            this.bunifuPages1.TabIndex = 7;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 1F;
+            this.bunifuPages1.Transition = animation2;
+            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Transparent;
+            // 
+            // mylicencetabpage
+            // 
+            this.mylicencetabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.mylicencetabpage.Controls.Add(this.mylicence1);
+            this.bunifuTransition1.SetDecoration(this.mylicencetabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.mylicencetabpage.Location = new System.Drawing.Point(4, 4);
+            this.mylicencetabpage.Name = "mylicencetabpage";
+            this.mylicencetabpage.Size = new System.Drawing.Size(583, 390);
+            this.mylicencetabpage.TabIndex = 6;
+            this.mylicencetabpage.Text = "mylcnc";
+            // 
+            // licencebuyrenewtabpage
+            // 
+            this.licencebuyrenewtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.licencebuyrenewtabpage.Controls.Add(this.buyrenew1);
+            this.bunifuTransition1.SetDecoration(this.licencebuyrenewtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.licencebuyrenewtabpage.Location = new System.Drawing.Point(4, 4);
+            this.licencebuyrenewtabpage.Name = "licencebuyrenewtabpage";
+            this.licencebuyrenewtabpage.Size = new System.Drawing.Size(583, 390);
+            this.licencebuyrenewtabpage.TabIndex = 5;
+            this.licencebuyrenewtabpage.Text = "lcncbyrnw";
+            // 
+            // notificationtabpage
+            // 
+            this.notificationtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.notificationtabpage.Controls.Add(this.notification1);
+            this.bunifuTransition1.SetDecoration(this.notificationtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.notificationtabpage.Location = new System.Drawing.Point(4, 4);
+            this.notificationtabpage.Name = "notificationtabpage";
+            this.notificationtabpage.Size = new System.Drawing.Size(583, 390);
+            this.notificationtabpage.TabIndex = 7;
+            this.notificationtabpage.Text = "notification";
+            // 
+            // updatestabpage
+            // 
+            this.updatestabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.updatestabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.updatestabpage.Location = new System.Drawing.Point(4, 4);
+            this.updatestabpage.Name = "updatestabpage";
+            this.updatestabpage.Size = new System.Drawing.Size(583, 390);
+            this.updatestabpage.TabIndex = 8;
+            this.updatestabpage.Text = "updates";
+            // 
+            // settingstabpage
+            // 
+            this.settingstabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.settingstabpage.Controls.Add(this.settings1);
+            this.bunifuTransition1.SetDecoration(this.settingstabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.settingstabpage.Location = new System.Drawing.Point(4, 4);
+            this.settingstabpage.Name = "settingstabpage";
+            this.settingstabpage.Size = new System.Drawing.Size(583, 390);
+            this.settingstabpage.TabIndex = 9;
+            this.settingstabpage.Text = "settings";
+            // 
+            // csgotabpage
+            // 
+            this.csgotabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.csgotabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.csgotabpage.Controls.Add(this.csgovip1);
+            this.bunifuTransition1.SetDecoration(this.csgotabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.csgotabpage.Location = new System.Drawing.Point(4, 4);
+            this.csgotabpage.Name = "csgotabpage";
+            this.csgotabpage.Padding = new System.Windows.Forms.Padding(3);
+            this.csgotabpage.Size = new System.Drawing.Size(583, 390);
+            this.csgotabpage.TabIndex = 1;
+            this.csgotabpage.Text = "csgo";
+            // 
+            // efttabpage
+            // 
+            this.efttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.efttabpage.Controls.Add(this.panel3);
+            this.bunifuTransition1.SetDecoration(this.efttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.efttabpage.Location = new System.Drawing.Point(4, 4);
+            this.efttabpage.Name = "efttabpage";
+            this.efttabpage.Size = new System.Drawing.Size(583, 390);
+            this.efttabpage.TabIndex = 4;
+            this.efttabpage.Text = "eft";
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.eftvip1);
+            this.bunifuTransition1.SetDecoration(this.panel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(583, 390);
+            this.panel3.TabIndex = 1;
+            // 
+            // loltabpage
+            // 
+            this.loltabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.loltabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.loltabpage.Controls.Add(this.lolvip1);
+            this.bunifuTransition1.SetDecoration(this.loltabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.loltabpage.Location = new System.Drawing.Point(4, 4);
+            this.loltabpage.Name = "loltabpage";
+            this.loltabpage.Padding = new System.Windows.Forms.Padding(3);
+            this.loltabpage.Size = new System.Drawing.Size(583, 390);
+            this.loltabpage.TabIndex = 0;
+            this.loltabpage.Text = "lol";
+            // 
+            // pubgtabpage
+            // 
+            this.pubgtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.pubgtabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pubgtabpage.Controls.Add(this.pubgvip1);
+            this.bunifuTransition1.SetDecoration(this.pubgtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.pubgtabpage.Location = new System.Drawing.Point(4, 4);
+            this.pubgtabpage.Name = "pubgtabpage";
+            this.pubgtabpage.Size = new System.Drawing.Size(583, 390);
+            this.pubgtabpage.TabIndex = 2;
+            this.pubgtabpage.Text = "pubg";
+            // 
+            // rusttabpage
+            // 
+            this.rusttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.rusttabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.rusttabpage.Controls.Add(this.rustvip1);
+            this.bunifuTransition1.SetDecoration(this.rusttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.rusttabpage.Location = new System.Drawing.Point(4, 4);
+            this.rusttabpage.Name = "rusttabpage";
+            this.rusttabpage.Size = new System.Drawing.Size(583, 390);
+            this.rusttabpage.TabIndex = 3;
+            this.rusttabpage.Text = "rust";
+            // 
+            // newnot
+            // 
+            this.newnot.ActiveImage = null;
+            this.newnot.AllowAnimations = true;
+            this.newnot.AllowBuffering = false;
+            this.newnot.AllowZooming = true;
+            this.newnot.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.newnot, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.newnot.ErrorImage = ((System.Drawing.Image)(resources.GetObject("newnot.ErrorImage")));
+            this.newnot.FadeWhenInactive = false;
+            this.newnot.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.newnot.Image = global::MHLoaderApp.Properties.Resources.circle_16;
+            this.newnot.ImageActive = null;
+            this.newnot.ImageLocation = null;
+            this.newnot.ImageMargin = 5;
+            this.newnot.ImageSize = new System.Drawing.Size(10, 10);
+            this.newnot.ImageZoomSize = new System.Drawing.Size(15, 15);
+            this.newnot.InitialImage = ((System.Drawing.Image)(resources.GetObject("newnot.InitialImage")));
+            this.newnot.Location = new System.Drawing.Point(569, 15);
+            this.newnot.Name = "newnot";
+            this.newnot.Rotation = 0;
+            this.newnot.ShowActiveImage = true;
+            this.newnot.ShowCursorChanges = true;
+            this.newnot.ShowImageBorders = true;
+            this.newnot.ShowSizeMarkers = false;
+            this.newnot.Size = new System.Drawing.Size(15, 15);
+            this.newnot.TabIndex = 11;
+            this.newnot.ToolTipText = "";
+            this.newnot.WaitOnLoad = false;
+            this.newnot.Zoom = 5;
+            this.newnot.ZoomSpeed = 10;
+            // 
+            // notification
+            // 
+            this.notification.ActiveImage = null;
+            this.notification.AllowAnimations = true;
+            this.notification.AllowBuffering = false;
+            this.notification.AllowZooming = true;
+            this.notification.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.notification, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.notification.ErrorImage = ((System.Drawing.Image)(resources.GetObject("notification.ErrorImage")));
+            this.notification.FadeWhenInactive = false;
+            this.notification.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.notification.Image = global::MHLoaderApp.Properties.Resources.notification_32;
+            this.notification.ImageActive = null;
+            this.notification.ImageLocation = null;
+            this.notification.ImageMargin = 2;
+            this.notification.ImageSize = new System.Drawing.Size(30, 30);
+            this.notification.ImageZoomSize = new System.Drawing.Size(32, 32);
+            this.notification.InitialImage = ((System.Drawing.Image)(resources.GetObject("notification.InitialImage")));
+            this.notification.Location = new System.Drawing.Point(546, 16);
+            this.notification.Name = "notification";
+            this.notification.Rotation = 0;
+            this.notification.ShowActiveImage = true;
+            this.notification.ShowCursorChanges = true;
+            this.notification.ShowImageBorders = true;
+            this.notification.ShowSizeMarkers = false;
+            this.notification.Size = new System.Drawing.Size(32, 32);
+            this.notification.TabIndex = 10;
+            this.notification.ToolTipText = "";
+            this.notification.WaitOnLoad = false;
+            this.notification.Zoom = 2;
+            this.notification.ZoomSpeed = 10;
+            this.notification.Click += new System.EventHandler(this.notification_Click);
+            // 
+            // avatar
+            // 
+            this.avatar.ActiveImage = null;
+            this.avatar.AllowAnimations = true;
+            this.avatar.AllowBuffering = true;
+            this.avatar.AllowZooming = false;
+            this.avatar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.bunifuTransition1.SetDecoration(this.avatar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.avatar.ErrorImage = ((System.Drawing.Image)(resources.GetObject("avatar.ErrorImage")));
+            this.avatar.FadeWhenInactive = false;
+            this.avatar.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.avatar.Image = global::MHLoaderApp.Properties.Resources.account_32;
+            this.avatar.ImageActive = null;
+            this.avatar.ImageLocation = null;
+            this.avatar.ImageMargin = 0;
+            this.avatar.ImageSize = new System.Drawing.Size(32, 32);
+            this.avatar.ImageZoomSize = new System.Drawing.Size(32, 32);
+            this.avatar.InitialImage = ((System.Drawing.Image)(resources.GetObject("avatar.InitialImage")));
+            this.avatar.Location = new System.Drawing.Point(377, 16);
+            this.avatar.Name = "avatar";
+            this.avatar.Rotation = 0;
+            this.avatar.ShowActiveImage = true;
+            this.avatar.ShowCursorChanges = true;
+            this.avatar.ShowImageBorders = true;
+            this.avatar.ShowSizeMarkers = false;
+            this.avatar.Size = new System.Drawing.Size(32, 32);
+            this.avatar.TabIndex = 8;
+            this.avatar.ToolTipText = "";
+            this.avatar.WaitOnLoad = false;
+            this.avatar.Zoom = 0;
+            this.avatar.ZoomSpeed = 10;
+            // 
+            // buyrenew
+            // 
+            this.buyrenew.ActiveImage = null;
+            this.buyrenew.AllowAnimations = true;
+            this.buyrenew.AllowBuffering = true;
+            this.buyrenew.AllowZooming = true;
+            this.buyrenew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
+            this.bunifuTransition1.SetDecoration(this.buyrenew, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.buyrenew.ErrorImage = ((System.Drawing.Image)(resources.GetObject("buyrenew.ErrorImage")));
+            this.buyrenew.FadeWhenInactive = false;
+            this.buyrenew.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.buyrenew.Image = global::MHLoaderApp.Properties.Resources.shopping_32;
+            this.buyrenew.ImageActive = null;
+            this.buyrenew.ImageLocation = null;
+            this.buyrenew.ImageMargin = 0;
+            this.buyrenew.ImageSize = new System.Drawing.Size(32, 32);
+            this.buyrenew.ImageZoomSize = new System.Drawing.Size(32, 32);
+            this.buyrenew.InitialImage = ((System.Drawing.Image)(resources.GetObject("buyrenew.InitialImage")));
+            this.buyrenew.Location = new System.Drawing.Point(17, 15);
+            this.buyrenew.Name = "buyrenew";
+            this.buyrenew.Rotation = 0;
+            this.buyrenew.ShowActiveImage = true;
+            this.buyrenew.ShowCursorChanges = true;
+            this.buyrenew.ShowImageBorders = true;
+            this.buyrenew.ShowSizeMarkers = false;
+            this.buyrenew.Size = new System.Drawing.Size(32, 32);
+            this.buyrenew.TabIndex = 7;
+            this.buyrenew.ToolTipText = "";
+            this.buyrenew.WaitOnLoad = false;
+            this.buyrenew.Zoom = 0;
+            this.buyrenew.ZoomSpeed = 10;
             // 
             // eftbutton
             // 
@@ -820,418 +1154,96 @@
             this.logo2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
             this.logo2.Click += new System.EventHandler(this.logo2_Click);
             // 
-            // buyrenewlabel
+            // settings
             // 
-            this.buyrenewlabel.ActiveLinkColor = System.Drawing.Color.White;
-            this.buyrenewlabel.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.buyrenewlabel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.buyrenewlabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buyrenewlabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.buyrenewlabel.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.buyrenewlabel.Location = new System.Drawing.Point(55, 24);
-            this.buyrenewlabel.Name = "buyrenewlabel";
-            this.buyrenewlabel.Size = new System.Drawing.Size(125, 17);
-            this.buyrenewlabel.TabIndex = 0;
-            this.buyrenewlabel.TabStop = true;
-            this.buyrenewlabel.Text = "Licence Buy - Renew";
-            this.buyrenewlabel.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.buyrenewlabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.buyrenewlabel_LinkClicked);
+            this.settings.Active = false;
+            this.settings.Activecolor = System.Drawing.Color.Transparent;
+            this.settings.BackColor = System.Drawing.Color.Transparent;
+            this.settings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.settings.BorderRadius = 0;
+            this.settings.ButtonText = " Loader Settings";
+            this.settings.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.settings, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.settings.DisabledColor = System.Drawing.Color.Gray;
+            this.settings.Iconcolor = System.Drawing.Color.Transparent;
+            this.settings.Iconimage = global::MHLoaderApp.Properties.Resources.settings_32;
+            this.settings.Iconimage_right = null;
+            this.settings.Iconimage_right_Selected = null;
+            this.settings.Iconimage_Selected = null;
+            this.settings.IconMarginLeft = 0;
+            this.settings.IconMarginRight = 0;
+            this.settings.IconRightVisible = true;
+            this.settings.IconRightZoom = 0D;
+            this.settings.IconVisible = true;
+            this.settings.IconZoom = 30D;
+            this.settings.IsTab = false;
+            this.settings.Location = new System.Drawing.Point(653, 6);
+            this.settings.Name = "settings";
+            this.settings.Normalcolor = System.Drawing.Color.Transparent;
+            this.settings.OnHovercolor = System.Drawing.Color.Transparent;
+            this.settings.OnHoverTextColor = System.Drawing.Color.White;
+            this.settings.selected = false;
+            this.settings.Size = new System.Drawing.Size(116, 20);
+            this.settings.TabIndex = 8;
+            this.settings.Text = " Loader Settings";
+            this.settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.settings.Textcolor = System.Drawing.Color.White;
+            this.settings.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.settings.Click += new System.EventHandler(this.settings_Click);
             // 
-            // mylicencelabel
+            // updates
             // 
-            this.mylicencelabel.ActiveLinkColor = System.Drawing.Color.White;
-            this.mylicencelabel.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.mylicencelabel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.mylicencelabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.mylicencelabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.mylicencelabel.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.mylicencelabel.Location = new System.Drawing.Point(203, 24);
-            this.mylicencelabel.Name = "mylicencelabel";
-            this.mylicencelabel.Size = new System.Drawing.Size(72, 17);
-            this.mylicencelabel.TabIndex = 1;
-            this.mylicencelabel.TabStop = true;
-            this.mylicencelabel.Text = "My Licence";
-            this.mylicencelabel.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.mylicencelabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.mylicencelabel_LinkClicked);
+            this.updates.Active = false;
+            this.updates.Activecolor = System.Drawing.Color.Transparent;
+            this.updates.BackColor = System.Drawing.Color.Transparent;
+            this.updates.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.updates.BorderRadius = 0;
+            this.updates.ButtonText = "Check For Updates";
+            this.updates.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.updates, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.updates.DisabledColor = System.Drawing.Color.Gray;
+            this.updates.Iconcolor = System.Drawing.Color.Transparent;
+            this.updates.Iconimage = global::MHLoaderApp.Properties.Resources.updates_32;
+            this.updates.Iconimage_right = null;
+            this.updates.Iconimage_right_Selected = null;
+            this.updates.Iconimage_Selected = null;
+            this.updates.IconMarginLeft = 0;
+            this.updates.IconMarginRight = 0;
+            this.updates.IconRightVisible = true;
+            this.updates.IconRightZoom = 0D;
+            this.updates.IconVisible = true;
+            this.updates.IconZoom = 35D;
+            this.updates.IsTab = false;
+            this.updates.Location = new System.Drawing.Point(502, 6);
+            this.updates.Name = "updates";
+            this.updates.Normalcolor = System.Drawing.Color.Transparent;
+            this.updates.OnHovercolor = System.Drawing.Color.Transparent;
+            this.updates.OnHoverTextColor = System.Drawing.Color.White;
+            this.updates.selected = false;
+            this.updates.Size = new System.Drawing.Size(131, 20);
+            this.updates.TabIndex = 7;
+            this.updates.Text = "Check For Updates";
+            this.updates.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.updates.Textcolor = System.Drawing.Color.White;
+            this.updates.TextFont = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.updates.Click += new System.EventHandler(this.updates_Click);
             // 
-            // usertext
+            // favicon
             // 
-            this.usertext.ActiveLinkColor = System.Drawing.Color.White;
-            this.usertext.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.usertext, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.usertext.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.usertext.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.usertext.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.usertext.Location = new System.Drawing.Point(415, 31);
-            this.usertext.Name = "usertext";
-            this.usertext.Size = new System.Drawing.Size(40, 17);
-            this.usertext.TabIndex = 9;
-            this.usertext.TabStop = true;
-            this.usertext.Text = "None";
-            this.usertext.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.usertext.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.usertext_LinkClicked);
-            // 
-            // panel1
-            // 
-            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.panel1.Controls.Add(this.mylicencecolor);
-            this.panel1.Controls.Add(this.licencebuyrenewcolor);
-            this.panel1.Controls.Add(this.welcomelabel);
-            this.panel1.Controls.Add(this.bunifuSeparator2);
-            this.panel1.Controls.Add(this.newnot);
-            this.panel1.Controls.Add(this.notification);
-            this.panel1.Controls.Add(this.usertext);
-            this.panel1.Controls.Add(this.avatar);
-            this.panel1.Controls.Add(this.buyrenew);
-            this.panel1.Controls.Add(this.mylicencelabel);
-            this.panel1.Controls.Add(this.buyrenewlabel);
-            this.bunifuTransition1.SetDecoration(this.panel1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(276, 32);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(591, 60);
-            this.panel1.TabIndex = 6;
-            // 
-            // mylicencecolor
-            // 
-            this.mylicencecolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuTransition1.SetDecoration(this.mylicencecolor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.mylicencecolor.Location = new System.Drawing.Point(203, 43);
-            this.mylicencecolor.Name = "mylicencecolor";
-            this.mylicencecolor.Size = new System.Drawing.Size(70, 2);
-            this.mylicencecolor.TabIndex = 17;
-            this.mylicencecolor.Visible = false;
-            // 
-            // licencebuyrenewcolor
-            // 
-            this.licencebuyrenewcolor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuTransition1.SetDecoration(this.licencebuyrenewcolor, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.licencebuyrenewcolor.Location = new System.Drawing.Point(57, 43);
-            this.licencebuyrenewcolor.Name = "licencebuyrenewcolor";
-            this.licencebuyrenewcolor.Size = new System.Drawing.Size(120, 2);
-            this.licencebuyrenewcolor.TabIndex = 16;
-            this.licencebuyrenewcolor.Visible = false;
-            // 
-            // welcomelabel
-            // 
-            this.welcomelabel.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.welcomelabel, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.welcomelabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.welcomelabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.welcomelabel.Location = new System.Drawing.Point(415, 13);
-            this.welcomelabel.Name = "welcomelabel";
-            this.welcomelabel.Size = new System.Drawing.Size(61, 17);
-            this.welcomelabel.TabIndex = 1;
-            this.welcomelabel.Text = "Welcome";
-            // 
-            // bunifuSeparator2
-            // 
-            this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.bunifuSeparator2, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.bunifuSeparator2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuSeparator2.LineThickness = 1;
-            this.bunifuSeparator2.Location = new System.Drawing.Point(186, 24);
-            this.bunifuSeparator2.Name = "bunifuSeparator2";
-            this.bunifuSeparator2.Size = new System.Drawing.Size(10, 17);
-            this.bunifuSeparator2.TabIndex = 9;
-            this.bunifuSeparator2.Transparency = 255;
-            this.bunifuSeparator2.Vertical = true;
-            // 
-            // newnot
-            // 
-            this.newnot.ActiveImage = null;
-            this.newnot.AllowAnimations = true;
-            this.newnot.AllowBuffering = false;
-            this.newnot.AllowZooming = true;
-            this.newnot.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.newnot, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.newnot.ErrorImage = ((System.Drawing.Image)(resources.GetObject("newnot.ErrorImage")));
-            this.newnot.FadeWhenInactive = false;
-            this.newnot.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
-            this.newnot.Image = global::MHLoaderApp.Properties.Resources.circle_16;
-            this.newnot.ImageActive = null;
-            this.newnot.ImageLocation = null;
-            this.newnot.ImageMargin = 5;
-            this.newnot.ImageSize = new System.Drawing.Size(10, 10);
-            this.newnot.ImageZoomSize = new System.Drawing.Size(15, 15);
-            this.newnot.InitialImage = ((System.Drawing.Image)(resources.GetObject("newnot.InitialImage")));
-            this.newnot.Location = new System.Drawing.Point(569, 15);
-            this.newnot.Name = "newnot";
-            this.newnot.Rotation = 0;
-            this.newnot.ShowActiveImage = true;
-            this.newnot.ShowCursorChanges = true;
-            this.newnot.ShowImageBorders = true;
-            this.newnot.ShowSizeMarkers = false;
-            this.newnot.Size = new System.Drawing.Size(15, 15);
-            this.newnot.TabIndex = 11;
-            this.newnot.ToolTipText = "";
-            this.newnot.WaitOnLoad = false;
-            this.newnot.Zoom = 5;
-            this.newnot.ZoomSpeed = 10;
-            // 
-            // notification
-            // 
-            this.notification.ActiveImage = null;
-            this.notification.AllowAnimations = true;
-            this.notification.AllowBuffering = false;
-            this.notification.AllowZooming = true;
-            this.notification.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.notification, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.notification.ErrorImage = ((System.Drawing.Image)(resources.GetObject("notification.ErrorImage")));
-            this.notification.FadeWhenInactive = false;
-            this.notification.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
-            this.notification.Image = global::MHLoaderApp.Properties.Resources.notification_32;
-            this.notification.ImageActive = null;
-            this.notification.ImageLocation = null;
-            this.notification.ImageMargin = 2;
-            this.notification.ImageSize = new System.Drawing.Size(30, 30);
-            this.notification.ImageZoomSize = new System.Drawing.Size(32, 32);
-            this.notification.InitialImage = ((System.Drawing.Image)(resources.GetObject("notification.InitialImage")));
-            this.notification.Location = new System.Drawing.Point(546, 16);
-            this.notification.Name = "notification";
-            this.notification.Rotation = 0;
-            this.notification.ShowActiveImage = true;
-            this.notification.ShowCursorChanges = true;
-            this.notification.ShowImageBorders = true;
-            this.notification.ShowSizeMarkers = false;
-            this.notification.Size = new System.Drawing.Size(32, 32);
-            this.notification.TabIndex = 10;
-            this.notification.ToolTipText = "";
-            this.notification.WaitOnLoad = false;
-            this.notification.Zoom = 2;
-            this.notification.ZoomSpeed = 10;
-            this.notification.Click += new System.EventHandler(this.notification_Click);
-            // 
-            // avatar
-            // 
-            this.avatar.ActiveImage = null;
-            this.avatar.AllowAnimations = true;
-            this.avatar.AllowBuffering = true;
-            this.avatar.AllowZooming = false;
-            this.avatar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuTransition1.SetDecoration(this.avatar, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.avatar.ErrorImage = ((System.Drawing.Image)(resources.GetObject("avatar.ErrorImage")));
-            this.avatar.FadeWhenInactive = false;
-            this.avatar.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
-            this.avatar.Image = global::MHLoaderApp.Properties.Resources.account_32;
-            this.avatar.ImageActive = null;
-            this.avatar.ImageLocation = null;
-            this.avatar.ImageMargin = 0;
-            this.avatar.ImageSize = new System.Drawing.Size(32, 32);
-            this.avatar.ImageZoomSize = new System.Drawing.Size(32, 32);
-            this.avatar.InitialImage = ((System.Drawing.Image)(resources.GetObject("avatar.InitialImage")));
-            this.avatar.Location = new System.Drawing.Point(377, 16);
-            this.avatar.Name = "avatar";
-            this.avatar.Rotation = 0;
-            this.avatar.ShowActiveImage = true;
-            this.avatar.ShowCursorChanges = true;
-            this.avatar.ShowImageBorders = true;
-            this.avatar.ShowSizeMarkers = false;
-            this.avatar.Size = new System.Drawing.Size(32, 32);
-            this.avatar.TabIndex = 8;
-            this.avatar.ToolTipText = "";
-            this.avatar.WaitOnLoad = false;
-            this.avatar.Zoom = 0;
-            this.avatar.ZoomSpeed = 10;
-            // 
-            // buyrenew
-            // 
-            this.buyrenew.ActiveImage = null;
-            this.buyrenew.AllowAnimations = true;
-            this.buyrenew.AllowBuffering = true;
-            this.buyrenew.AllowZooming = true;
-            this.buyrenew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(147)))), ((int)(((byte)(223)))));
-            this.bunifuTransition1.SetDecoration(this.buyrenew, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.buyrenew.ErrorImage = ((System.Drawing.Image)(resources.GetObject("buyrenew.ErrorImage")));
-            this.buyrenew.FadeWhenInactive = false;
-            this.buyrenew.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
-            this.buyrenew.Image = global::MHLoaderApp.Properties.Resources.shopping_32;
-            this.buyrenew.ImageActive = null;
-            this.buyrenew.ImageLocation = null;
-            this.buyrenew.ImageMargin = 0;
-            this.buyrenew.ImageSize = new System.Drawing.Size(32, 32);
-            this.buyrenew.ImageZoomSize = new System.Drawing.Size(32, 32);
-            this.buyrenew.InitialImage = ((System.Drawing.Image)(resources.GetObject("buyrenew.InitialImage")));
-            this.buyrenew.Location = new System.Drawing.Point(17, 15);
-            this.buyrenew.Name = "buyrenew";
-            this.buyrenew.Rotation = 0;
-            this.buyrenew.ShowActiveImage = true;
-            this.buyrenew.ShowCursorChanges = true;
-            this.buyrenew.ShowImageBorders = true;
-            this.buyrenew.ShowSizeMarkers = false;
-            this.buyrenew.Size = new System.Drawing.Size(32, 32);
-            this.buyrenew.TabIndex = 7;
-            this.buyrenew.ToolTipText = "";
-            this.buyrenew.WaitOnLoad = false;
-            this.buyrenew.Zoom = 0;
-            this.buyrenew.ZoomSpeed = 10;
-            // 
-            // bunifuPages1
-            // 
-            this.bunifuPages1.Alignment = System.Windows.Forms.TabAlignment.Bottom;
-            this.bunifuPages1.AllowTransitions = true;
-            this.bunifuPages1.Controls.Add(this.mylicencetabpage);
-            this.bunifuPages1.Controls.Add(this.licencebuyrenewtabpage);
-            this.bunifuPages1.Controls.Add(this.notificationtabpage);
-            this.bunifuPages1.Controls.Add(this.updatestabpage);
-            this.bunifuPages1.Controls.Add(this.settingstabpage);
-            this.bunifuPages1.Controls.Add(this.csgotabpage);
-            this.bunifuPages1.Controls.Add(this.efttabpage);
-            this.bunifuPages1.Controls.Add(this.loltabpage);
-            this.bunifuPages1.Controls.Add(this.pubgtabpage);
-            this.bunifuPages1.Controls.Add(this.rusttabpage);
-            this.bunifuTransition1.SetDecoration(this.bunifuPages1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.bunifuPages1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuPages1.Location = new System.Drawing.Point(276, 92);
-            this.bunifuPages1.Multiline = true;
-            this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.csgotabpage;
-            this.bunifuPages1.PageIndex = 5;
-            this.bunifuPages1.PageName = "csgotabpage";
-            this.bunifuPages1.PageTitle = "csgo";
-            this.bunifuPages1.SelectedIndex = 0;
-            this.bunifuPages1.Size = new System.Drawing.Size(591, 416);
-            this.bunifuPages1.TabIndex = 7;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 1F;
-            this.bunifuPages1.Transition = animation2;
-            this.bunifuPages1.TransitionType = Utilities.BunifuPages.BunifuAnimatorNS.AnimationType.Transparent;
-            // 
-            // mylicencetabpage
-            // 
-            this.mylicencetabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.mylicencetabpage.Controls.Add(this.mylicence1);
-            this.bunifuTransition1.SetDecoration(this.mylicencetabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.mylicencetabpage.Location = new System.Drawing.Point(4, 4);
-            this.mylicencetabpage.Name = "mylicencetabpage";
-            this.mylicencetabpage.Size = new System.Drawing.Size(583, 390);
-            this.mylicencetabpage.TabIndex = 6;
-            this.mylicencetabpage.Text = "mylcnc";
-            // 
-            // licencebuyrenewtabpage
-            // 
-            this.licencebuyrenewtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.licencebuyrenewtabpage.Controls.Add(this.buyrenew1);
-            this.bunifuTransition1.SetDecoration(this.licencebuyrenewtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.licencebuyrenewtabpage.Location = new System.Drawing.Point(4, 4);
-            this.licencebuyrenewtabpage.Name = "licencebuyrenewtabpage";
-            this.licencebuyrenewtabpage.Size = new System.Drawing.Size(583, 390);
-            this.licencebuyrenewtabpage.TabIndex = 5;
-            this.licencebuyrenewtabpage.Text = "lcncbyrnw";
-            // 
-            // notificationtabpage
-            // 
-            this.notificationtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.notificationtabpage.Controls.Add(this.notification1);
-            this.bunifuTransition1.SetDecoration(this.notificationtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.notificationtabpage.Location = new System.Drawing.Point(4, 4);
-            this.notificationtabpage.Name = "notificationtabpage";
-            this.notificationtabpage.Size = new System.Drawing.Size(583, 390);
-            this.notificationtabpage.TabIndex = 7;
-            this.notificationtabpage.Text = "notification";
-            // 
-            // updatestabpage
-            // 
-            this.updatestabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.bunifuTransition1.SetDecoration(this.updatestabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.updatestabpage.Location = new System.Drawing.Point(4, 4);
-            this.updatestabpage.Name = "updatestabpage";
-            this.updatestabpage.Size = new System.Drawing.Size(583, 390);
-            this.updatestabpage.TabIndex = 8;
-            this.updatestabpage.Text = "updates";
-            // 
-            // settingstabpage
-            // 
-            this.settingstabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.settingstabpage.Controls.Add(this.settings1);
-            this.bunifuTransition1.SetDecoration(this.settingstabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.settingstabpage.Location = new System.Drawing.Point(4, 4);
-            this.settingstabpage.Name = "settingstabpage";
-            this.settingstabpage.Size = new System.Drawing.Size(583, 390);
-            this.settingstabpage.TabIndex = 9;
-            this.settingstabpage.Text = "settings";
-            // 
-            // csgotabpage
-            // 
-            this.csgotabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.csgotabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.csgotabpage.Controls.Add(this.csgovip1);
-            this.bunifuTransition1.SetDecoration(this.csgotabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.csgotabpage.Location = new System.Drawing.Point(4, 4);
-            this.csgotabpage.Name = "csgotabpage";
-            this.csgotabpage.Padding = new System.Windows.Forms.Padding(3);
-            this.csgotabpage.Size = new System.Drawing.Size(583, 390);
-            this.csgotabpage.TabIndex = 1;
-            this.csgotabpage.Text = "csgo";
-            // 
-            // efttabpage
-            // 
-            this.efttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.efttabpage.Controls.Add(this.panel3);
-            this.bunifuTransition1.SetDecoration(this.efttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.efttabpage.Location = new System.Drawing.Point(4, 4);
-            this.efttabpage.Name = "efttabpage";
-            this.efttabpage.Size = new System.Drawing.Size(583, 390);
-            this.efttabpage.TabIndex = 4;
-            this.efttabpage.Text = "eft";
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuTransition1.SetDecoration(this.panel3, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(583, 390);
-            this.panel3.TabIndex = 1;
-            // 
-            // loltabpage
-            // 
-            this.loltabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.loltabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuTransition1.SetDecoration(this.loltabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.loltabpage.Location = new System.Drawing.Point(4, 4);
-            this.loltabpage.Name = "loltabpage";
-            this.loltabpage.Padding = new System.Windows.Forms.Padding(3);
-            this.loltabpage.Size = new System.Drawing.Size(583, 390);
-            this.loltabpage.TabIndex = 0;
-            this.loltabpage.Text = "lol";
-            // 
-            // pubgtabpage
-            // 
-            this.pubgtabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.pubgtabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuTransition1.SetDecoration(this.pubgtabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.pubgtabpage.Location = new System.Drawing.Point(4, 4);
-            this.pubgtabpage.Name = "pubgtabpage";
-            this.pubgtabpage.Size = new System.Drawing.Size(583, 390);
-            this.pubgtabpage.TabIndex = 2;
-            this.pubgtabpage.Text = "pubg";
-            // 
-            // rusttabpage
-            // 
-            this.rusttabpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.rusttabpage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.bunifuTransition1.SetDecoration(this.rusttabpage, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.rusttabpage.Location = new System.Drawing.Point(4, 4);
-            this.rusttabpage.Name = "rusttabpage";
-            this.rusttabpage.Size = new System.Drawing.Size(583, 390);
-            this.rusttabpage.TabIndex = 3;
-            this.rusttabpage.Text = "rust";
+            this.favicon.AllowFocused = false;
+            this.favicon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(113)))), ((int)(((byte)(188)))));
+            this.favicon.BorderRadius = 0;
+            this.bunifuTransition1.SetDecoration(this.favicon, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.favicon.Dock = System.Windows.Forms.DockStyle.Left;
+            this.favicon.Image = global::MHLoaderApp.Properties.Resources.icons8_login_as_user_32;
+            this.favicon.IsCircle = false;
+            this.favicon.Location = new System.Drawing.Point(0, 0);
+            this.favicon.Name = "favicon";
+            this.favicon.Size = new System.Drawing.Size(32, 32);
+            this.favicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.favicon.TabIndex = 3;
+            this.favicon.TabStop = false;
+            this.favicon.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
             // 
             // mylicence1
             // 
@@ -1288,6 +1300,46 @@
             this.csgovip1.Size = new System.Drawing.Size(575, 382);
             this.csgovip1.TabIndex = 0;
             // 
+            // eftvip1
+            // 
+            this.eftvip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.eftvip1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.eftvip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.eftvip1.Location = new System.Drawing.Point(0, 0);
+            this.eftvip1.Name = "eftvip1";
+            this.eftvip1.Size = new System.Drawing.Size(581, 388);
+            this.eftvip1.TabIndex = 0;
+            // 
+            // lolvip1
+            // 
+            this.lolvip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.lolvip1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.lolvip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lolvip1.Location = new System.Drawing.Point(3, 3);
+            this.lolvip1.Name = "lolvip1";
+            this.lolvip1.Size = new System.Drawing.Size(575, 382);
+            this.lolvip1.TabIndex = 0;
+            // 
+            // pubgvip1
+            // 
+            this.pubgvip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.pubgvip1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.pubgvip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pubgvip1.Location = new System.Drawing.Point(0, 0);
+            this.pubgvip1.Name = "pubgvip1";
+            this.pubgvip1.Size = new System.Drawing.Size(581, 388);
+            this.pubgvip1.TabIndex = 0;
+            // 
+            // rustvip1
+            // 
+            this.rustvip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.bunifuTransition1.SetDecoration(this.rustvip1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.rustvip1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rustvip1.Location = new System.Drawing.Point(0, 0);
+            this.rustvip1.Name = "rustvip1";
+            this.rustvip1.Size = new System.Drawing.Size(581, 388);
+            this.rustvip1.TabIndex = 0;
+            // 
             // Loader
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1312,11 +1364,9 @@
             this.Load += new System.EventHandler(this.Loader_Load);
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.favicon)).EndInit();
             this.footer.ResumeLayout(false);
             this.footer.PerformLayout();
             this.leftmenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.bunifuPages1.ResumeLayout(false);
@@ -1326,6 +1376,12 @@
             this.settingstabpage.ResumeLayout(false);
             this.csgotabpage.ResumeLayout(false);
             this.efttabpage.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.loltabpage.ResumeLayout(false);
+            this.pubgtabpage.ResumeLayout(false);
+            this.rusttabpage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.favicon)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1389,5 +1445,9 @@
         private Bunifu.Framework.UI.BunifuCustomLabel version;
         private Bunifu.Framework.UI.BunifuCustomLabel versiontitle;
         private Modules.Loader_Pages.Cheats.csgovip csgovip1;
+        private Modules.Loader_Pages.Cheats.eftvip eftvip1;
+        private Modules.Loader_Pages.Cheats.lolvip lolvip1;
+        private Modules.Loader_Pages.Cheats.pubgvip pubgvip1;
+        private Modules.Loader_Pages.Cheats.rustvip rustvip1;
     }
 }

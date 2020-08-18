@@ -157,6 +157,30 @@
     <Compile Include="Modules\Loader-Pages\Cheats\csgovip.Designer.cs">
       <DependentUpon>csgovip.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\eftvip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\eftvip.Designer.cs">
+      <DependentUpon>eftvip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\lolvip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\lolvip.Designer.cs">
+      <DependentUpon>lolvip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\pubgvip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\pubgvip.Designer.cs">
+      <DependentUpon>pubgvip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\rustvip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Loader-Pages\Cheats\rustvip.Designer.cs">
+      <DependentUpon>rustvip.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Loader-Pages\mylicence.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -221,6 +245,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\Loader-Pages\Cheats\csgovip.resx">
       <DependentUpon>csgovip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheats\eftvip.resx">
+      <DependentUpon>eftvip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheats\lolvip.resx">
+      <DependentUpon>lolvip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheats\pubgvip.resx">
+      <DependentUpon>pubgvip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Loader-Pages\Cheats\rustvip.resx">
+      <DependentUpon>rustvip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\Loader-Pages\mylicence.resx">
       <DependentUpon>mylicence.cs</DependentUpon>
@@ -440,6 +476,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\inject_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eftvip1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lolscriptvip1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pubgvip1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rustvip1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

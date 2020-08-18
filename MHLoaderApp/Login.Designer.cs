@@ -318,7 +318,7 @@
             // 
             // autologin
             // 
-            this.autologin.Animation = 5;
+            this.autologin.Animation = 3;
             this.autologin.BackColor = System.Drawing.Color.Transparent;
             this.autologin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("autologin.BackgroundImage")));
             this.autologin.Checked = false;
@@ -360,7 +360,7 @@
             // 
             // rememberme
             // 
-            this.rememberme.Animation = 5;
+            this.rememberme.Animation = 3;
             this.rememberme.BackColor = System.Drawing.Color.Transparent;
             this.rememberme.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("rememberme.BackgroundImage")));
             this.rememberme.Checked = false;
