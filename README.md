@@ -3,7 +3,7 @@ beta version.
 * Game cheat loader with modern design for game cheats.
 ------------
 
-[![Gif](https://i.hizliresim.com/4XTEfl.gif)](https://i.hizliresim.com/4XTEfl.gif)
+[![Gif](https://hizliresim.com/4XTEfl)](https://hizliresim.com/4XTEfl)
 
 ------------
 
