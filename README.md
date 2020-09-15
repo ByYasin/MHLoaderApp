@@ -7,4 +7,5 @@ beta version.
 
 ------------
 
-[![Screenshot](https://i.0imgur.com/utd50LN.png "Screenshot")](https://i.0imgur.com/utd50LN.png "Screenshot")
+![Gif](https://i.hizliresim.com/4XTEfl.gif)
+
