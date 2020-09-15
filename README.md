@@ -7,11 +7,11 @@ beta version.
 
 ------------
 
-![Gif](https://i.hizliresim.com/z5WIDW.png)
+![İmage](https://i.hizliresim.com/z5WIDW.png)
 
 ------------
 
-![Gif](https://i.hizliresim.com/4XTEfl.gif)
+![İmage](https://i.hizliresim.com/4XTEfl.gif)
 
 ------------
 
