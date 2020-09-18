@@ -11,6 +11,10 @@ beta version.
 
 ------------
 
+[main](img/main.png)
+
+------------
+
 ![İmage](https://i.hizliresim.com/iUczNx.png)
 
 ------------
