@@ -3,15 +3,15 @@ beta version.
 * Game cheat loader with modern design for game cheats.
 ------------
 
-![main](img/main.png)
+![main](img/1.gif)
 
 ------------
 
-![main](img/main.png)
+![main](img/2.gif)
 
 ------------
 
-[main](img/main.png)
+![main](img/3.gif)
 
 ------------
 
