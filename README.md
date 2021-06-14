@@ -1,6 +1,7 @@
 # MHLoaderApp
 beta version.
 * Game cheat loader with modern design for game cheats.
+* Design-related codes are written in the project. But I left the installer part to the project owners. So the license link and the injection part in the installer were not coded by me. The aim is to provide you with the ready-made infrastructure.
 ------------
 
 ![main](img/1.gif)
